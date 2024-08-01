@@ -27,6 +27,7 @@ namespace traodoisub.ApiRequest.Traodoisub
                 List<string> idlist = new List<string>();
                 var request = new HttpRequestMessage(HttpMethod.Get, $"https://traodoisub.com/api/?fields={type}&access_token={_accessToken}");
                 var response = await client.SendAsync(request);
+                log.Debug("Response lấy dữ liệu nhiệm vụ:" + response);
                 response.EnsureSuccessStatusCode();
                 var responseBody = await response.Content.ReadAsStringAsync();
 

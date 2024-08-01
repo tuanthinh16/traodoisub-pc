@@ -25,7 +25,7 @@ namespace traodoisub.Model
     }
     public class DataCoin
     {
-        public string TotalCoin { get; set; }
+        public string xu { get; set; }
         public string ID { get; set; }
         public string msg { get; set; }
     }

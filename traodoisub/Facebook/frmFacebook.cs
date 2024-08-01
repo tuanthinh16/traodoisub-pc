@@ -34,12 +34,14 @@ namespace traodoisub.Facebook
             tds = new ApiRequest.Traodoisub.ApiRequest(this._token);
             facebook = new ApiRequest.Facebook.ApiRequest(this._tokenFB);
             updateConfig = UpdateConfig;
+            this.panel.AutoScroll = true;
         }
 
         private async void btnGetList_ClickAsync(object sender, EventArgs e)
         {
             _ = GetNVAsync();
         }
+        int yOffset = 10;
         public async Task GetNVAsync()
         {
             try
@@ -52,8 +54,8 @@ namespace traodoisub.Facebook
                     if (rs != null)
                     {
                         listTask.AddRange(rs);
-                        panel.Controls.Clear(); // Xóa các điều khiển hiện có trên panel
-                        int yOffset = 10; // Khoảng cách dọc giữa các điều khiển
+                        //panel.Controls.Clear(); // Xóa các điều khiển hiện có trên panel
+                         // Khoảng cách dọc giữa các điều khiển
 
                         foreach (var item in rs)
                         {
@@ -61,6 +63,8 @@ namespace traodoisub.Facebook
                             {
                                 Text = item.ToString(), // Bạn có thể thay đổi để hiển thị thông tin cần thiết
                                 AutoSize = true,
+                                ForeColor = Color.Red,
+                               
                                 Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
                             };
 
@@ -85,7 +89,7 @@ namespace traodoisub.Facebook
                 log.Debug("bat dau chay");
                 foreach (var item in listTask)
                 {
-                    await Task.Delay(10000);
+                    
                     log.Debug("bat dau like ID: "+item);
                     bool success = await facebook.LikePostAsync(item);
                     if (success)
@@ -96,6 +100,17 @@ namespace traodoisub.Facebook
                         if(rs != null)
                         {
                             log.Debug("nhan coin thanh cong");
+                            string msg = "Tong: "+rs.xu+" xu ----------- NV: " + rs.ID + " msg: " + rs.msg;
+                            Label lblTask = new Label
+                            {
+                                Text = msg, // Bạn có thể thay đổi để hiển thị thông tin cần thiết
+                                AutoSize = true,
+                                ForeColor = Color.Green,
+                                Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
+                            };
+                            txtTotal.Text = "Tổng : " + rs.xu + " xu";
+                            panel.Controls.Add(lblTask);
+                            yOffset += lblTask.Height + 10;
                         }
                         else
                         {
@@ -108,10 +123,10 @@ namespace traodoisub.Facebook
                 
                 log.Debug("da like het list");
                 log.Debug("lay danh sach moi");
-                await Task.Delay(50000);
-                _ =GetNVAsync();
-                btnStart.PerformClick();
+                await Task.Delay(30000);
+                await GetNVAsync();
 
+                btnStart_ClickAsync(null, null);
 
             }
             catch (Exception ex)

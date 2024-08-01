@@ -2011,3 +2011,946 @@ Server: cloudflare
 2024-08-01 16:47:19,684 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
 2024-08-01 16:47:24,701 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
 2024-08-01 16:47:24,701 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 16:48:14,710 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:48:15,013 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:50:30,889 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:50:30,895 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:50:30,895 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:50:30,895 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:50:30,895 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:50:30,895 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:50:30,895 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:50:30,995 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:50:32,847 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOZCpZAZCyUxV25ZC6lZBhxSJxc2iZBbe90bQ0eHKUYEEWjjmXn3UymOyOdojcP5xumZB9PdAZCM0Ff71WbBT0UhuZCGu0ZBH8ZBo5yVzrqGei5i1AZCZCxZBgiadzChKb3nSBcjRl9KbTj7BVFpYeOTYzHTvIc1KCZClwoCwhzZCU1Utuz9pwZBeheRqVZCGlMUY3ZCl4C5fgZDZD"}
+2024-08-01 16:51:10,396 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:51:10,733 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:51:12,100 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:51:22,106 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61554521644332_122158360550150721
+2024-08-01 16:51:37,501 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 473802038845804_473804045512270
+2024-08-01 16:51:41,369 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:51:52,960 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 10800,
+        "id": "473802038845804_473804045512270",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:51:52,961 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:52:07,984 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100088701650294_465052916461426
+2024-08-01 16:52:09,626 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:52:21,161 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 11100,
+        "id": "100088701650294_465052916461426",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:52:21,161 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:52:58,712 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:52:58,720 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:52:58,720 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:52:58,720 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:52:58,720 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:52:58,720 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:52:58,720 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:52:58,822 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:53:00,966 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO7sWK8CHQp2jwl4ypH3tQiaggo4E4SjZA97OKKmiZB3ZBCdaUUl6OrswxJRa9GAeZCqZAXVdJZAEGinVfkelqWBnOEfvZB2puzrMZBzqVjYhf5Vn1AaC6f0II6eQDxnMQAejHw2Ig4JKJHaf3o7EGJkt4bBZBKHMGwHtCo6tfzlPxUavn2zRTr51Slth1XZCXMdQZDZD"}
+2024-08-01 16:53:07,185 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:53:07,467 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:53:08,204 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:53:18,210 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100090957530644_434755686233012
+2024-08-01 16:53:20,011 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:53:31,556 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 11400,
+        "id": "100090957530644_434755686233012",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:53:31,557 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:53:46,567 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100008315295937_1600181367506938
+2024-08-01 16:53:49,089 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:53:59,653 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 11700,
+        "id": "100008315295937_1600181367506938",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:53:59,653 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:54:14,672 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 233069661027698_1214038126264175
+2024-08-01 16:54:16,134 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:54:26,526 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 12000,
+        "id": "233069661027698_1214038126264175",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:54:26,526 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:54:41,536 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100091440921115_408100785581282
+2024-08-01 16:54:42,997 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:54:53,526 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 12300,
+        "id": "100091440921115_408100785581282",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:54:53,526 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:55:08,544 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61562910601060_122106034304430353
+2024-08-01 16:55:11,404 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:55:21,995 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 12600,
+        "id": "61562910601060_122106034304430353",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:55:21,995 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:55:27,008 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 16:55:27,008 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 16:56:17,022 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:56:17,257 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:56:17,257 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:56:27,271 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61562791696434_122104455362426389
+2024-08-01 16:56:27,976 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:56:39,374 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 12900,
+        "id": "61562791696434_122104455362426389",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:56:39,374 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:56:54,391 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 10224664604432612
+2024-08-01 16:56:55,082 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:57:05,782 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 13200,
+        "id": "10224664604432612",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:57:05,782 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:57:20,805 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61560973948551_122119133714365798
+2024-08-01 16:57:23,842 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:57:34,566 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 13500,
+        "id": "61560973948551_122119133714365798",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:57:34,566 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:57:49,573 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100005692832031_2448741988658872
+2024-08-01 16:57:52,196 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:58:02,753 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 13800,
+        "id": "100005692832031_2448741988658872",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:58:02,753 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:58:17,759 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61555881942285_122174491118196064
+2024-08-01 16:58:21,842 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:58:32,229 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "Vui l\u00f2ng t\u1ea3i job \u0111\u00fang quy \u0111\u1ecbnh, kh\u00f4ng c\u01b0\u1edbp job!!"
+}
+2024-08-01 16:58:32,229 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:58:37,239 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 16:58:37,239 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 16:59:27,258 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:59:27,431 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:59:27,431 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:59:37,445 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100064095786862_898195985660253
+2024-08-01 16:59:39,343 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:59:49,813 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 14100,
+        "id": "100064095786862_898195985660253",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:59:49,813 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:00:04,832 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100067147290887_806947461553490
+2024-08-01 17:00:05,732 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:00:16,721 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 14400,
+        "id": "100067147290887_806947461553490",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:00:16,721 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:00:31,742 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61555362017045_122164743248178733
+2024-08-01 17:00:34,157 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:00:44,778 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 14700,
+        "id": "61555362017045_122164743248178733",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:00:44,778 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:00:59,793 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61552736414374_122160765086091213
+2024-08-01 17:01:02,052 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:01:12,579 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 15000,
+        "id": "61552736414374_122160765086091213",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:01:12,579 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:01:27,598 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100083914868434_463913273082498
+2024-08-01 17:01:29,079 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:01:39,887 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 15300,
+        "id": "100083914868434_463913273082498",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:01:39,887 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:01:44,902 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:01:44,902 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:02:34,922 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:02:35,119 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:02:35,120 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:02:45,128 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61559253017405_122128668182308433
+2024-08-01 17:02:46,513 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:02:57,054 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 15600,
+        "id": "61559253017405_122128668182308433",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:02:57,055 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:03:12,071 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61563542644922_122099404070451421
+2024-08-01 17:03:14,196 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:03:24,628 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 15900,
+        "id": "61563542644922_122099404070451421",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:03:24,628 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:03:39,640 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 488870560401421_490044106950733
+2024-08-01 17:03:42,407 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:03:52,957 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 16200,
+        "id": "488870560401421_490044106950733",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:03:52,957 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:04:07,974 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100015618884453_1798139740716638
+2024-08-01 17:04:09,807 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:04:20,325 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 16500,
+        "id": "100015618884453_1798139740716638",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:04:20,326 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:04:35,330 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 931569440879182_1459772251392229
+2024-08-01 17:04:37,870 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:04:48,320 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 16800,
+        "id": "931569440879182_1459772251392229",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:04:48,320 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:04:53,328 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:04:53,328 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:05:43,336 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:05:43,553 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:05:43,553 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:05:53,556 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 511423608118659
+2024-08-01 17:05:54,830 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:06:05,437 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 17100,
+        "id": "511423608118659",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:06:05,438 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:06:20,448 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100064701429688_789752656524775
+2024-08-01 17:06:22,227 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:06:32,941 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 17400,
+        "id": "100064701429688_789752656524775",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:06:32,941 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:06:47,964 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 103536091339787_1034570688672272
+2024-08-01 17:06:51,980 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:07:02,411 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 17700,
+        "id": "103536091339787_1034570688672272",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:07:02,411 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:07:17,421 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100015618884453_1798135107383768
+2024-08-01 17:07:18,873 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:07:29,346 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 18000,
+        "id": "100015618884453_1798135107383768",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:07:29,346 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:07:44,357 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100063839463737_965889718882335
+2024-08-01 17:07:46,528 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:07:57,190 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 18300,
+        "id": "100063839463737_965889718882335",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:07:57,191 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:08:02,203 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:08:02,203 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:08:52,213 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:08:52,379 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:08:52,379 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:09:02,394 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 1241035120547586_1241036250547473
+2024-08-01 17:09:04,425 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:09:14,818 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 18600,
+        "id": "1241035120547586_1241036250547473",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:09:14,819 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:09:29,829 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100011749278373_2103969250004697
+2024-08-01 17:09:31,212 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:09:41,750 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 18900,
+        "id": "100011749278373_2103969250004697",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:09:41,750 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:09:56,767 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100077142486406_502708055643940
+2024-08-01 17:09:58,471 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:12:12,678 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:12:12,688 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:12:12,688 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:12:12,688 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:12:12,688 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:12:12,688 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 17:12:12,688 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 17:12:12,783 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 17:12:14,935 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO7QdRLOmWC5EhVrXLlhTdIXTBXOX07LXELgpSMAbNCqTUc4j8K2d8ADo0AeDswk6ZBAkZCYA670zz3nnGqIip10DO9DpyOGNyM8VuvtJ6ZATlvf9Irz7JulIlNJZCxsLNWsGKI99FOFwlkMtZAIZBnhHzyr7uLfsnTDHe01aRoM4Oo1HkWpk01hPDnmD77YwZDZD"}
+2024-08-01 17:12:19,947 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:12:20,137 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:12:20,680 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:12:30,685 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 473654885303613_473658648636570
+2024-08-01 17:12:46,027 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100014486895926_1863207097505502
+2024-08-01 17:12:46,815 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:12:57,144 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 19200,
+        "id": "100014486895926_1863207097505502",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:12:57,144 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:13:12,154 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100027901342967_1531378857802144
+2024-08-01 17:13:13,160 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:14:28,515 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:14:28,528 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:14:28,528 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:14:28,529 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:14:28,529 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:14:28,529 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 17:14:28,529 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 17:14:28,621 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 17:14:31,825 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO2CZB6RZAiDMl1iJZCFoAcdNjTZAvwO8F7Dmoh03jZCtAfwNwhYnfLH468HLCof0ClZAmkz4K77DsgyuUEpQlXZCYn2NVNZCJn9uZAcpCoZAYgWrDfoyZBPmAlXdRZCvosLNzLYsej5iAKJFZAbguhoG0nOgclA5fQdTahY86kBZCg7ZAhv5TZADZBkBIMKjPXmZBMGI93DwZDZD"}
+2024-08-01 17:14:37,575 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:14:37,770 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:14:40,092 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:14:50,095 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100041345336876_1266562644731901
+2024-08-01 17:14:51,205 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:15:02,557 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 19500,
+        "id": "100041345336876_1266562644731901",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:15:02,557 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:15:17,585 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100063664865089_1025297636269056
+2024-08-01 17:15:19,553 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:15:30,037 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 19800,
+        "id": "100063664865089_1025297636269056",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:15:30,037 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:15:45,052 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100003637643293_3453585944772626
+2024-08-01 17:15:46,250 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:15:56,641 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 20100,
+        "id": "100003637643293_3453585944772626",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:15:56,641 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:16:11,652 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61558609495385_122130674264286983
+2024-08-01 17:16:13,056 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:16:23,397 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 20400,
+        "id": "61558609495385_122130674264286983",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:16:23,397 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:16:38,422 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100084433582229_469419815882467
+2024-08-01 17:16:40,237 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:16:54,997 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:16:55,004 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:16:55,004 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:16:55,004 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:16:55,004 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:16:55,004 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 17:16:55,004 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 17:16:55,115 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 17:16:56,916 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOZC5XMpS3obRZA7llAh2NDLhMKMw52WIkvejZAk7ahkuQogaCfQRGZCKNXmjFTVEeuP9EuK4lGBv0t5VnO4EvapKVl8MIoshO7YCiUMJGGp53S6xcU38QKVD4MT0GvwM63TH1wosxg6Cp9e1MZCJQ1XLIGZCz2HuymdgVwoLFsr1MEi6s3yH1Ei66OlVF9yAZDZD"}
+2024-08-01 17:17:03,181 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:17:03,375 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:17:04,170 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:17:14,184 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100004109702441_2873434166136879
+2024-08-01 17:17:15,952 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:17:26,435 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 20700,
+        "id": "100004109702441_2873434166136879",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:17:26,435 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:17:41,449 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61551638825476_122152839872054627
+2024-08-01 17:17:42,197 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:17:52,942 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 21000,
+        "id": "61551638825476_122152839872054627",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:17:52,942 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:18:07,947 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100081861421500_486235417448502
+2024-08-01 17:18:09,286 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:18:19,674 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 21300,
+        "id": "100081861421500_486235417448502",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:18:19,674 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:18:34,681 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100028003629881_1600378107572295
+2024-08-01 17:18:35,568 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:18:45,958 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 21600,
+        "id": "100028003629881_1600378107572295",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:18:45,958 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:19:00,966 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100032979934300_1626814871497616
+2024-08-01 17:19:03,324 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:19:13,962 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 21900,
+        "id": "100032979934300_1626814871497616",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:19:13,962 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:19:18,975 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:19:18,975 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:20:08,984 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:20:09,173 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:20:09,174 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:20:19,184 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100064712375236_943452027821868
+2024-08-01 17:20:19,777 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:20:30,313 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 22200,
+        "id": "100064712375236_943452027821868",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:20:30,314 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:20:45,330 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100007372817080_3966703093585412
+2024-08-01 17:21:00,996 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100003349471843_7918799788241592
+2024-08-01 17:21:01,761 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:21:12,210 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 22500,
+        "id": "100003349471843_7918799788241592",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:21:12,210 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:21:27,216 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100042169262469_1233922474690050
+2024-08-01 17:21:28,623 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:21:39,385 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 22800,
+        "id": "100042169262469_1233922474690050",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:21:39,385 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:21:54,403 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100566269086044_319950867802885
+2024-08-01 17:21:55,949 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:24:07,493 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:24:07,501 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:24:07,501 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:24:07,501 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:24:07,501 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:24:07,501 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 17:24:07,501 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 17:24:07,581 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 17:24:09,344 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOyxOPh60kdZB2HRS8ykGZCK0qRWcXZCeyTIZA7ep4h7MTevsoZBN9Yt8nffLx1OKRvVXSM2OyC1r1Uy8etEqGycCZAA0LDsCGWi7HGP4mr8kMZAzqcx7bfZATJXFvxQFDVsk2CTeS2cf4bapdMU1tzlgiY0LkJ35tKfvV1jBICZBcVC8GS07V47muMgU7fqG5tgZDZD"}
+2024-08-01 17:24:16,297 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:24:16,560 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:25:16,824 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:25:26,843 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100000137656991_8793251424022692
+2024-08-01 17:25:27,961 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:25:38,712 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 23100,
+        "id": "100000137656991_8793251424022692",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:25:38,712 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:25:53,737 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100024398653164_1658176938338912
+2024-08-01 17:25:55,447 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:27:21,916 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:27:21,922 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:27:21,923 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:27:21,923 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:27:21,923 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:27:21,923 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 17:27:21,923 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 17:27:22,023 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 17:27:23,900 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO76GQbmvZCkwWsOtVoH1sz6mYpJnDQ30bYt1YB2rOSR6EoqwN679K5fHpZBS5jSQZCRvVqTV5721U1yqQGfbtPr0MD4ASey2rMfAtDyN4pL5ufFGZBNzocXv6HelOduH81owaUZBZAZBZCqa9JZC06g2XXg72JXcAZBSrU2XMP120J4jzli0C153qC3CERmytkyQZDZD"}
+2024-08-01 17:27:28,741 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:27:28,944 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:27:33,745 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:27:43,750 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100025797397366_1632819644254600
+2024-08-01 17:27:59,077 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 3072365682907729_3297764933701135
+2024-08-01 17:28:01,809 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:28:12,384 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 23400,
+        "id": "3072365682907729_3297764933701135",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:28:12,384 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:28:27,403 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100021698856155_1632219087511371
+2024-08-01 17:28:33,559 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:28:44,151 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 23700,
+        "id": "100021698856155_1632219087511371",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:28:44,151 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:29:30,772 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:29:30,779 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:29:30,779 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:29:30,779 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:29:30,779 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 17:29:30,779 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 17:29:30,779 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 17:29:30,846 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 17:29:33,393 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO7ZCxkiiLnMj1sMH6qh4X3Nxxg8FZCCbrdZBwINW0aRtuwPSV5KZCn5CTbEfwPHQuiIIABiTZBZAHpJUrZCOTCr81FUlRjYJbAvwPZBU8ZASCZApm73lkc8PC4qM83zgaXKbgEq52ZALvdn0DEB7zk2iZAYW0f5WKViInzOPpfaQP7i43AHyTfZChs0uODZBZC396exwwZDZD"}
+2024-08-01 17:29:40,350 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:29:40,570 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:29:41,019 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:29:41,019 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100066434350260_824914569733014
+2024-08-01 17:29:42,135 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:29:53,147 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 24000,
+        "id": "100066434350260_824914569733014",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:29:53,147 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:29:58,153 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 102492198375600_737697908188356
+2024-08-01 17:29:59,758 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:30:10,420 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 24300,
+        "id": "102492198375600_737697908188356",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:30:10,420 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:30:15,424 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100003196198912_7855849747864820
+2024-08-01 17:30:17,082 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:30:27,783 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 24600,
+        "id": "100003196198912_7855849747864820",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:30:27,783 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:30:32,800 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100064875782570_905774418261743
+2024-08-01 17:30:34,344 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:30:44,697 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 24900,
+        "id": "100064875782570_905774418261743",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:30:44,697 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:30:49,711 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 102261576893253_798803099027352
+2024-08-01 17:30:52,000 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:31:02,452 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 25200,
+        "id": "102261576893253_798803099027352",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:31:02,453 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:31:07,460 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:31:07,460 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:31:37,475 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:31:37,619 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:31:37,619 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:31:37,619 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100064440291986_825216326303036
+2024-08-01 17:31:39,184 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:31:50,391 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 25500,
+        "id": "100064440291986_825216326303036",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:31:50,391 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:31:55,403 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100085862447424_369977615874317
+2024-08-01 17:31:56,179 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:32:07,076 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 25800,
+        "id": "100085862447424_369977615874317",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:32:07,076 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:32:12,083 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100066592762774_846962750866809
+2024-08-01 17:32:13,610 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:32:24,030 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 26100,
+        "id": "100066592762774_846962750866809",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:32:24,030 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:32:29,051 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 313210321869011_122126705126296267
+2024-08-01 17:32:32,882 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:32:43,362 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 26400,
+        "id": "313210321869011_122126705126296267",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:32:43,362 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:32:48,377 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100055020587043_1041344411042902
+2024-08-01 17:32:49,868 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:33:00,244 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 26700,
+        "id": "100055020587043_1041344411042902",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 17:33:00,244 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:33:05,253 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:33:05,253 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:33:35,262 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:33:35,405 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:33:35,405 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:33:35,406 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 291006807431601_122132836904288684
+2024-08-01 17:33:37,468 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:33:47,628 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "ID kh\u00f4ng t\u1ed3n t\u1ea1i tr\u00ean h\u1ec7 th\u1ed1ng"
+}
+2024-08-01 17:33:47,628 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 17:33:52,637 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61553135771786_122165611094104525
+2024-08-01 17:33:53,982 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:34:04,173 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "ID kh\u00f4ng t\u1ed3n t\u1ea1i tr\u00ean h\u1ec7 th\u1ed1ng"
+}
+2024-08-01 17:34:04,173 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 17:34:09,180 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100003865032519_1383292443074157
+2024-08-01 17:34:11,187 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:34:21,299 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "ID kh\u00f4ng t\u1ed3n t\u1ea1i tr\u00ean h\u1ec7 th\u1ed1ng"
+}
+2024-08-01 17:34:21,299 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 17:34:26,305 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100059735971711_865565028778022
+2024-08-01 17:34:28,436 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:34:38,548 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "ID kh\u00f4ng t\u1ed3n t\u1ea1i tr\u00ean h\u1ec7 th\u1ed1ng"
+}
+2024-08-01 17:34:38,548 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 17:34:43,557 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100086093228019_472776762268761
+2024-08-01 17:34:45,609 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:34:55,722 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "ID kh\u00f4ng t\u1ed3n t\u1ea1i tr\u00ean h\u1ec7 th\u1ed1ng"
+}
+2024-08-01 17:34:55,722 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 17:35:00,728 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:35:00,728 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:35:30,762 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:35:30,943 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 17:35:30,943 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:35:30,943 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 105092768573437
+2024-08-01 17:35:36,182 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 101172269013491
+2024-08-01 17:35:37,604 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:35:48,014 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 27600,
+        "id": "101172269013491",
+        "msg": "+900 Xu"
+    }
+}
+2024-08-01 17:35:48,014 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:35:53,026 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 186364941224259
+2024-08-01 17:35:54,974 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:36:05,418 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 28500,
+        "id": "186364941224259",
+        "msg": "+900 Xu"
+    }
+}
+2024-08-01 17:36:05,419 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:36:10,435 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100732985929351
+2024-08-01 17:36:11,380 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:36:21,732 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 29400,
+        "id": "100732985929351",
+        "msg": "+900 Xu"
+    }
+}
+2024-08-01 17:36:21,732 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:36:26,743 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 745043239167745
+2024-08-01 17:36:28,229 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:36:38,745 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 30300,
+        "id": "745043239167745",
+        "msg": "+900 Xu"
+    }
+}
+2024-08-01 17:36:38,745 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:36:43,752 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 293109510543784
+2024-08-01 17:36:45,289 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:36:55,685 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 31200,
+        "id": "293109510543784",
+        "msg": "+900 Xu"
+    }
+}
+2024-08-01 17:36:55,685 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:37:00,696 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 303991726120931
+2024-08-01 17:37:01,445 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:37:12,071 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 32100,
+        "id": "303991726120931",
+        "msg": "+900 Xu"
+    }
+}
+2024-08-01 17:37:12,071 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:37:17,086 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 391379140717996
+2024-08-01 17:37:18,641 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:37:29,669 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 33000,
+        "id": "391379140717996",
+        "msg": "+900 Xu"
+    }
+}
+2024-08-01 17:37:29,669 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:37:34,683 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 216709131521764
+2024-08-01 17:37:36,354 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:37:46,803 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 33900,
+        "id": "216709131521764",
+        "msg": "+900 Xu"
+    }
+}
+2024-08-01 17:37:46,803 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:37:51,819 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 106567462275064
+2024-08-01 17:37:52,564 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 17:38:03,137 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 34800,
+        "id": "106567462275064",
+        "msg": "+900 Xu"
+    }
+}
+2024-08-01 17:38:03,137 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 17:38:08,155 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:38:08,155 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:38:38,168 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:38:38,328 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   at Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json)
+   at traodoisub.ApiRequest.Traodoisub.ApiRequest.<GetListTask>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Traodoisub\ApiRequest.cs:line 33
+2024-08-01 17:38:38,348 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:38:38,348 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:38:38,348 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:39:08,367 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:39:08,511 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   at Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json)
+   at traodoisub.ApiRequest.Traodoisub.ApiRequest.<GetListTask>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Traodoisub\ApiRequest.cs:line 33
+2024-08-01 17:39:08,511 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:39:08,511 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:39:08,511 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:39:38,531 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:39:38,675 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   at Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json)
+   at traodoisub.ApiRequest.Traodoisub.ApiRequest.<GetListTask>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Traodoisub\ApiRequest.cs:line 33
+2024-08-01 17:39:38,675 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:39:38,675 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:39:38,675 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:40:08,684 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:40:08,823 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   at Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json)
+   at traodoisub.ApiRequest.Traodoisub.ApiRequest.<GetListTask>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Traodoisub\ApiRequest.cs:line 33
+2024-08-01 17:40:08,823 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:40:08,823 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:40:08,823 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:40:38,838 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:40:38,974 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   at Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json)
+   at traodoisub.ApiRequest.Traodoisub.ApiRequest.<GetListTask>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Traodoisub\ApiRequest.cs:line 33
+2024-08-01 17:40:38,974 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:40:38,974 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:40:38,974 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 17:41:08,993 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 17:41:09,155 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   at Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json)
+   at traodoisub.ApiRequest.Traodoisub.ApiRequest.<GetListTask>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Traodoisub\ApiRequest.cs:line 33
+2024-08-01 17:41:09,155 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 17:41:09,155 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 17:41:09,155 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi

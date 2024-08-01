@@ -33,10 +33,12 @@ namespace traodoisub.Facebook
             this.btnGetList = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.cboType = new System.Windows.Forms.ComboBox();
+            this.txtTotal = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // panel
             // 
+            this.panel.BackColor = System.Drawing.Color.Black;
             this.panel.Location = new System.Drawing.Point(12, 12);
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(553, 399);
@@ -81,11 +83,23 @@ namespace traodoisub.Facebook
             this.cboType.Size = new System.Drawing.Size(121, 21);
             this.cboType.TabIndex = 3;
             // 
+            // txtTotal
+            // 
+            this.txtTotal.AutoSize = true;
+            this.txtTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTotal.Location = new System.Drawing.Point(586, 110);
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.Size = new System.Drawing.Size(60, 24);
+            this.txtTotal.TabIndex = 4;
+            this.txtTotal.Text = "Tong:";
+            // 
             // frmFacebook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.cboType);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.btnGetList);
@@ -93,6 +107,7 @@ namespace traodoisub.Facebook
             this.Name = "frmFacebook";
             this.Text = "frmFacebook";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -102,5 +117,6 @@ namespace traodoisub.Facebook
         private System.Windows.Forms.Button btnGetList;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.ComboBox cboType;
+        private System.Windows.Forms.Label txtTotal;
     }
 }
