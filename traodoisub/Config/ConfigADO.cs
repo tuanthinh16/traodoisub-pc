@@ -3,9 +3,10 @@ using traodoisub.Model;
 
 namespace traodoisub.Config
 {
-    public class ConfigADO // Thay đổi từ 'class' thành 'public class'
+    public class ConfigADO 
     {
         public string TokenTDS { get; set; }
         public UserInfo user { get; set; }
+        public string cookieFB { get; set; }
     }
 }

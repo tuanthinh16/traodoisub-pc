@@ -1,0 +1,2013 @@
+2024-08-01 10:26:22,460 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 10:26:23,668 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 10:27:07,350 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 10:27:22,800 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 10:27:23,065 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  cross-origin-resource-policy: cross-origin
+  x-app-usage: {"call_count":6,"total_cputime":0,"total_time":1}
+  facebook-api-version: v20.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AKgSiT8qwbCCx4Sn6ujSj_G
+  x-fb-trace-id: D58VapW9Rzl
+  x-fb-rev: 1015310928
+  X-FB-Debug: FCST+M+OZMeJfm/mhzjqAC4rH4nI5vjJDqC4fZmWpAPUzCQ6nhbUK4EI58zn9Re23DPUtAE7Q0cLkpzVnKnxrA==
+  x-fb-server-load: 54
+  Proxy-Status: http_request_error; e_proxy="AcKPVkuSehrL48ZFcOSnctr31V4RiTVYKNQQRVjTwAWQx0GCEQkAP0DgcPYikkcbtZtmNcLPbJxM6_OtvyzL"; e_fb_binaryversion="AcJlverLw1jybgsmQgsvbHTWd-lMCHqdE91A2rHcmThFp1Uq9iNsJn9irWOu1AdMs1kRb9RB-DJqV8AHc9TCiJBkLMQycSyTHRo"; e_fb_httpversion="AcIWlURjUND7jPkdt2HuUaqRy8uuu_36gB9H0Gr-A81SB8ZAaRtc7rV4x9-k"; e_fb_responsebytes="AcIIJZUI3P8qbrF-Lr8d4iheypJmqIWKCJ8AzcOpD1FtDXHNgK7MQ81UnBuF"; e_fb_requesttime="AcK4OlSn8qe2GWn4rwL7hqXDC1WGTfGsCc3i6fHB0Ic2qzjACLmkKKr3Dn4v_WPopKbqWyanBA"; e_fb_requesthandler="AcKk_eEgBibC5MDuAYK3I_ED0ICI-IaYXs4qCf_kKxc-nStHbhx6-y0swsbfxYEPkvesiM6ghKg"; e_fb_hostheader="AcLmkjYnX0Gew32iZzRBgKwOD-Nyou8xYIN6nngC9ppzhTxSt8Cmcks7BlazlUhwe3-9u8zH89dznPgX"; e_fb_requestsequencenumber="AcI9I-K7mGxekBD91YxLvoukMUdkxGtr2SmTDVzqs92PhyVbfuBsJo7z1Pmw"; e_upip="AcLLBD9HnHVrAmjSnSbjJuCuuJgKDY3v0q3UhtX7-THfDnwm7cHhoBwnLF6jsGRYoOyn94Zg3IZn7p9s5Sb3ECsrmfwR2dbfNzgUdrM"; e_fb_builduser="AcKCvEFAzA4IJIo-NJEd4Hifcj5gPkNGpqq9LAldQ0EbAmfUxNrMGJYs_xs2GYLBNNg"; e_fb_vipport="AcKucaKjVOYIWAgQeb_9un5FnEbZkKqcCaZmtEbtpFuWaERo2hsE_NxzdBFb"; e_clientaddr="AcKiiLbKaPiL_Qu0Fxr9IPMjt-JLCFlu-z_gTO8UA7rA4DIUChqqBhGQR7_NHJV4uud6v0uD2ykJCK7j4YgA_eBapAVnPUbCmUN5W85JC4Afk_XdIQ"; e_fb_vipaddr="AcKWH7gtFtsnxvvwr2WImPpF6J84H3XUTFjouEUPcEc0dV5D_yrstluktC7sAfpwznzyB7QX-96sXiiAMxzyMfdqtnOrGWNf"; e_fb_configversion="AcJup1tZO-BC5R4tuKaWCVDqEE8ZVsf_D0UlSM5MAgPcEbZ8ZVcF6sqtQkAvNQ", http_request_error; e_proxy="AcJ-UaTZlxPNgbmmBCBq4kKhYKJM_AMta-ox1rx_XjhJhhqkC_KaTYhZ0ckSVs3KuG04TMMrapkOucE"; e_fb_binaryversion="AcIBkWR-RVe-VKV06VKnuKRokemjhZOJRdveVmML3JPQX8NKEXBoYeoNx-gEoEdYjQfsHuHGoabHswTGmqI17CdjvbSxiHz5bNQ"; e_fb_httpversion="AcLA56KaclVoSoP7mSoLv2cHZUgM3WDt_zYv61WA_xYpEWgdcgeB9z2jGu2w"; e_fb_responsebytes="AcKy-EXJYleC1FJfXIruIwBgO-0gtKXwKQ_Dq9WAHCI3JRHwJKc59W8UEvqP"; e_fb_requesttime="AcIaESVn0ChOAWsUmWP2iZTVSRU6C3N7xIrOVy5aM-a-cXe-D7HwTgnVtq_IZmiFvbvBSO8mtQ"; e_fb_requesthandler="AcIoBqU9qfMZNAIqOM8hhjTyKHLoKJ6qi8eQW7rVkOVHqrN4t6hdO2WjepMthOr56lDYhSYmU6k"; e_fb_hostheader="AcL7APV2UZHEif8M7jAvJ4YKcR78ePbcujsj12LyUkt_tlKhuAhmCdWPKysIVTrZ-0A76AXi5yKaTa7R"; e_fb_requestsequencenumber="AcKuLcpRgqLQUsVS0oCKbVmT6k7bct5roRg9vmnCNU27ZDYA3xQDGtcpzg"; e_upip="AcIi77ehtZvO57RZn13y_-1sCvcCXOgOSIf6R96x5ZCQ6yIxhpoxsulESgaVFvdhhbfajv4xrMnR2bvD8-7LF_M23YDFNpD5"; e_fb_builduser="AcIKefNDpj8NaSMPvz-DPTXgy2w706vqnx21FZEzedNLikXobc1GicHkcg1_edR63P8"; e_fb_vipport="AcJXWmZJe6XT6os6QsJExj8_fBtr1yfIrPfC2MqGnHqhocpcJ0QCmF8_mddF"; e_clientaddr="AcJiOR1QeOEnMt8L8QhlqhElUP3B_09e8IJ4wNYEwi3yA58SHz6yIe4REB2brA1CocYBpqdIyee2aV_ccw"; e_fb_vipaddr="AcLcS8wQo-1tPArk8YzOSY0Jc61a_SF1N7H-YZSgVDoMdeQUMJkCPWaawfXSq6Prdx_QpfZH2Nk"; e_fb_configversion="AcJV4I_GEgBP8tHcpnNAMMPvGyIGWyPMDUwd6_JcYuzxvvIyo0fBNXkrb7cl8w"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=26, rtx=0, c=10, mss=1392, tbw=4221, tp=-1, tpl=-1, uplat=228, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 03:27:23 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#12) singular statuses API is deprecated for versions v2.4 and higher"
+  Content-Length: 167
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 10:27:24,306 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 10:29:02,893 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 10:29:15,492 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 10:29:15,914 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  cross-origin-resource-policy: cross-origin
+  x-app-usage: {"call_count":6,"total_cputime":0,"total_time":1}
+  facebook-api-version: v20.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: ACQaYN-2UWiCXb2XNZUwFzO
+  x-fb-trace-id: FkhNhEfZb1L
+  x-fb-rev: 1015310928
+  X-FB-Debug: XNSte1+10uI+OpSXvqenK9l1u5knchVAWcDWnBIFizpJEpaw8cppcFtsvwL7LPgFxIPc0KScsrDTPmSeAp5nGg==
+  x-fb-server-load: 33
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_fb_responsebytes="AcJ0Yyf_gLYPfdYuP2BsvojlqINsXsH54sBXBnlRT1t0kmSu8zb9MKv9uFgu"; e_fb_requesttime="AcKtdRpk5vSKm_iE-3BCfT2aaYs0YO4wKklB3V-LkwdRAQSE2z0CmVhaxMH_pyXJmzNvdI855g"; e_proxy="AcIDUgRkEMP0s6KcBzBzVq_LHEZT2UDW-l5u4m1_g0EOZ0r3wcR2JQs_RZu2JVmkn-Ham_t-DTmXDV7nnuyS"; e_fb_binaryversion="AcJiG2NiElh9-XvcUIhczkVmw5U2FhFHglLs4NFsRmboJTtnhqbahVlKd_WZaxdLHwqJZk-VMmxNSw8qmHrRZocvHdRPwwOFmdw"; e_fb_httpversion="AcIkm3chJJzweCSR_DfCTlrvOH-TTMG77fnI5ob9Ag72RTmYetr5B4bZkg8P"; e_fb_hostheader="AcLk5N5ZwoAoZPoUgfbPLnKrqtx2X8QMQMeMFWXgRZ56DU-2YoFl4y-w-PK-6oHHubSuXfZxhcRbaT5b"; e_fb_requestsequencenumber="AcIPiDC22fr_vGqen8p089dbM5cF7A9RZ8qjQ9IADTD01G7RHmSlGqXdYZ2O"; e_upip="AcIfYhs_I4NNzyS4ljn4jNNPspKcULx412CSCcOHD1DDX0Xd1Of8SxPv1ryueWalW2_glYC71oOb3r6mG728OT8lD1D_zd3aGVCVx24"; e_fb_requesthandler="AcJPh05QfnF07TOK9zYgWRx82vGEcPO-JaO5rX2W-aJQ54yYMfWkW3SoKaAcD3L-f0thhg4nd1Q"; e_fb_proxycode="AcKyISkK_4k-9UqZw4ZXVWZ96615OWN1a3U9YC0tk9aQQh7EKnlerNY9v3XM"; e_fb_builduser="AcKy3NTVdCXVy8zbRTbOX3mOeBSmsRqHRbAcRjNQY6MJLnrNcLBrU92i9SCOX5-Z5V4"; e_fb_vipport="AcJEds0dR8uaKFp0_2p89eKC4rPqKu1LRBtrQjUNnRJaeoAN3jdZ2I6KXLrW"; e_clientaddr="AcI5CLAGJ9dw_TTwO6QQBow4-nRnpBWBmswg2osUkaMHVpSE-sN6xIeHa15_oM-kHNSZirzvr6lAj-WJWf3DEPvjrXfAOdux5pB6DaTQN0wvFrSRFA"; e_fb_vipaddr="AcIxlNN1BjRWQoxg6KFQFCbKu9E5CAJYyYkPkBk4-4VWR8tU5QYM20NKL8oIU8F3gH2anJrbQMs9qfxqMZUZwubD0kGOtTdetA"; e_fb_configversion="AcJNw1sJqtM2mhpTlJzH4_MPUWfYXV4-JfbSRZKViAhsQx9_c7k6uQDgg5SjAQ", http_request_error; e_fb_requesttime="AcKFrXOxjYch-3kpTwO-1O0dpF2UioKlr7Bq5n01-3xJq-py2maS5O64Jxu8Hq6dlf5Jps68kg"; e_proxy="AcJLoG7ZjEL9ykKgZAaImwgfzAXJ1PGrI9FQutSkLj3IrPNMLj06OAX99DgmqyLbjT5YzkwHHdR8FzI"; e_fb_binaryversion="AcKB1cOqrNRykDJFc-QGeGm5NIKtg4SGcfslF-QwMya9lWqKa3gJ24VA7lZaY7dMH3Bm9RvXMr_NiT-v2xDRmrs5a-Lm_hN1eQI"; e_fb_httpversion="AcLJp3giwXZnLY5C_4kOsCJ31YUGugvSYKRbI5DjueYRoBtNhGohAoV9C36J"; e_fb_hostheader="AcIHrZvvm3Tc8m1zKByrF3ZbCvXMOc9tN6nF_2p6zicZn9bV1zanVOcCzDFY-aWCK_NJvXthite_nl5F"; e_fb_requestsequencenumber="AcL-IabfODvWoAiGYOWA4AkPivTsXPNkZQyhQ3okUL2CRAylojEBzLHuQA"; e_upip="AcKPATVMpSP9i224OMy976HwWwzc42iOc9ZeaMa7qkr4n_0NqgX9YF84S0lU7Hx2GKIeHJqWeoASJ2MsRzC_TxvZEhL4CwvPFw"; e_fb_requesthandler="AcIf1JpZwh0jzYo6qwVKs_2mpEwoBYzz0xnUQQzFFKqWMMbDoQF5JRdsnCMl5EdO1bF6zaI4aZI"; e_fb_proxycode="AcK9KAGvk2bP4FsMqbwRx2z7fHf_2Yi-BUCgox39bOJgpbPTpBds3FCQKvh7"; e_fb_builduser="AcL4tsVl0NZUab6rPkArCk4S1mat3uX1ffMmY_auVYZ1XyzcjIvILAgX1EBNwl9dzAA"; e_fb_vipport="AcLNmMeevwCQP3vaKVKiHrtaUdJxXf9Fh0gJ9UdwBxzq64aUFLw0-NmTgRYI"; e_clientaddr="AcLDbMkkcEvz6F413zW28zfCdRi2Fk3g0goTJSAA3qPmqp30TyA9Q8sS-5Fn7VD9V68ytHmXaHNy1dNMZQ"; e_fb_vipaddr="AcJE6FkhdHrLHhkEi8b7n5Yv4J8Ik-7E2g-p7VQP8PWgGw-Pz38qyDcyO5QuJb3yzZ6Ly1AU"; e_fb_configversion="AcJKuHS3MZeMinMNsdd0PFDs0Z-mLST9sEV_-BnjdXLJlXFRk7W5iaWBGVPyuw"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=27, rtx=0, c=10, mss=1392, tbw=4460, tp=-1, tpl=-1, uplat=389, ullat=202
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 03:29:15 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "Unsupported post request. Object with ID 'me' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 10:29:15,929 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Failed to like the post. Status Code: BadRequest, Reason: Bad Request, Content: {"error":{"message":"Unsupported post request. Object with ID 'me' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https:\/\/developers.facebook.com\/docs\/graph-api","type":"GraphMethodException","code":100,"error_subcode":33,"fbtrace_id":"ACQaYN-2UWiCXb2XNZUwFzO"}}
+2024-08-01 10:29:17,174 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 10:31:51,705 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 10:31:57,437 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 10:31:57,778 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v20.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AKcQQZJ5ALnGf13vwbOn-R4
+  x-fb-trace-id: CDPl6TRQTGL
+  x-fb-rev: 1015310928
+  X-FB-Debug: 7x6Y4EFOa8Wy3emAbHMjVr+BeBA7DU564t/4I/y1NIRExKV58gUlvKg5WclyBaPtne7qHTMtqJ+xdS2CHK1kJA==
+  x-fb-server-load: 29
+  Proxy-Status: http_request_error; e_proxy="AcLflJW1agSkXx8Ts6Y4J2qcsMQbCfBVkDVWBHeCfM7SnZr-ZReGStTa0oEIxP9m4niI3g7494auHCZbVhLg"; e_fb_binaryversion="AcK_dYLXA-32Sj8f2q84mkO_2-wuWfP7k6jaoawvvyB01O82hdESRmzmhsydJ5qceszYPq8evRjXw_NzCZUHK8rdso1Vqp60CbA"; e_fb_httpversion="AcKzDpwkYJuJoRcLSWJg0XyC3PKRhtu1V5o-uczyDcsm4k8S4975RGHjah1U"; e_fb_responsebytes="AcLwaTLevgPWJ273cZ-qUj2HGtziZINpfg54jZPv-NOJld4ADLkqzAK_gaqU"; e_fb_requesttime="AcLDWqU5TAXrHgrjw8ls25HM9wDDIvO8DFh_9VHsGpYwlX0lK0Q9vx0mgMvRBRCPZAWvtVpKTA"; e_fb_requesthandler="AcKWQBXVCuI3OpjV5hAmeYtLvJy2i4ptwiUhDoNiCC-x0ZgaFKP7B959GkgvvcDRV6ao07z9BRM"; e_fb_hostheader="AcJKdP8sMFfdNLA508uXanMZyg_NwjpkAOYH2LikdGT50cJy6fHQx44Y3sR8ovWwPmtFh0JeAIrD2o4F"; e_fb_requestsequencenumber="AcJU9jZwOBv8mzU8czQmpAN-ZvdsPBYcxgGp_vEee5XevDEWz-uvtJMoQW330Q"; e_upip="AcIBOjnQO78fJXzzGOw7asP9hj_NHWQAs1qZKRNFNDtHVdZGAgp8Mjoda9QnUd5qYZ2SEP6PexP9--GZRUyexSfB7rmTnE4cdtbFt08"; e_fb_builduser="AcJu5NOgW_ijJ8LgA-H29O1Dl3Fryy03tZMZpCM-4915Q_F_nEaG3xijMJS_yAfLr4E"; e_fb_vipport="AcJdKjaPtlxcMHMyMckssEJ9oS4TEivTtdWn7jpXu4leDwFTGLjqSI1kXZ2p"; e_clientaddr="AcIqF9OfcuhdN8H1Pr75YDmgzQizL4kjgsi-c494UhvtvXAVDMP3YQSCfX0iXsNf70K9vFHPAf98r-m-MTHnIBiWgDq0PEgHObfcq63_D_B1Esh1pg"; e_fb_vipaddr="AcLIDV6v45Hi8FKAkIC9L8o3U8wp5mTM51_K3Ouq_3HCM_K8i3c5oQfzN71iRWSC6-CfRR4tazs5yEGl24BbyiV46MLvPqTvNA"; e_fb_configversion="AcJuwfdYxaproFc9cERhcFw3zg_qd3ez1Be5wgYqvwFDHGNLrGFenE1tBQzcrg", http_request_error; e_proxy="AcKlLUkW9rX4iTJJSfg_Hh7vCYT-iBidr7rPvDoqq0uJ4Ati97op7ycZZe_8s200UVQT1d6Rw8CwuHU"; e_fb_binaryversion="AcL90AaLEb5i90RRveHe7mX2K8Sb79dbz50vgIjd7-Jnp91qodar8aXaCosyYvbKSrYNFeRpP7ykfKCksH0_w2p7JpL_NlCgztA"; e_fb_httpversion="AcIFpo21TJhuqYaMY8gKtTpaFOyx9zpocMO-tj118nhsPhovtCFOmrHwL0ii"; e_fb_responsebytes="AcJFAzQriUwN_-vKc20qNp0bY9yYgGdtX6pVcKiv7gZXCtySfdXuLhfTQ7JR"; e_fb_requesttime="AcJPOVgCn4XNlxfa_KPdzWd76ifSPKmEw4YC-NWMKVFFqUmYUWT2bhlr-dkUFgKymUcD0bDCWg"; e_fb_requesthandler="AcK_Wyz5nuokU82ZNfJv655E4UsHfrCb4Gg_MaVxFNml-GE12hkABAHhsOzD94b8D67aV7fqyJY"; e_fb_hostheader="AcKjyfPt4TadLDnsi3RAqdkaBDkXx0iTt5oT1kHGy7h5uLmRr8uNLbuzIuEnm74wQ9E6jbs49ea6K76r"; e_fb_requestsequencenumber="AcKcpoJHRnHanRCffUnYjal74Z0swnzcD_Hrc87cNWrb3Y5biMJijcHg0w"; e_upip="AcLWGrKLPCmhD2fKGPTHnXjBMAQ4sU5b-A20eF9t5hJT8zxvjI2d0MgwUzV77e2a2-4p4rIfC78jgEwhehfI17UmsHQ3-f9Gyw"; e_fb_builduser="AcKVr4zFP5YZR8drqUptIuwF6bNzJRDnRNNXH0KbJRzHxR1BK6jloun_jJb-6-lIT4E"; e_fb_vipport="AcLa3hXnI-pg9hVi7xePD8CI43hcRGE8ZZWUskz-VdTAUORNXFDYUR1L6fZX"; e_clientaddr="AcJqRvIULjeTO10DWA6I-anT4Lq2w3tmuw-V1_fwP8JcHYOGgmXR3aLWv5VVMRaCviifnGNQHuX4yvr3ZA"; e_fb_vipaddr="AcJmpP2kmMHAb3PnHbh-HTq9lkDVJ2QXKhxoPXWWbHsh200gBFVawZVBck8Lu20z3Fo0yMzXd2o"; e_fb_configversion="AcLZtTRsYT2RqJKoTkiBl7K83HCljGinwndeefdvcoSW-wygiTOUGm4FeDpEwA"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=23, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=183, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 03:31:57 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#12) singular statuses API is deprecated for versions v2.4 and higher"
+  Content-Length: 167
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 10:31:59,291 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 10:32:05,794 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 10:32:06,009 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v20.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: A_q6EHfbjGNnIT_ddPWYr5J
+  x-fb-trace-id: H119ksiTO/g
+  x-fb-rev: 1015310928
+  X-FB-Debug: rxMEXXbC6R9SydePkZQGN/g7c9ys6YVJYquKRJJ+m4XAUaZ+mMqH7DmgPeDopQK2jdLCbnO3ioWPuizY6xmhPg==
+  x-fb-server-load: 38
+  Proxy-Status: http_request_error; e_proxy="AcJ5rh4eiRtJRLbk1AlB53uittOH1FRMC2PC0BoPeOAGF4Yui6-DddF7_wwq9c1smaYBsDh4cjf44NEfK4Lr"; e_fb_binaryversion="AcJl0pwYTVpSYKyQmii5ctwOALaRulHQiUWVnwqPkgwQQHndf-_LEddtFTZ5-ol24nyROl8Mij6Zoez12SphyQkI1gFesNwfTlE"; e_fb_httpversion="AcJOKZ17L3v2EJaAtvtS9kzGz_KfavYFIghb0avL8oG2CEiGwVmc-lREwNwz"; e_fb_responsebytes="AcJ0PcdXL-PhHrQCl4hKpTC5NGdb-F9SnbzC6CxeEUAeVIi8Q8c6ep33A2Th"; e_fb_requesttime="AcI3II7Jgug7pkPfTIp2I7wbsDb61KBqDEUCC9JWf_vKUfy6sVyyqdCJCDmO7yJuxS25zz5BDA"; e_fb_requesthandler="AcKu_7NmAyrgdNCmU1_yUgaT3wLm_ym2C_guy_TfVp0YksYz4pwV0NQTk823z5ov5oBNVustRog"; e_fb_hostheader="AcLC_4yJJEp6rib3mRRTqmdeZAG7EMRlvxdnp6tX75LSBO7QN4xSIFSQ0Rtlo_5wX4fX-qko6T-81K5e"; e_fb_requestsequencenumber="AcLnYzMuv8djDCOxKH8g0G2M_n2RK5UdGGIRMru5Gv_iSR_e3mgjkcXl6Pvf5Q"; e_upip="AcK_01LpoYbN7FMU5vvhmokavaBbgs9N9pC2_vfBMAzJtXw-bzdmhIl7zsz1AKJP-_w7NJYiu6PJlb4nc8JllZw7P2jMHHb_iw7Ilfs"; e_fb_builduser="AcI1fXJxEXnLHOUlgBIolG23gWXa8NiaC7HZXaVWYHRP_KkSwxCeBjCOH5sQTGf4_oQ"; e_fb_vipport="AcK_fufu8EqIcSxmEdFSqnbV69uXAivVxG-MLFA8d-5WixsMsOciDDEfWQw1"; e_clientaddr="AcLVXpeQ8OFsfE4KpggJ64Ggx-bRgabEFhzw-6tbh3crj4FXQX4v-Mto7MmBvWkhBSc5YCGu10Q01YlZ9_UjIWR2vwdGbK29ZxeLNXfeAvK1DM9FxQ"; e_fb_vipaddr="AcJ1AYdp7KsVjrhAr594-R58HDD51urGdCwgsGWW1BpxlQva869pHMs4elXzMQYwu89wtVjA82ZsBT8-aKIlluYn42RDEQS-5A"; e_fb_configversion="AcLwJHF2NopZzxC2ZizF9qnVd5cDedfFRP0jerG-YgyKj8tzPohl-X3MmDI4og", http_request_error; e_proxy="AcLWe44_dfy7Rmgb-COUYRG-vR8tQgv-5URrAuUDoVfu4NwB6tB_f0tK4uTiUxcDx7-5BErboZ5bzMw"; e_fb_binaryversion="AcJuqX9y_6WguRdSj5whvvRM6tV7rajI6smtekEHBvyXCwrgiKEcLsOF2QuSE-wyM-CO0bBhvVgKhAc7PMQ84_2nFFDiRALQXH4"; e_fb_httpversion="AcJJzpZ_PA7-VyMWJDjW_jGS5qnWlaXXuBObECVeIJ0bJZND002NxuLhqTwk"; e_fb_responsebytes="AcIPRNyOMd6UzO84HotxYP1gOWQOlJ9uFETRRFZYpCA3CChqz0K5Muowo7PH"; e_fb_requesttime="AcKU_q-8liqZct_50ca-RJ3konPbHVE-BdgYErUv-flbRuH_oYD7j2lohNDV4TqFWg08NEmGmQ"; e_fb_requesthandler="AcL99-NI9bI9ibelArNy4yBHC4fTgV4FzVCeHfRnYXmhxxnUwrvPqmaJtoSinQpY2AMRM1DHCg8"; e_fb_hostheader="AcJImAB2hi8aau1zOSAsJxXkbbMBC472-hgH-Rdy4n2PejHfYYw21JRPdWF7VIRnCnAKCdvubzruGOpM"; e_fb_requestsequencenumber="AcIA6HAXPHzPW5EaqW39WO7rJUPctx7wq1n6an1Y_9mQPk8_fNonxhLvJw"; e_upip="AcJvPqk4Cq8v9Wg2c4JoC7I6Utf7LTpycxYaBkhcOLJ4M2g_osiR9k-TH7jhBtF3Pb8pQAZJ9HaU7CxmSlNcX3I7v1lNs4EpZg"; e_fb_builduser="AcJ__apdeqR90O96T4KND3Ssdz3yLN7Gz0G4EQQ5eE7rOOvOIVywo6yo4m8znI9YR2E"; e_fb_vipport="AcKBXev1rQeGuLuPeHl_-5M6xeNhSZEX344XsvhnochJLY5kdQ4XjyedF45P"; e_clientaddr="AcJJGF10pstxUEJ3d_NX_OFLcSoIpDVu2fJGW1czbPSjIS8zBYldqisue6n8NlOTXHlmyOme0xFDAzFLzA"; e_fb_vipaddr="AcIvCOowUI4eqPDtN_rajwlBjlQTio7ILG2NCBYNd24I79IU2xZkVm8ZJpEZnkACgWnxvzym6i4"; e_fb_configversion="AcIouNP4Zy4KJziO7ZnGIO1_TQSTYz2Afy6JM0CXZYv5WjAoSnMEhm57wH60Pw"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=29, rtx=0, c=10, mss=1392, tbw=7090, tp=-1, tpl=-1, uplat=183, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 03:32:06 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#12) singular statuses API is deprecated for versions v2.4 and higher"
+  Content-Length: 167
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 10:32:06,915 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 10:41:19,694 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 10:41:24,141 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 10:41:24,554 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v20.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AI-i8s43EvrCNVRKAYod1wh
+  x-fb-trace-id: H6xCcNNJjxF
+  x-fb-rev: 1015310928
+  X-FB-Debug: hXHpcVeT3mvtwYdbZc8YFTNR6nRsN7/Njm3nl0GvexpAuVK+R5Pc5Xr3Aqc6fdJM04x1DDoAEMsMKXH/3Tygkg==
+  x-fb-server-load: 29
+  Proxy-Status: http_request_error; e_proxy="AcLlVE75JsbfPt2sPSyaWC4QSpNYV65EPnCqp-D7NT-QhpGreQV76qePPwtsGgOYQyEpyiZSzSssLdfX2J7U"; e_fb_binaryversion="AcKVIGrZ7gdWMmV-hGJ2xaWmuowVql9zpfVEAAucU2Ekb-QYygx36yuotx4LA6IidPiZkp9sW4m160YoVkquyVuMLF53AkkyMDs"; e_fb_httpversion="AcLjyA_GcIVhZlIpgK46OSvp0GvXy6k_m8ON61bTY7AlDgtPQQl3Ys01E8Ze"; e_fb_responsebytes="AcLda6Sywva9Z6CGsAuf48uGd36zU9pRjKdVFyH0Xy251BfO-c2VpAyZiJog"; e_fb_requesttime="AcLTzDQw-enq8YEIbD6mV4JUAE2uYOqACPWoRzIG-vCTE02JxLBchh0TOEXgVWVOrYjNgWcZag"; e_fb_requesthandler="AcJbBlfx_2B71YWC1RAcexIVMy22V2VYasz0iLqsfUeVLYClehMS4K2byoFPHthR_FM9RaGK6Jw"; e_fb_hostheader="AcKL5FKtFE7WlytA31ypFaI_AygNo7wU9qsNUNUr_gJn0zXyqy0nE5RHOaHL5q34_CRVzJ3wToxzN6Yj"; e_fb_requestsequencenumber="AcL-jzMGK8w1xwyQhFswaNLe22zbbwJbnMawGs2ScQt5Q9Iv9s5TvyTJy9Y"; e_upip="AcIF7xWAPJwgrBDccuReG755suVqqkZF5lXt4YtWa55pX6kyno9tNA3UwzUS771nWVE5nL9Lq4Lw_jLAnubpDu4BiMSBxD-JjTew6i0"; e_fb_builduser="AcKUoP5uomHSdgd8tIEM-IVRTLKEpMtFeJrkAN-8r34dT--XJslckNKm0g_4dsayHXc"; e_fb_vipport="AcJJ9cSEIr-r2oI6HwTw2QuCzsBt5eYhTYHiEq33jYY67zIPoUQ8qE3gXQis"; e_clientaddr="AcKsOc5oE7OA3ygYQ34Xn7H3eQ0bxaG8Y8y0V70nwhVcz0_Do7fASgU4UrTKqmz5L2Urzmo5XxnFvXVc0Ow_1XweXyeCqSMinz-Z0KT1ghTq16Fz0g"; e_fb_vipaddr="AcLQav2ZJFz7B46ulHLkh7GuVL7MsextrVY7eSudG0RLN90AtigDJaS33VtJmJr01wA5YJhlg-D1tBhnvZ2Ss6mDBJbYVp6BTw"; e_fb_configversion="AcJnE4NEsMSCGuV0WsxpeBdps03EiNdsbgFdR4uw5DagbHjQgG347gdRmFF7IQ", http_request_error; e_proxy="AcLe55w7zr5g4AAk1mANxpnnJbhjWuBEHuM8RdlK7RXI3mer2jmlbfS3rtW527uQxGyB1yrLpxWeuhk"; e_fb_binaryversion="AcJcnjQeIMX02bupBGalNO58bSmefCZTvJk4uH0FEj7X4xcxgnd2KFa9wPflf8GfXpz3w2A7BPkg_r1zKgnruvQhmvnYGpOl-3g"; e_fb_httpversion="AcKYEJyYgreBopQktD1a3ZWIetNV-ikumLYmfa3tVQc5IxEYeCjSJDCwe4yP"; e_fb_responsebytes="AcKCdCY2kSavr1cSI3ClZT94seHVAebqGuT6mxjfNryT8vmuLA877cqeQDhs"; e_fb_requesttime="AcLMHn6C85OWq0OxaIPT7oW3GLzuL9nRGiYXmZ7eCa-ay_fcmvk1_356PbtWgT9Une3dBaydgA"; e_fb_requesthandler="AcLbngs3h0LVt1ti__ROlh6jo4WJLGmlyORpZTRIwe_-G8VrRKMY_O22YGuaOoMKmwyEJq7z3y4"; e_fb_hostheader="AcLjwDsvArLizR5iF1srRQKxQV6VxrXxgmLFcWBLvGZ4YNvkfOXYH-_EPfg1U5_yKAi7cUeh2o4fgJEw"; e_fb_requestsequencenumber="AcKT4OWldtGzCsX_majz0MNKm0z-j0wUdLk2ItEdVPGXJENBytluGW7X9w"; e_upip="AcKKoDew53ewNbTpkCRGQM3Fbxkv8AJm_UId6JSY5a_bzWkFKqOpLtCxK19bYcERQejiPgYjWOo6SiLAmxDdjEGRAl1yvmbPgw"; e_fb_builduser="AcKzwuzZ1_JgZlQhRR8WZB0Yq5jb2pGZ2woC8QWstoLC2EnKmEogkwQg9Z5VgTS27eE"; e_fb_vipport="AcJMymslFyZm6YY4_axtwiuwlYFA9hvKO1WCWEPQmmk6dlOytkiA74rvpN2k"; e_clientaddr="AcJxESKfTd5bDzZKdJci1YC_fLqN86yriMf-c5V0UwfUiQaEdhaZzGY3M_VRUZkFmFO80wEJ5kX5o6_1KQ"; e_fb_vipaddr="AcK7_H1S5MZ3OMxYTvJhbDBH_MkL0q3F3dJZ4K8b85IHVc9KeBckFrM8pRMhMGnvx1hmh-zo"; e_fb_configversion="AcJMzCzHcXXHjokX5vGanCrYxexuzXLIVqgImw1GDXhz089rWkY4nizO6dDhGw"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=23, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=219, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 03:41:24 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#12) singular statuses API is deprecated for versions v2.4 and higher"
+  Content-Length: 167
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 10:41:25,748 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 10:42:47,946 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 10:42:51,336 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 10:42:51,657 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  x-ad-api-version-warning: You are calling a deprecated version of the Ads API.
+  facebook-api-version: v14.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AZH3TV1LilvuC_cI6kwTLuw
+  x-fb-trace-id: A2pocB6jhG/
+  x-fb-rev: 1015310928
+  X-FB-Debug: sQe7Kgmb/cJtwRP3vRD3XM38BFCEjTiPhJez4F9FOYN1id32NPTnahkLgnwrnMK284CVCVL+FeaDRmtniAsHLA==
+  x-fb-server-load: 39
+  Proxy-Status: http_request_error; e_proxy="AcJjy48RyGuPd_HKa7ozWXANiDLnO6LRA2lk-T0RPj-t3Qsz4c2-7otlJvKE4WsL0oWEmgF1Mf_NeAFAFM8t"; e_fb_binaryversion="AcLQvxmXPbUkwfTJtAj-taq4oYL7iOS15klQMDu1wB5MERa_u0FlmGX58Lx7rf4iCuVdCyRiGp_WhpBBKiCotibYcB7QKrluKxs"; e_fb_httpversion="AcL95x9nPlYjzoDfutU-ARZdZcI-ykmAiReUWudQ96k5bJNNDxi-ARzrIQqu"; e_fb_responsebytes="AcIlaONZ_HT0BlmPAiwLEniOa-6j--EvXCdrfn9c9ZZK8LNPS65zg7M19KMr"; e_fb_requesttime="AcI2DoQGh0MsdjjvGaeofKDXFWm6zyWZyM69WKR1nMr97RTPYkpjoKaMKy0azI-7gBXEgDLC9w"; e_fb_requesthandler="AcLhoZ5IY4Lbxy9EOZF57IkJ-nXgAv0nhxKe1fZOTMthDe-MHMgx5ssN_woNmQychFxPnX5C8pU"; e_fb_hostheader="AcKSLvzTWYQVp1xN-_5HCRWK8CtLZ7h5vZyJtkcK9QVh2uyq8_M200biMJ2KNiqLZ0v5nk5aYezvOFb4"; e_fb_requestsequencenumber="AcLtWjTmcyGrcCsZR9ZXWvqcNsLZwPOUxIsDKiqV-Q-S6zi5s27R5WDlhw_GHQ"; e_upip="AcJSCAYVLcR2ChepIe4l_jObRjNJCj5PRh5XbpXRQfAmuUCRLnhzhCsH4sspRnibZsbUjcaqjpWuIBFQN4t9TBC8WIjx5YnMkPDsGgI"; e_fb_builduser="AcKkez1i3Zhor6p2fLtAc3bEmdGJzL2HbnKjR_oAZCCu29gjj3H8ZadUK31rPqNy97Q"; e_fb_vipport="AcJdO9xy8tVqqKI3R3p4GX-QfxzEs3rMYfWde3ysCVQ8S1vkmV8FcGQSJOWi"; e_clientaddr="AcIZ4twJOl8opvFCmFNXu0ji9h8VhO5CU866FY2bWJYT_cd4yrEcaW7Fwg1OVDqJ-dNjTrH4hW-eR0NywPkl3-503Z0tEvu5AKFIcjILUA8LfNG8uA"; e_fb_vipaddr="AcLOJK94jkwqU4GRbY_8Wq8zC5leFSqf-OPZnHWi3WOWvaBnh4GJ6fKYkH2mXCJKb1f-ETwJ6DXZE7LtH5CQtW0mG3HesFhVIQ"; e_fb_configversion="AcIISkNRbdO5DyNq-Kcv_5wMgm9umgF3ChCqjIORQHJxGG84u2CckE5eOG5mZw", http_request_error; e_proxy="AcKjAV7xq09JgX8vfNSAGF4GZ2H4pPHfF1x7z1pVlZU70OuOIRN54Qh0ndXkIIXzQEKtEVXByJiVMPo"; e_fb_binaryversion="AcITkyrMzYzOVVSr5YoKF1XbTmi_ooCJBoWULoN0gLEERWk5RGlaNd4wljVzaS8l1rqBk7qvfPA8XdV7_hz8auY6EECzzzYZAAk"; e_fb_httpversion="AcJbV6eCZbqkCxwOh_yeWcxz-0La5OuTYmBKPRYxNtQs4WVWAfJI-doCJXdh"; e_fb_responsebytes="AcKi2rolhH3DT6saA1qouA4jfahORL4BzUzuLkA5C3JSv3eEWQWGagOa2FOF"; e_fb_requesttime="AcKIj84YQNW8SBK4g7vm09U19FZSXSWErFqYodfRONGLQgAJ3q5US-eKTrps1xkU3iz69m8Mwg"; e_fb_requesthandler="AcJZTG9u4NgtI8UTRuL4moaLMdB4wNTLsuKTz3cUTLiNrm5RMdZ517FPaYQd-L4d-GksBu-ajDw"; e_fb_hostheader="AcIgOl7hXZcHQqRsDwihdUFYtVshQFoO0fnoZF5MjaW3jKpn_bUc1iZRX7M6yXkx7s9Wq9IjCV5jZofm"; e_fb_requestsequencenumber="AcI6Cdzc3WlSKbCjNZC72ZoO3QvL_PLaXF0mrz5YHS-GsqQU0pNfbmECBA"; e_upip="AcKv1jAckGGYHCrkCM0C9pxKmrR1XogDHIvSs7sZEQDZnVKzRc5dEH2RocwjkwStOTBb7m7Y3lmhP1jasDyrs5fiS6AQybTlPQ"; e_fb_builduser="AcIu8TNkzdxOMSQMwDLFw8xT72Tf5rW4rlp0Ljp87MkV1Ex8QM68dCIRrl_WawwEqn0"; e_fb_vipport="AcL54re2MlI2Rp4SQMHqvD03M_XIa1xRTSfRPqkSghpYmQ_hcYKnRBhDw9Hy"; e_clientaddr="AcKVuH3F9va6_5LP-8_LoU5GXAoAlfbgSO32Na3vPkwbl1NnXJhcFk8ntnlL0TgIDX7LY-4AKdqCS0MyEQ"; e_fb_vipaddr="AcK56ii4IBsPbYtL1XKXjseTz1b04rpxKI4dc-I6CahmXNOiX6UGFWmtjkE7W8PY9p2tL9OI"; e_fb_configversion="AcLdeSy1CA_hKjwqpHa6D05rZ4UnLTQ7Z3K-p79-tDD48hvd2g-YJXRCC88V0w"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=21, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=182, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 03:42:51 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#12) singular statuses API is deprecated for versions v2.4 and higher"
+  Content-Length: 167
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 10:42:52,549 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 10:51:53,020 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 10:51:56,220 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 10:51:56,580 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v14.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AxpxghqpfZqdw1iy2z1TC9j
+  x-fb-trace-id: B0vP/C//m7S
+  x-fb-rev: 1015310928
+  X-FB-Debug: XTuoOJM19EvKMdHBpkSkyD9yuKhWwBipjZBM0YV9tKNesBWUUSt4yknslIdQgTZar7sP7PmuLnSjptnXSoK6hQ==
+  x-fb-server-load: 39
+  Proxy-Status: http_request_error; e_proxy="AcIgl3Z76Ax3VS895n2KRIoZKdGyUCnWB28HskKKtX6YlTqVH3h6gpzWue881T2bUkbHMmLZ1-TMale38VEW"; e_fb_binaryversion="AcJ6wNTVbJ6QLNekxjU7bv6CdO_aG31_wd2bod2cC_e9fixCFfZDyaw-GHTPhL5baDTP2ZTWKGnS6DI6o10cYqTHwQQkdcGczWc"; e_fb_httpversion="AcKF4AfhBIQqoG1WoGSrZapcdfPYaf4UmKS_ZgkRw5__cSNJpXpExX3vanPy"; e_fb_responsebytes="AcLhEOFUIcn3ZMU08ykfXsL0K24_bCwSv9DJPkz1kidwVhcqneloJFRlyoI0"; e_fb_requesttime="AcK9JumWCgDGcu43GcZ-DIuvNaAS3QxYiiJgyzaRrf04Q27KnCxJ18-whxFHYTK8ri9yJ9L52g"; e_fb_requesthandler="AcL8KBnYaa89QMlp0aeAsOv8A_4qHkDV0W_dCKxauRO6d0_T9hPXp-F6BvsJx6aeK0c5Skw_0P0"; e_fb_hostheader="AcKWBZwUk1WYQBwAuaBFFp5jo0vlCmDwGggMlpkA7HkHXXP-dnUtfL6LEBNIBBdEnLwxT1fVj6LETAze"; e_fb_requestsequencenumber="AcJ3e76BP01YeaYTQkazW0oWqzjvALvxz-kn9FEFOKvPGpMV1nnUR4KWoQ"; e_upip="AcKMiACksXp3uIqhwM37x5iwy1mcAu3eW7rnKBokF70S6OBQlySsOzvJVXf50XGyiFCJ-X7Ebyy5NlIZRh5lMqpaRenqrbgEAUCiDHs"; e_fb_builduser="AcL3fPItPaUmsZ9xSQnu4c0VD6u-KJepzalbSi2J_MahjhQDi0EDjvYIJI79RMRkKGo"; e_fb_vipport="AcLNGi-gdn3Tv_mrlj0OCpEsAeByzdxcnfigLKVT-nBoCFV9OP5271CL8vgJ"; e_clientaddr="AcJ2ODc0vzEwRo0HGFAzrdJ1yFwCwABphQv7SodfZ8VeF7CYAVAe9YR0NK7ScfCqducDtZpXk4HVlW5mROrBiArc_-a9fdcDXAkFRziHNKm3WhbI"; e_fb_vipaddr="AcL29_nJ6-ymESWaBqeE51SdElw5iVDx4wMB-TgLspivX-IQ2MSBq4kk7kVxG-czsJexHw8ZC_opA5gzVbbVqDsPc2Q1QFEM"; e_fb_configversion="AcIHYec4ZcFr0OWZO0gbARnBH2WLes-iETlqKTrU8dRPccF1qxbKUOtOhkv1zA", http_request_error; e_proxy="AcIx3ZgOeMfiqEUjEpLzcwfLNUUvGqtL6tmCCwrmiitqRmVn_ISLrPgfA_7GGHGriQ9leCYbqgEDgSQ"; e_fb_binaryversion="AcLkx9dv6ILSSAeeD0K0IKH23RTkBdrnBRLBlEuEJOtF8bYqLrt4MT2hXnE6ePYMS1MUyqjWSij_dHCEr1GYGnR865gNZD0k6dk"; e_fb_httpversion="AcIUfSsW6Iblw1cmqL1ttUqNK1OwLV3zSW0nN3aLTNseLmDtqDT9JvhYkE72"; e_fb_responsebytes="AcIpvtROE4f3iJ9fDO0iwnKvbf7qjgRsRNqgiuKlnIgCAbk84dRaghIHcxY0"; e_fb_requesttime="AcJlAJ2R1zWms8pO0MKi62i-nHFTb71EpRt0K-GbX8i0SemB5tqgSNFRl5R7Gt7hqhCjptD6iw"; e_fb_requesthandler="AcK_N7TzsYHbRbw4t0YuasUthQ_H3iKQInF5Uz5NoOniO52mSNAl8m8oPGrR_qYQqTsRev_755c"; e_fb_hostheader="AcI1u5K9BsftxjkU4IHVy59JM0zY0MK_B0iRiZJjVTC3QA9Na-v6QMKXOJeEawiq-IQhYUWB8-GV64Xn"; e_fb_requestsequencenumber="AcImDzf8ij6P_yw6fupHuGk6LXp8bKAjeZoRiLk-kV5Qo7VWjB6oAoVpiw"; e_upip="AcK3mF0BN9hZ_tIRCnFX80zhs3v8YoHFDWporWuaTU3qzGDauVE1WVOqQpsaEOmhtUzmP1x6xi0EJEYY8coJJMkANQNiysl5"; e_fb_builduser="AcL43rUHIWWYHPY2ScdA1LcXP2n2DoBJLXK_ARPqlHgT7Q4UTYUPx8t4pyACqboMTQk"; e_fb_vipport="AcJIBIx4sBhbmo1fmjpsTv4BgPUZzT5r589p9qFk0cCxvA6HRhn4facr195s"; e_clientaddr="AcIHpFnKrV9_8_c4lU2lwzxjTZYAKDt7z86dWssiHxWD-oE50--SGDtRpCmKMAx5CaS7YsQR4CA1YUrkeQ"; e_fb_vipaddr="AcKVoNOcFEJFXv5KwpOHBzRcc-Q6xgK-MwRuYFm6xB0OfcaJSFat2avTPguu-keJE2lN1PT4tg"; e_fb_configversion="AcKkLSjqjiv3e1ZW3iuCCHfRQXICQOH2f12dlxtwvA92CNaM6wj7MFYkqn-fRg"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=35, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=163, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 03:51:56 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#12) singular statuses API is deprecated for versions v2.4 and higher"
+  Content-Length: 167
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 10:51:57,688 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 10:59:40,119 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:00:20,916 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:00:24,816 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 11:00:24,816 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 11:00:26,468 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 11:00:26,468 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=h5T%2FQCCjYUcWCHUAnPkggYTINg43YuCQCq260gCyC9tbpBrCBPyTQI8wzE%2BoBVcIw5EATf3CKQK2HIlOVG6ouyzT5FoQYJ%2F%2BbXp29u4z4Sa1GQDIZ6uDGxK0OuK9tCSDjHNQbA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac2ebcd9e038613-HKG
+Date: Thu, 01 Aug 2024 04:00:26 GMT
+Server: cloudflare
+
+2024-08-01 11:00:26,468 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 11:00:26,468 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 11:00:31,948 [1] DEBUG traodoisub.frmMain - 
+2024-08-01 11:00:31,948 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 11:00:31,948 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 11:00:32,312 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 11:00:32,312 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=xN3cI30KA8pBoTWKHeFoEFbYhtj4G6aQWkOC%2BhaeBTiYoZUe3ZR5Q6au118pYaagHPoYls%2F9BmtkyFP688hPEonNwr6TjS4gOzMYwKiLX1U1rQcVzR9qKiVHuU49UnDSb9BSbQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac2ebf86f518613-HKG
+Date: Thu, 01 Aug 2024 04:00:32 GMT
+Server: cloudflare
+
+2024-08-01 11:00:32,312 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 11:00:32,312 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 11:00:34,419 [1] DEBUG traodoisub.frmMain - 
+2024-08-01 11:02:05,428 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:02:11,006 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 11:02:11,006 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 11:02:11,397 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 11:02:11,397 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=yhx743wYGxbDlnM%2FtmdRRT4DlIqb2eucMaZnhsFEioj1CSrq5tD%2FwoGlgGlJBY%2FlP3IW0Y4pbOlmZaGsqNzVG4UAfV0tuCQPbhf0EqyDSqFDKfIEsgM%2BbcqN3Y70vbi6wdJx5A%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac2ee64381c10a2-HKG
+Date: Thu, 01 Aug 2024 04:02:11 GMT
+Server: cloudflare
+
+2024-08-01 11:02:11,397 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 11:02:11,397 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 11:02:11,397 [1] DEBUG traodoisub.frmMain - 
+2024-08-01 11:02:11,397 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 11:02:11,397 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 11:02:11,654 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 11:02:11,654 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=szzDp%2FNjMBp9ufWVVHVoDAdC%2BjAKkBBIzKQWCV6ppltkhVHS4co7rmlBsZzkNliX3a03HQBLF5Yy1hSIovUg4om0GEZX7nCVwtY6iBgfCKow4aKDklcJu47kNfDzhkk7Q%2F4R5g%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac2ee65fa7c10a2-HKG
+Date: Thu, 01 Aug 2024 04:02:11 GMT
+Server: cloudflare
+
+2024-08-01 11:02:11,654 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 11:02:11,654 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 11:02:11,654 [1] DEBUG traodoisub.frmMain - 
+2024-08-01 11:04:46,108 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 11:04:46,108 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 11:04:46,474 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 11:04:46,474 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=6XIOYlbYIHHhLjF2mBpCG0ljqkshpEb3OERiioRjEim%2FjEA813%2ByjpZFBrDfXSi6znMFe1lq4ZmCHi6pSAUnuqOlkbvS5H7AYK1RohkgMHkbRIrHecPiyEl1Ex%2B3gX1lFaklgg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac2f22d481ae6a6-HKG
+Date: Thu, 01 Aug 2024 04:04:46 GMT
+Server: cloudflare
+
+2024-08-01 11:04:46,474 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 11:04:46,474 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 11:04:46,474 [1] DEBUG traodoisub.frmMain - 
+2024-08-01 11:04:46,474 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 11:04:46,474 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 11:04:46,736 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 11:04:46,736 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Ksc6UVLDXklaL3O83pkM9gJ6xUtXUQN4pgMul7h1iMIbVjCuYoI22JMAayPeMCLpJXugWSSt5xre%2FBtDKG0QNOBzvAk9xhphZxWTMQxHyIzrIqY0vByFsM8o5rtisCXzj6wckw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac2f22f3ae4e6a6-HKG
+Date: Thu, 01 Aug 2024 04:04:46 GMT
+Server: cloudflare
+
+2024-08-01 11:04:46,736 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 11:04:46,736 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 11:04:46,736 [1] DEBUG traodoisub.frmMain - 
+2024-08-01 11:04:58,218 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 11:04:58,541 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 401, ReasonPhrase: 'Unauthorized', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: An-R-yR8f1kwo6af1f93nQB
+  x-fb-trace-id: CfJVhM+hRwL
+  x-fb-rev: 1015314212
+  X-FB-Debug: KVz3ZE33A49O/bEOTZVb0f3XI2vFqGnez8vQjtH8BHCED/lS00AfFmJH1zyPt3AcliHQ3nkeEIh0s09peG+8vQ==
+  x-fb-server-load: 65
+  Proxy-Status: http_request_error; e_proxy="AcK7YEvZUtFZVWhVcQ5Ex-QhOLnOvKPCPEkCK9BiIuHSH_YAk2ZeqAFER8QrO1QoR2kaxyG-0acd77x6x71U"; e_fb_binaryversion="AcIAuSqFTA5JwW4MM_SHDlTrHwkqLCw_YgRVSF-dYCickA8vR_-zUoNwxsWadT6fzsySFDT6ewMfCSjtFpJ4s7Rzd5eXX7lprmk"; e_fb_httpversion="AcLS38fT8wA2V5QRmOSrxd0-fRRrdmk_XtZcUpvX2dAOLjCrLSkU1qxDJ0Q_"; e_fb_responsebytes="AcL3cJpfO-bVwItjEGhM_PFeB8QiJ_r0pq9gnfyskW3ANIXYI-R9cq17Yn2t"; e_fb_requesttime="AcI_vCoZArmbiPMn09-74-jPyVzi_kcI-SKjcx1SYqHgHL_PJhv7OBkwnE6JswSDrNUg-M5wgQ"; e_fb_requesthandler="AcIAfkyH3GqphrIorZ8mcUtp5fIhw_sGe10f4f4L-R-d_-en-z7q4irwPt_b4JIv8IfEYDexy-0"; e_fb_hostheader="AcKpUEmXy27s6-dG7PRoD0UxqGAhkvZzQZUo_ATMyhT_xhYavDS1h8DLio7nusJdMcrbFt7UZonI48Ys"; e_fb_requestsequencenumber="AcIGW0N9X8a3T80X9RwpQdnU_YsoK1Kz-p0AoFnGU0yw8-qUgZBkwGpUtvs6"; e_upip="AcLmTYzcZuyAD4-_rJfZGVAVh-p2hcCa1vgh3kl5hfAHu9ZdIhaVPfqZV6ogOZyaRitMwwJATlxn75u21hNs1rGA0jOCJvZQymg7_Q"; e_fb_builduser="AcLFbL4WHtBsfY_2X16EQ00qz3vAGeWqQe3IqQaf1RI6LrmMFtLsdoRw8Chs8aLquvs"; e_fb_vipport="AcJZbneVORTERmS24A-nMG86AAvLqj8jdSjroG_5rYAslPpg7JcNj3_73tfZ"; e_clientaddr="AcKcZh6kaVfphTvWtaGU2wkcR6PJiD8ZXcsrd8ozekpxPbPKAPCn5lWDhqsP1JHX1kjVtbTPtIKkziDP2lV--3ap0lygiF-Hrud1QDCJuc-VmPU0xg"; e_fb_vipaddr="AcJAtTNZl4MFlbaJAWSubqBKue0UPcKJ5uXPvndON2bcWRAoiMK_l6rKOOaDxYjM2dg_340x5DmtCxblNRO9HdeQKyL68aX9"; e_fb_configversion="AcJLWGFHgrUellyz2RCl5zu4_-zLZ7fxB8Wal9mdH8QdjoISId8oXdUf2cdKAA", http_request_error; e_proxy="AcKPuHODIVJ8Y00Sevu2wbDlCGfls1wNTnB-TfwBQ9-s6Oayl67k8K-mr6zcMBRH4hOvdDfWsTTZAHc"; e_fb_binaryversion="AcJST9n2l_OVecZ1qjzVB_zE9qHaIw8r7zR86shRp7Gw-IS5nsZw6l3CIgMS8a14tEPi2ierpUqWykhElgMiBUNNlJzzeP6o3HY"; e_fb_httpversion="AcJHyyaT7qPaxtn5gyLzOjEuIt4KiXtjft1iba8wBkVk_hvDbWPrv8j-HzKv"; e_fb_responsebytes="AcLo5PZDMtf7IPNqJlm6Pl9pKWpsqv0NjkizdzYMfzDKznoTyKqTkwyvpAUI"; e_fb_requesttime="AcIr4GIR7BfIYYCyrBe-jFXRPPsqzfoCDEoJk030-G6n88DSNIjiUWpAXJi2a0P70QgskpINUw"; e_fb_requesthandler="AcLz0Uw10B-7FzT7s7H0_n4YchDcr4J3k970YCKHE4TvOWAr6qPmrZNdGfP-U9sxz-Xl-j8R-3A"; e_fb_hostheader="AcJQIhFcqP7F_1Stz_EDCWYk4y8opxdBBO1UOmibrykc-0cQwMADsTQUQfP3mmrfZLCuQJHWUMim1y2I"; e_fb_requestsequencenumber="AcJrdx8SwjAe3jHi_lFZDQC4fjqRilyxZrtjFh32DlvBo67OONel7gV44g"; e_upip="AcJUQ67KH4UJPWg-qswVsZtEBZ71tmcwX2FrhSlp9DR3sjF_dSEZcC2dH71796FYmbpCCsfVDnpOoKbmv-yxQoIe3jYQcMay"; e_fb_builduser="AcImMgyaRNMH_oEAFQIZHwX1jDW4V1TmT-ozoEoDNM5TeXM6wPIlKZZWmCpdqC9GF9g"; e_fb_vipport="AcKUDq6LFiRIB20dI-9uruqXhg6jV8JSxTWPigA3hlSurFKXn-IAliWDeQag"; e_clientaddr="AcJK0aVlMQQnF71mCSbzljLlrhzX-WFi4CasElEgsYkg9rHydctF55WQaf8QA84B6tOcUP2muGDktD8HQQ"; e_fb_vipaddr="AcIT8J6tWXjd9hljLKxo4zmwbzz8YG9MfRCsmLZhl81SHNCmh7Sr-uOpYFu6OJ4VDJSbaNQlI4E"; e_fb_configversion="AcLhWW-wFbV62TOMH3dnmPUoW8v5CXlWavLhwc1RfgR8tCFNN1n7QwDNwOU1Bg"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=40, rtx=0, c=10, mss=1392, tbw=3227, tp=-1, tpl=-1, uplat=145, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 04:04:58 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_token" "The access token could not be decrypted"
+  Content-Length: 137
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 11:04:59,772 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 11:09:01,341 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:09:03,384 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 11:09:03,713 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 401, ReasonPhrase: 'Unauthorized', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AM-do2KMUod8P7kL3QE9uia
+  x-fb-trace-id: E1tVMXDp0/F
+  x-fb-rev: 1015310928
+  X-FB-Debug: B7m1Jv+ng1sVEaFTWfF/uN6Pq7oljn+uj10JjotnWkkHU0/QJ1EwjcVnrofe4Z/IzhnLIsrR8cfXH4bwxLD9sA==
+  x-fb-server-load: 48
+  Proxy-Status: http_request_error; e_proxy="AcJ28C6VnQxnnCWSOyRNdlIhwkDIKviK62heQ2ZfCWAgQgu9bF-MF3yeoOAj0UCqkAbydWL0NR1SXKKeMNoa"; e_fb_binaryversion="AcJBZX-fX9TrJ7_rAwpyCNxYvLR-_2lQwjxGCYiW2dp3s84vKUE_HNtGnx4i3myqOuredO2NXPRAYCqibENefwqVAmrs7yHfeuQ"; e_fb_httpversion="AcJvvND_npgXE2xTR5yYmBaRlw0ETGa9QTvpDvDCaU6f6jvYJd_5fMoz-O2_"; e_fb_responsebytes="AcLNXNceusYYrTNL4GHKKNECWfQUYczhFN2EnUlMBjwvKi_YESXY9Eyjhfze"; e_fb_requesttime="AcJuqYNrU1RwZyoz8_1Bepf9g1w6MDShfSuHADUnCbd61d1NuLOA8KAyvgXqZZ1hcUN9trVkVw"; e_fb_requesthandler="AcLsH3Age6TzWoCaU2Btno9m7XAZa0-P0ltIXYCmoW1nle5bcw_qBfHAA9BLJNG9mpeuen2qTC8"; e_fb_hostheader="AcIBJ9QCMJmcJdcc7dKPzWrmfgGa1USEt7YsjjSRXy89tUDClkgDkuOWcPUE09m1G4N5Bb4YSHG2QHT2"; e_fb_requestsequencenumber="AcLTh7vtevcXuIRKPwF75OltXbe4QyQWJplDH9RUKwIu2-OHrNhI73U93RCb"; e_upip="AcLoEMH7ck5xRfj7Zn_P86gjD1wdKuFm40lEBESFHaDL6eXxLicc-Dz9U5PuEaGU2w_2QkLfJIjevA2O_6yW09UGhvSLYNV8h4cAPjY"; e_fb_builduser="AcKPcUg1K4t8mFjTdRAtRfu4gZuNzP-EshJsnrhxkQeubg1-LKh-9GZfpCLNU8CmUQM"; e_fb_vipport="AcJbd3HYXyA88-LEHEjIqTUhOBAhERWnIbtEjf3EZmMH2Cqr4Kh2VDursw8t"; e_clientaddr="AcLbSI1wQe4px8Ru_h1UpYVaC0W0532P-LC9RXpj0ffF89jAA4LHaHDpxWPlHgrKOON3c2oMXEMyVr8ZYxBc8AzBdgB3vSKJUVhsWN8Cz-pggTu8"; e_fb_vipaddr="AcJwR6v3rf202hQhlYix-R_WTHyTx-uzAPukHhKHGzGpC9CTFWGg1alxC93s93ARDtkBnYtQ2qXzvuiF11RkG93Y8ONuivqZwg"; e_fb_configversion="AcJcH09W9i0ZaRjOlb19Z-vwgA08ejyCeZ2cIhb035Uaaeq0kyRinG3a3XDgDA", http_request_error; e_proxy="AcLrUz60cNO1EqupH4j7eFpFuhLQA3u95p4d2lf1KBTNiyaqPTtUc-oRuWRnUutDNguL6r4HafyYqj8"; e_fb_binaryversion="AcIby3zy5JwBzQbtwy_tYyFlOsc8R9XB8rU-GitDQ1RghwfY7SY0I9OMEQidNhCKejHKiOmKOuFo2T1ya2kUnQn7uWPjqvcvT7A"; e_fb_httpversion="AcJRm_KR0zVu0U9VOZ_2uqLcnoScOLW_Ix33TJJrOCt_DZTzdnXmMA4A-dmx"; e_fb_responsebytes="AcIm407lTyZY5dA-QKSDpDPN_x1Kh9sBdgpq7z1uGHQ6Y9SrsReWh4Dou43q"; e_fb_requesttime="AcJQX4TMdU4MOWWNdemPvqft4i59QDgQ9nVcN2wAgHGYJFwCgs9leTP1Hz1wRCZEEuvxGM1DDg"; e_fb_requesthandler="AcK_zkeJj3WqdvT9MRFAfv59JAWk4FmSDF2Un_wbJHKvyBvE_A0oHmG1rbBFd7E-kYfhu6Kky5A"; e_fb_hostheader="AcJSM6FpRMMlycq5OSL9LO9Svke-hqg3qDKzeRdTG0OLk3Ng-ajjomg-6tUspdoKJHhidRneuh_jfSdR"; e_fb_requestsequencenumber="AcJa94RzSlWaWpq9FlqDsvQ4usa7eTALC_TNsjuHCohC_gXL5yCpSdK-QA"; e_upip="AcIKRzAm8fxehQn6Pb0Bi7VgXPPtkDDdoxxLWgZiPKVw9KJuw17WhG_3PltDpmUADpvzWdrsdbTlROWnyHSSA-Db6GkIph9gkQ"; e_fb_builduser="AcKCxsW_ZYzkb1ex34_kEYw1Fc_LLEJcT-CirL8wRwHg9-8HTKVY7blnrPvkrvNI5u4"; e_fb_vipport="AcKsmsYs7vXgJ0PTORYw9Qn-1rkfp_Qow8l09-LwQD4n7wPZhX7AsGe94-O8"; e_clientaddr="AcI_0t1JQYkRqjq17WFNvNu2dYQp6VGfcAws41X4bA8doqGpYr_gxe8d8d-URXaXctvcbNu8ymdUXfswNA"; e_fb_vipaddr="AcKlzp8kbMtczK-eHBeiwQXB93r9cS4UFRSANWidKl4k-Jq4KoHjcWYfsZ8zcA-K56jRY5r2MA"; e_fb_configversion="AcJcsObI7OupErwwjCleBe3gSLWRYhpK9SlNt1g5nebSVZiozFubpZMWJZL4oA"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=23, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=178, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 04:09:03 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_token" "The access token could not be decrypted"
+  Content-Length: 137
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 11:09:05,029 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 11:10:06,041 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:10:07,310 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 11:10:07,845 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  x-ad-api-version-warning: The call has been auto-upgraded to v20.0 as v14.0 has been deprecated.
+  cross-origin-resource-policy: cross-origin
+  x-app-usage: {"call_count":3,"total_cputime":0,"total_time":0}
+  facebook-api-version: v20.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AgTxRKg96edKsf8f3kHfrv_
+  x-fb-trace-id: AoCW0NOkCBo
+  x-fb-rev: 1015310928
+  X-FB-Debug: oEJyx3B7zfT1STJM6Di4XeSALhUYjPmkaHT6obXrYX1Jd9nvBznQ+laiZIVzcZUxTjR0SCiPfCFJHZMLb5PzDQ==
+  x-fb-server-load: 64
+  Proxy-Status: http_request_error; e_proxy="AcJl68peBda7EzlKfiAtZf9ctSlry_YHD9zHxMG0haYcbZbvI2RddzXuZJtdgtK2msSphUkaYxYgFMtTXF2U"; e_fb_binaryversion="AcJGsrPE6n-XQRuniGmrHHrvJbExkneFKa4ESLnOVs0Z8pGufApsZZHrHxF7NLn8YI1L-mwT2aVySX3ub1Clo3OCbG0PqoIRw2A"; e_fb_httpversion="AcJW2DRgraYCgKX0dg4apgOxT9ACSi-1SXNvl9MG4CHUTXlnsgf95lBfheIU"; e_fb_responsebytes="AcJ-DNiX4D8dZJuWP7UzeP3ivIyFqZobxN1c0jGMYGd1wQ47tKd4AREqAKp4"; e_fb_requesttime="AcIsKFpDJzOJdge5p3sTIEnEo4KqUsxwirSgB8m_5IaUFsJLjGVp7zXd-namH0E2sfWFp9TVjw"; e_fb_requesthandler="AcJpbNyUj_0qdvJbWmAhyIdIaoEah5HhXQ2MKEXE3SDTzsqPnqzG2cjv3cXmEjPfzsWGOOBAdwo"; e_fb_hostheader="AcJ7ZehnYX9HN_53VwqEq70MGArmcyMjKKyEtv9KoSJL6HFJqA_-WDy0GfkifucfyLIWMx95GX4INeMi"; e_fb_requestsequencenumber="AcIbg9h-J8TBAYYTYzzy2M_OC5hUJQzyRuPII9qsgLkxGU5y_CrQkQlwbef_9g"; e_upip="AcInB1lsNEmUyrKncxWiWFAsuCIu4Xr4PANhMdo_rsXEe3Hml947w5rFED5KXG5sEugAy508439WmVxycxETLM9mqH14yVAiOnaVyZU"; e_fb_builduser="AcLptseUBabBlYusWjPSQ7oZNr1sdmJI9p_ziozcY-dLHq88V1mXUXFdpjDG7HfOIac"; e_fb_vipport="AcLB4RaJYsSjFwFlbWwRYGsmN_Ad4hBQhp74yhKu-LyqYQh7JgSJZbXIrI9Q"; e_clientaddr="AcJPtWmx7zu5ybn8of_yeY-BHIPZpSSqo0BUEKv4SQ3oC_tDhOUzNWm3_I4Mt23Edfz1zRgQJAUJhDlSwx442RNHAKEfu1Q6cYafT_6VeDTYkv5n"; e_fb_vipaddr="AcKGuN_3sFXLasOw1DEp8ANsO06453tZeouiMoOwxA-hvOA-Utz63_uLLBSozPFnAMeTfMxDhM0QnWWlh6vH5cpFnKyPq2HiVw"; e_fb_configversion="AcKiZACuKCARLtPhCnX3hjvqNbdL_tJieOMZVSI0KWIoj9Tk-tvW-1HoQjSGnw", http_request_error; e_proxy="AcLNT5fP1z9ghuZhLlRS_LifmlyCXSGJLsTMuPMccT9UwDpmSxHHnf8bzCB5H4NqqdTG0250Pmi6sII"; e_fb_binaryversion="AcJHd-H_ANalNksZa1p-zsCmwMgcz1zAuHjkwDT-eNsmJuMX6sM5a7q27pbIISuxnHqFAtXo2H0litBqoVkimLV4u7RTX0ocuHM"; e_fb_httpversion="AcKxBJ6gSmHps4l1zkuzVBFP3au7lltsnXmcBr81F_Bqef5B1W5ztzf8TJ4M"; e_fb_responsebytes="AcJhkvycpwvAsX1HpEz2dO2Ag8JOvXIrtCXBW6Dj-GTpc-dKAgrTmUC9pL-g"; e_fb_requesttime="AcIoMmoDDZUCPvf1Ukx3wlw1yQI3h4t1SPzm6WoA_XteHggW6AmlsWrpVjQ4UCbugvRufL4ndg"; e_fb_requesthandler="AcJzIqE8m5HtoBvXAt8c6c52viFL4QwYq33MxE-5UDJzYbvdmwCE1QiS0DN0CLdq8IkcKFRwzQo"; e_fb_hostheader="AcKCGPyfBz5t8R3b5hqfL1KsozwlM-B9dgUtbi_nNRLEgjc3cl5V9VaNYrFPFD-gfNbbuXhT8z8rkvSq"; e_fb_requestsequencenumber="AcJaTJ6_rD2z0tovOaAxVm6jZSFeflHQ5quwchK9jmFYB826lsFX2SnyHA"; e_upip="AcKtIVR9iJurp9-IwvrbECoZYoE4gEGA7IEV1O2VZNtEiCspQ_wzBlFrAxxeIGiwHecGwtvFlwIA5IRqTP33jW08r5II5658Sw"; e_fb_builduser="AcJT39DGXA3k48ZU2DWPKjXRhThj9mJgv2aBZdPqZYJtjbGBPsedeppL4a1VX5CrBlg"; e_fb_vipport="AcLUmvWok7_q_vQxhjA-I-2NF4_9Shl9Vm6HatvExSeUkUrN8aAIlpqIJqSt"; e_clientaddr="AcLzdGnGhbdjjol0lUrVl5NKt7O4BMj_Zp8hfW7cOfS8x8mXuoXm1LbPJcGDQU0kPg7ehhBazpm44ioGPg"; e_fb_vipaddr="AcKeW-EpirPe1u9pmYOcQbbj8rOYX3NAwGnBLMWFODnO8rvr_HyhjckWSfNj8I_QVY63PASR"; e_fb_configversion="AcJ6JJMq9SIV_qEe_UuDs3JZDn0xcT7aolwVM4LwisWkZKwZMGdKgzUaekoaVg"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=24, rtx=0, c=10, mss=1392, tbw=3227, tp=-1, tpl=-1, uplat=253, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 04:10:07 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#3) Publishing likes through the API is only available for page access tokens"
+  Content-Length: 174
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 11:10:09,006 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 11:17:47,599 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:17:49,969 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 11:17:50,385 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  cross-origin-resource-policy: cross-origin
+  x-app-usage: {"call_count":3,"total_cputime":0,"total_time":0}
+  facebook-api-version: v20.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: ANKUg6AHWd8I2oRq7zkDID9
+  x-fb-trace-id: BvOn3BgoOdN
+  x-fb-rev: 1015314212
+  X-FB-Debug: uKZ5uAKkMKBuMaRDzKEz+WthdvzybYUtF0wRSTvHMMoPMEmnK1rM6zpE70doph+ZNj9dynfgyk5I1V8wdTaGnQ==
+  x-fb-server-load: 56
+  Proxy-Status: http_request_error; e_proxy="AcI7jlYlrNtmIey70VPQosIfLDqfMzQ_VlSqjmhJLcvwUAcM3ZdzKJuR4l-FDLUpy7frTuEsjzU8BLJV9lZB"; e_fb_binaryversion="AcKccvyYkdklKw5NmMv0hLBifzA4zmapcd4WT9j33TGQ8JYSLRXJ15FQsrj7EuDdv0xMk-pw-BB4Toub4w5zQ-k-bI_Qo3s0R5w"; e_fb_httpversion="AcJB6B5eFjg-qN90iUDoiKRw4QsCWMH-eUA2oBSBc8XUSqNmzE-1Iis0kff6"; e_fb_responsebytes="AcKmvqrL1H3H06PJnUl414wEEO1-Xqw9ylZvR5Cf-KTX21_tTvjBOmhU2Ava"; e_fb_requesttime="AcKteqIgXyOq3y2EZbR0AsuBGSgkM2WBTKcXr7CnXO8L3Pw_6u2GtRduhwfw-c3CWgZ72UqIJw"; e_fb_requesthandler="AcIqjna3OdrXPO4ezi1cEvvLNcZGGyy5hqWwhuycO8G3MM3C9GSUQVkvQTCpc-2QilvagEmmOKw"; e_fb_hostheader="AcJOEFIZkkSUWgHi3mCKT-kptJgreh1uoOev0OBGE0yOxIZNq6DhaiN-Wg07mszbKHzd_IS-J1uvLobb"; e_fb_requestsequencenumber="AcKB4LywfY1hpa27JeQfRgwp0z_p3wbLCunBO0zLIc7IGExQV-qrroyLZh1FPw"; e_upip="AcIMjuqI9yffWXz29hBZArwXbKOncaqqIdkfgV7voo8t1d2o5H9-IIuoaLd5XJ7-kh8Doa6asQpnPkHIEmznEBDqQqnRM_juZyJ1OCY"; e_fb_builduser="AcLCnzfxxRkLtOmcnEoPe10WIGJWVpJsxTcWvEkR3AlYTDY_jxPAG-FaH8OhMb7prJI"; e_fb_vipport="AcJvgyvRX_9r74rzKnnste1H1ed-G5zrUVM4C9tycAagphCwLWXA9kgpOHzQ"; e_clientaddr="AcJmq90zQvgxNrslA5B212FMLsV-KvkLm8gpCO6FIL7X4poyUEaycNXVfEFn69hEy_0BnbiPGQ7TzN98V3ooXqVl8KEj7pI0pEqjH6NoIdWAmru6sg"; e_fb_vipaddr="AcKlbDkwJjGLFcwANSgNcjeWbpwGCmCgSbstdNNQFyURmyuqXAhNx0f9ecvJzLMIPkEmqKny_l60R_BwFM8GIG43Z6q7Vcd3Xg"; e_fb_configversion="AcJuxR8sYCtBQAeE1UpPW_nLIPt6IV3z0OTEUdVllYRS1gxVXOiM4rnf_PASAg", http_request_error; e_proxy="AcK4sCjkSuDn35aV8fRrmuVgPvNFtdlfuwIj52FGqlWFX6k4v1o82KMHDwCzqam4c6njz-UBwWsODmA"; e_fb_binaryversion="AcIByA1HUUB9n29eBWEKpC5SpzjXmhgxh1vXbIKtO5iIe1lxNgg_ZASQbLQVTIFElvaf2xWnwTYONpY_I1_0Q8ph2af0apjV6s0"; e_fb_httpversion="AcJ0MMlGPqkth7xj6dpwBQeG9awERVVYDbjC-pHpEMeXxrEqTCnWfoJh_lYU"; e_fb_responsebytes="AcIhCh9bALERxvpOQw28iksiO9xjZl9LYwR-W8DVXoFbKoFOqhNoNj1Q4O9Q"; e_fb_requesttime="AcKaL9qZV9eMbW0-0lOhtDjvvZIeCelQyOAp19Y5OhSTzeV-onLQq1yQTjcY9gRRt3f1QZowTA"; e_fb_requesthandler="AcJKnItov0zTEtZI7dklv5wtQYrxVRk-iDudK-zHS7JaUEtv63YOtlR9-4N2NzZvRSOOtPvnXN8"; e_fb_hostheader="AcItuwG0x3v6PnZyaPjWQ-BxESJALmEw-mGFhQIXjLqfYt-qD5pSOBpiNVWeZoxSEqcKLC5n98qRAw9i"; e_fb_requestsequencenumber="AcIyx3bwQ1Xrfu0dqXf2cam24vSQm4wCgBF6prY4Gfxkgggk-HtZP2Oiag"; e_upip="AcLy8sm9kRQ3jZU5HFpD5XG3dOLYDe1PaoyLWPOd5NaIZ7qa7NtNQAU-uwasn5F_YSaVI5XeACY5_hMj0eAE7ZJy9kth7inG7g"; e_fb_builduser="AcJf-SQTlE3gR2oDEGxyi8SvIhm1wIpZ0QHhHk7FIzmjGnUtL-CHSHOZW7zvY3Z3T1s"; e_fb_vipport="AcIXzFWizHLN6hXf43WXSAR3ZUX-KOq_6Dd9OR6herzg17GhBDT9FN-LDFQS"; e_clientaddr="AcLXAdnjDLTBxlbdPxGfMY0QSHTxrnrViGj4-o9qIA6B5CmvGzU5tjLTCowgT_Lyf8r8rKVxnazwxZizUg"; e_fb_vipaddr="AcIaqpwVWwl4TJZl22azq4tS4dx5f0RfCFzUrKW7bR5a1ag7adabr2NhbF6Y64KdVFBHyBqekw"; e_fb_configversion="AcJ04PQUZwFKBSs8vABdaiPOuqxGnDBQpMBa_2UxIshfOO-meN05G_LrhkEcTQ"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=24, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=266, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 04:17:50 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#3) Publishing likes through the API is only available for page access tokens"
+  Content-Length: 174
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 11:17:51,341 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 11:30:45,077 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:30:46,744 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 11:30:47,960 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AYhvNYHe4iq23ZtghXtdUDJ
+  x-fb-trace-id: Gj9CWWWqOUR
+  x-fb-rev: 1015314212
+  X-FB-Debug: 2/lgPvPwEE8PttSdRuKoRlMsPurPtpDKM9Jkn0xJFE8aJPPaShtU490cIHKkwlgLycpKvCl2+EG1U7Kn/ZkJBw==
+  x-fb-server-load: 33
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=21, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=1015, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 04:30:47 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 11:30:51,361 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 11:37:35,072 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:44:05,477 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:45:21,742 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:45:23,723 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO7DwFqyCT9zhD7g2VPiw1WCfbr2OzV3ZCU65rQPwGO6pbY7R6siylK5BtBN9bxhTOyWuxHZAWZCk3kAzjQpInxZCvLZC6KcFg8joxsM3VbjGkSxkV3R3XLRmv6SELBMs7H6jlKKX3cZBbGxF246WGhXGxeQzkLUwddVhEdzkiGNEwKZA1BC2KvXpgPuqj5X7AZDZD"}
+2024-08-01 11:46:21,588 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:46:23,391 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO22TDAloaVgQZBOAIsyDHuKIHhA2vjJKhXQzG73gQZCdyVuUV3qORJYOZAAEgqwuZB0SIezcm7ZCosuPV3tPQiVrtpYaiY2tew9nKlZAJrYW5ZAdQstbDBaCtZByUZA7rIBrEReFirL4Ihz6cqpar7BZAL5uhmG16J4ozfc9SFVAti95hzObFyQHlZAE9ZCfEJZCl6gZDZD"}
+2024-08-01 11:46:23,457 [1] ERROR traodoisub.frmMain - System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at traodoisub.frmMain.<frmMain_LoadAsync>d__7.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\frmMain.cs:line 76
+2024-08-01 11:46:37,627 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:46:43,149 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOxxlr2ZAy2P9ZAh6Q6iI70QrxXYZBIiM8zK0yBJQlKCle5mJa4eHz2bgrqU962mKL1OJF4nHezWohMcRQW0sEVHAvul3sEgxa5tebJro2k0mKH0NfXrJEcLbpNygdWPdpDbLXp7ed6X0DZA76u0p8SS37ZCLUoeSZABQM8zjRyohYJMrm1ag9Ekx2ZCJOPNbQZDZD"}
+2024-08-01 11:47:01,536 [1] ERROR traodoisub.frmMain - System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at traodoisub.frmMain.<frmMain_LoadAsync>d__7.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\frmMain.cs:line 76
+2024-08-01 11:49:30,305 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:49:30,431 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 11:49:35,616 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOZC9OtmmZAH6LYjzn7DbvnSQA5SpjIb8hTU4bnqRRbKadeZCN9BO7gc9SczGRVc4YHtHDkI1b57wkBYuhCLZCBw6656sS24SzIyVxuuNmg8P45T7yq1cN9t497iqqSR6saXIhjc19M314yfCNAlsktPM1OjkZCNg1FoWbZA74ngh9FvMGqiXtM9bZB0HkOteAZDZD"}
+2024-08-01 11:49:42,805 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 11:49:43,669 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AYp3dJJLFUCS68nWX7dfM1s
+  x-fb-trace-id: CSNbDZVsfRj
+  x-fb-rev: 1015314212
+  X-FB-Debug: S8HLxvVhSOel6UgqbUT0LgXhErkkn+p14DCs9YeM8/YbfXSAAR1PmYaluHCo3Tl0suln+kExj45xce2qpEWmKA==
+  x-fb-server-load: 22
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=22, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=735, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 04:49:43 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 11:49:44,883 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 11:49:54,014 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 11:49:54,843 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: A6PcwFb0kPHiUqSgrYPUehw
+  x-fb-trace-id: BwCB/Qaz64d
+  x-fb-rev: 1015314212
+  X-FB-Debug: +Ki5o1GsnS+AI2IgWmp/RYx+jB6zBb3efCdCOXe/5xIQfr3yF7uO5xIwCQ0w4AjsaSCpRCy3dlljrK7HubUjYw==
+  x-fb-server-load: 42
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=29, rtx=0, c=10, mss=1392, tbw=4018, tp=-1, tpl=-1, uplat=801, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 04:49:54 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 11:49:55,736 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 11:52:29,891 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:52:30,022 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 11:52:31,540 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 11:52:31,541 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 11:52:32,059 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOZBP0ZAEBIJWuaqVOwImGfPP8flYyUbZAjbDjZAPFUYfJ30LnCNtOBW2Hy4cevpZCJttCuFRrjNchpQH6MfG5W32IsKrZBukqFPXRJ2ktDcj7MSrihkcUw0mvH8pzjr57iCFXWHDvxS3JvydayielUFiVT3dPgqnu5TpneUwhbS11vGlzqQcN4hbYKRAITNQZDZD"}
+2024-08-01 11:52:32,220 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 11:52:32,220 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=WPW7oQqUkCEhV4%2FZcKfrbSPss8sb7jVtYXdLDbGs6TgKc65tufkjlliBhwysf8%2BG521TD5hNsDltW4cGXPcspK7osnlNE4UyPrKh0lfg4DtWNYupv5CAqUn4s4GpZqYw9Au5JA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac338247c3784d3-HKG
+Date: Thu, 01 Aug 2024 04:52:32 GMT
+Server: cloudflare
+
+2024-08-01 11:52:32,220 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 11:52:32,220 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 11:52:32,220 [1] DEBUG traodoisub.frmMain - 
+2024-08-01 11:52:32,220 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 11:52:32,220 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 11:52:32,467 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 11:52:32,467 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=9skGa3FJBR7uMgdUduZ7VXx8jXTmDCL1WpnQrxUypOvwONHbwcJfsR%2B9n8k6hd1uAdC4eF6m4q%2FWZ4rjxnGSPDT9Rlnl%2FSblnyAbNps8bT6CoXmjgU7L1Mi6maFkgW%2FTxJ31WQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac338263e7d84d3-HKG
+Date: Thu, 01 Aug 2024 04:52:32 GMT
+Server: cloudflare
+
+2024-08-01 11:52:32,467 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 11:52:32,467 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 11:52:32,467 [1] DEBUG traodoisub.frmMain - 
+2024-08-01 11:52:53,387 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:52:53,494 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 11:52:55,287 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOwIZCQopvrTdBdN8qsE3fcUeijLKq9ViYZAMKk1XYRSXXqthX96sAgE1DSMIKobb1EAGKWsbczAqi0Nhb3ESzIJsAgVhbHJmg7G5BpuFDJQI8skfxOCZBie6yvz1NKOUHq4SMdRwRRa0hVGBFt3pTO0t8btR3MlGDDJCjUiol4p4JeqyZAabgOa1Td82nQZDZD"}
+2024-08-01 11:52:55,351 [1] ERROR traodoisub.ApiRequest.Facebook.ApiRequest - System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 (Bad Request).
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at traodoisub.ApiRequest.Facebook.ApiRequest.<GetFacebookDataAsync>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Facebook\ApiRequest.cs:line 26
+2024-08-01 11:55:34,944 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:55:35,067 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 11:55:54,002 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:55:54,120 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 11:55:56,353 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO59fmMxKUefaHHZCvaqRVjrDvjQTFiAM0k1a5ST3T1YaRcfQV69TABy1D3erzOhkY4qjEMOb3cE5E7QhKZC64OB09XSuLwZCbZAQ5FsZCdtMolOghNG1lG1xmISRZBm0MxBHU0ZBHd11m20Wx9bEhaBSfpOD0g6QGWfQaPa6RxPNuoK1XuTqDFfFZBVYlncbdQZDZD"}
+2024-08-01 11:56:16,814 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Get Data Response :{"id":"100082413946084","name":"Tuann Thinhh","email":"dotuanthinhpro37\u0040gmail.com"}
+2024-08-01 11:58:06,235 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:58:06,360 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 11:58:08,252 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO4pMlrhbonWyIifuuWBL3ZB101v3nj3nqEEghZA5SlkLa5H0uVRHgZAriRdqvvfLVpW25mOkw2eymHOhKDu6QWMf99VbRnnhcSwB3R7KhXXsCyS8dbrJwEclnHohkhjAzDSkDmSwdEtT7pFeQmBZC0IZCoxcZCrItZCnEF55kETozFcybVjngbwR8rI4wCGXwZDZD"}
+2024-08-01 11:58:25,790 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:58:25,899 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 11:58:27,930 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO7kkqxzMEQeGu8aitjSnEClYRqZBQkEJ5KLQrZBRpq8AZB22G14qp6Urao90csjZBS1WLePQ0RVQeuCqriMG0TiSYZBERS7OWhvyKKMaPN3Uo4RiQwRugoDuCVXBlbZBTWHbZCXZC0bwQ4Ou65kY4pgHPgGtrn2vuBtu5Wm4MEDVJftjrUxsbNBmZA01ZAwLkqGAZDZD"}
+2024-08-01 11:58:37,939 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:58:38,032 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 11:58:40,106 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO29ZAGSwqCk2fKVNnUPPnnNtH3TDxFleO9OJnUvRwPNZCpuDZBFJH4ZBDYMxbXrjPSJQiCByGWPdv0COypLM9NKwRd0ZCdSk2S3mNhZAo7EeV41ZCR6GCKBG8EjlTLxpSAbDMY0QeXZBctvzZByO16ZCa8XrXlXql3cQFT2M7nqRZCCPz08kliEtTiEOVRZAc3GVwQZDZD"}
+2024-08-01 11:59:11,850 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 11:59:11,934 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 11:59:14,078 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOxFE7B81csKzWm7KPVZCBO3Wvh4ZCAtVUfdUxXaAZCZBGTCXJUDiLAP5wZA8Y9Gfj7u8nPR3o1s1FbARCoPLas7RVybxPvVgTOQS9lg9hfttycVJOShFZCeNlcP3LI5TTTwmvB2PvuvGZB4hzPELt1QkW1wBu2kCZAXlH5Q3y9aMuNgLFDHSgdZBztq4UeIBBdwZDZD"}
+2024-08-01 11:59:21,911 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 11:59:22,276 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: ASq3G8NXr3Lm8Tl-GtEawHw
+  x-fb-trace-id: BC0ufKBwsUs
+  x-fb-rev: 1015314212
+  X-FB-Debug: omO5yo+0A3ggD9hkKKPLAGQURigc9PTU0vwPQklXkL/s7glefTDCUvp26So0wFv+PGI3oaKKSgi5h2Lo4jH85A==
+  x-fb-server-load: 48
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=19, rtx=0, c=10, mss=1392, tbw=3229, tp=-1, tpl=-1, uplat=223, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 04:59:22 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 11:59:23,283 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 11:59:27,549 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Get Data Response :{"id":"100082413946084","name":"Tuann Thinhh","email":"dotuanthinhpro37\u0040gmail.com"}
+2024-08-01 13:40:16,939 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 13:40:17,029 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 13:40:19,105 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOzLq8MdQgWQoCEIuHi3q3TXXujNTcMFtzUJq6pH9X6ZAJUI6OZB0zbgMLJam9h7upqpdnatFqzI5ZBJ3lRHuwUUO0xxZA5Bc18nfCFY62LP7cOOmNhnUVQhnIjpuAqoeDbnz91SzR2prOSo6IEnwAnYbnkknyXtOlMjvVtZC0JkksqpOAXn8zs0vIAf6ZAYQZDZD"}
+2024-08-01 13:48:40,670 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 13:48:40,771 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 13:48:43,028 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO3txodHcZCZAmQ1FEBxZADbSCa3ZB6rWJ5cjarG9E5chRu7pn5D9M8XvByIrr2QEOy0SryEiokMDwznZAhK6ZCvjn0nzjtvRtzwFt3nZBF3lZBeIw7XmZAPwSp1MEZBoeuCrfVTjUgBUQbTyIha5XjwDvO2hZCrKKrZCeGApBBKRBI48DJC6bYGwgYgR1w9KzytjDAZDZD"}
+2024-08-01 13:49:17,880 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 13:49:17,969 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 13:49:20,243 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO1bw0lvHYUXy2J1kS432mmtHwipE7K6rS065GGZCEonZCQOxCP92g4aMzgEKu9i0eVnDJnQpMvRBZAZBBG7KhoB0MKMNJmMu7RktZBqMZAUdjlYJiqlNQglw8L9y2yfSXeT0Ui0izd9KbY69mSeVsaOqD6uZBqOKRd16t9kEkcFOWyS2vgq1jP2ckQZBTNZAA9AZDZD"}
+2024-08-01 13:50:42,628 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 13:50:42,755 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 13:50:44,468 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOZBJ4cXi0rN7cyBdIBvoxZAYEdd9RaLG8UTZCwx2pibfIvZB08b3f2cMYOxS9BC6VZBqJ4c6tzkdyTBQ4N2tMDSMjIbLygNACe8Ws85n0Om60brjMGGjIEQAO2jJVU6K1tFYUJstTVWiemgSZBQ2ZBujrJxSTfHAI8M8zqvwRrzvUo86csP3ajFaAQyIcBNIQZDZD"}
+2024-08-01 13:59:40,244 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 13:59:40,338 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 13:59:42,122 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO5VgncaSZB2I2k4SR0j5uKWHJw2a4sEZCwG049Si7k92k1U0HnWMfuxnsOMZCpdZBrYhatJuZCofUtTw63cOUIoxZCKYHxBTf7J9J6ErQ2MV0edIHzZCrZCZC5pK7A6M9MDkOZCCIeEj7yNHZCekWFllC8OuJk1lWaD7WRBdsUN5ZABN4xZAJ7gXwaeu4ZBWKoZCE0VKgZDZD"}
+2024-08-01 13:59:48,295 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 13:59:50,498 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 13:59:50,499 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 13:59:50,774 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 13:59:50,774 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=N47w%2FRqAy%2FzQa0Gn3kOQCzCs1ow0Utn2H6%2FWuXR%2FfQ0225NvfLCD49nIOr0LezUpxF95BJPQj15y8GViZw6p1QtiUvTWBCUAy92JEn3uaqCTwYfwIrnIFkkIawmVapOfcnKtNA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac3f2a229051073-HKG
+Date: Thu, 01 Aug 2024 06:59:50 GMT
+Server: cloudflare
+
+2024-08-01 13:59:50,774 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 13:59:50,774 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 13:59:57,212 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 13:59:57,628 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 14:03:57,511 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 14:03:57,595 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 14:03:59,610 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO7qXcZCY3qvu0bYwEK6l1rkwztw6yRAIYZALdPBsCkNOISjXIAoZCJZB77MHRayxG94fhh1Y7P0iXZAUcHobdMAs8rJtk8zjDYYkGBZCLzxkGu5o8HuyCmBJehLDVizdH8ZBWZC661yTB23YK77OnMmoGzhuk5ZCdCLH8wCZAuvc1ZBDyoRze1hx8xzztZAiBGoEfQZDZD"}
+2024-08-01 14:04:06,528 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 14:04:10,571 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:04:10,918 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: 
+2024-08-01 14:04:43,874 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:04:44,093 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 14:06:52,263 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 14:06:52,343 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 14:06:54,244 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO2enfnyJTMFASiiE9cWGiV6SGvsDIpsqGFRSzfmofte8cDvkyrNuyeYvf6AVhatpOEmNKDtqI5CPGOiaB2y151LZA2FDrZCUGZALTNcZBqZByZAK0sRIO8GGXlS9T7fwQoPGfO1deKvtFbkLOiPPWQJuWIKj9xUBybhnPHejXVZAKiSMrvz1o4ZAfZBIvuBZCuuQZDZD"}
+2024-08-01 14:07:00,923 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 14:07:06,324 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:07:06,630 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: 
+2024-08-01 14:07:25,648 [1] ERROR traodoisub.ApiRequest.Facebook.ApiRequest - Error in GetPostIdFromLinkAsync
+Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Path '', line 0, position 0.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at traodoisub.ApiRequest.Facebook.ApiRequest.<GetPostIdFromLinkAsync>d__8.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Facebook\ApiRequest.cs:line 106
+2024-08-01 14:07:25,652 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:07:25,652 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 14:16:26,349 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 14:16:26,455 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 14:16:28,342 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOxgdSRDycEbXlA9Pq3Tx2aVwcRoZCCEP4KJJYJuCgpm9KZClu3ZBJ9pxeSBfesBZCNA5xzNnBlkbjPZAZC2QyWYu64SJqxlhS6Hhr9E6DqUqVORWJbbvQNKk2P0mtkkp0aRWyFKjHZAU3PLlCMU6me4YOZCP6Yigl06zUAlfHkfjUEPqPF5MqewJq3PYmPm9bAZDZD"}
+2024-08-01 14:16:35,892 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 14:17:02,948 [1] ERROR traodoisub.ApiRequest.Facebook.ApiRequest - Error in GetPostIdFromLinkAsync
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 419 (unknown status).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at traodoisub.ApiRequest.Facebook.ApiRequest.<GetPostIdFromLinkAsync>d__8.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Facebook\ApiRequest.cs:line 103
+2024-08-01 14:17:10,298 [1] ERROR traodoisub.ApiRequest.Facebook.ApiRequest - Error in GetPostIdFromLinkAsync
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 419 (unknown status).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at traodoisub.ApiRequest.Facebook.ApiRequest.<GetPostIdFromLinkAsync>d__8.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Facebook\ApiRequest.cs:line 103
+2024-08-01 14:17:10,594 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: An2_KII4XJew5xS18nqrfly
+  x-fb-trace-id: EQGZzwb/DPP
+  x-fb-rev: 1015316062
+  X-FB-Debug: q5R9XolRveD8MN2rvu3FyrHZryqAGw/JxMiI6P5PtCl2bFjps36zy7zu3cH1YwipjJVY/5DaOq2600rwDP44mw==
+  x-fb-server-load: 31
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcK7q7kEYDOIX6acmhuxiV6cNKeC4RsFYH2mFxDafSpfVU5L9C-tbWgtCZC_ow-RhSx-Udm2p_rlwGu4KjOz"; e_fb_binaryversion="AcJ1xEVQ4jZxQ35s504PQXA6-pLvRtPHsw2qibTceC8tt-25k2eLXFJkHYHJQge3gaomBdYL5g3nW2auXQHHaJimLOcwnWfgPsQ"; e_fb_httpversion="AcJsC8zf_sisK2glTi1jCPhO2fBqu7ooQsnYGGHyaLCuwNUCNg_GP2v7lT0C"; e_fb_responsebytes="AcJlioKJfiAGqp8Dt_2ufe2TRsqHUZpSyGoJz4kJDGz0qckuVsIG4uPC057l"; e_fb_requesttime="AcLujFKuYuOuLUOqdToeBNAFECyvlxUs8rtJYgKqMGmHeyB1WnIuqtiK-fxQCofs0tN1GNaSLg"; e_fb_requesthandler="AcLuvQPXBI1nIstzMvWjISulsQTMsw-rQULZcmzQn0603dcqKyPR8cL4hcpLlxPwR8kGWrnUu7g"; e_fb_hostheader="AcJ1w04OLAy-IVhmbMgRCroi6FLJmclPAiqO8ij1_iQ9bEoIpcJm2enIA7uPVZEeUIZA-fkxW4PziKIx"; e_fb_requestsequencenumber="AcLQCPpjRGxIk42Vx1pSrTlo62BpN6_qK2a7DBvCKzdIBT_XYqeio5hETV1Q7Q"; e_upip="AcL0eD6QqXaNYsDUqs2S1JR3-h8n-lT0gXQsGM-ViUD2NwnB-D4dVDtLXWzZizkAX6qdTEKnM_47Xja6_C56uz30x-MUYMjYsW4z-w"; e_fb_builduser="AcJET4pK2UoDE642mAF81U-y_VCL2Wi5EfQM6eS2s51lhBuMffBEafvmikWPbgU7-xM"; e_fb_vipport="AcLHc6sUVfwFNOoX6NGMHh1zyQ2es70Yr3-98nioD9H3MFptuzHttRQD42lw"; e_clientaddr="AcI1e1gbZvA5xo9Ppmuspb4We0d2H5MOWi014o7HQFWkeYG5sHQcCBmjVNFEPZ_HHkjfgnfXUbv4X_sM5_IatG9ELfok_s89m55J1jnB_uzi_32ccQ"; e_fb_vipaddr="AcK1rHOxM5IA5v3ffOh9ut1J-3Dxh6NJxbxik-rWPpSKZhxSMpScox2DzvPh9Olp3Ed6x_2ag-izM9Hna69RfkD_y2OmhGIr0w"; e_fb_configversion="AcKqZX61ZSzUIiQO-Nt7ImwVr3qPUdGmghIen7aQ2YpbHgKx-A3lK9IS41fq3Q", http_request_error; e_fb_configversion="AcLu_aYGbqDYks_nSnCZ5rb7-g9dYX_gm6irRgoBq-QzSCwt6YJlKbU2VXFS8Q"; e_clientaddr="AcILr5Ey2z4x3IE0MRiumkRgGtu0nXXOlVbSnL0pY1wh2xIdq_sLk5HwYz8iMiAyRzpItqX9UwSOa7Oa3A"; e_fb_vipport="AcKXMDJxeoAcI3d4BC5460RjImZSA4p-ZO9x_PesWclCfe-Ov_q9pvCLqTYG"; e_upip="AcJd9WDVj0dnnvJsMH46nVSimiW73TcT-UpCU-eoOm1-DcG4fx0y6l40JbEr1lbg3iotUKkbeD4w3h0h9-oIJCnLTlG6oqPznw"; e_fb_requestsequencenumber="AcJSHBMFJgkvP2pIzz0GJcaeI3XXt1k0_D7vAJkUO45QdfL5h__rBPR_Hw"; e_fb_hostheader="AcK5MBbsgjTLfK_Vb-QIb16KSvdrLCEUpUZURKhRJZXXVeNHg8v5NOTeGKE-B8Hup09cyJnK_bklk5S2"; e_fb_vipaddr="AcJzOWKynrh5JL4f65QY1dOJgF4kDXXkX3IbWbNmJgY1oz2-BNTy8LvKA05bPuH-J8aQ402RGMI"; e_fb_requesthandler="AcLzO9wbxsgjOQXGxkw6DpE_7Ia-oCaGTPA016pH1yrMNTf699v_EhMzg93hNgCAHeaQr4p6kE4"; e_fb_requesttime="AcKxQlKXcucXSXxLfQcjMSDJvvv8Zaxe5SwzRU__-JGXRnU4WDhxbzdC1lk0j4tw4pm2GXxe1Q"; e_fb_builduser="AcKRHeiFXI5Anl42BaYI1UiFOmgY2XfeEFq2fZNEZ2TD7T-Ud8ixs2cknK8UaGCeevs"; e_fb_httpversion="AcIregZgb_fo1Y1ZrrwRxLkxUp7hDumRO3Ws3G5jooovQWY14kEwyaJx308p"; e_fb_binaryversion="AcJ8P9X63ozW6PKYx_EIK7WvYl-O5gxX8zlz291Wu1WjFUl1hUfrFrOTN1vOYiJxmlbGZWse2xZtIOOv-PiFuDGlYF4gFpPrxDM"; e_proxy="AcLl6H87C-cbRi75-6-f2rnqSMVJE1zXJG1qPxkj2Ly7I22ezuyq4P71p33qDg4iB0vSFnca9vJrXH8"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=23, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=187, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 07:17:10 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "Unsupported post request. Object with ID '_' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 14:17:12,327 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 14:26:16,399 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 14:26:16,472 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 14:26:18,182 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO022NdZCmKo4WEHhC3huGRTSDrx9TZAbL4fHhRBi3z1O7WwE6nRn0eZBl6nQE0ASH889jnerXckRo7LD4TnewyqdlScVhUfPZCW6BiQ7P5fBpZCZCSE9VCnU9Un0OnHINauLUPrZAvtMC7juPO3f9wV2UZAKsAWLlkZBrrzPyg67NnxpFnCZBaaqvP1et9s5Wx7gZDZD"}
+2024-08-01 14:26:20,537 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 14:26:22,178 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:26:22,178 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 14:26:22,461 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 14:26:22,461 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=htJdeedZxMLP56TI8M8sdbf022yznF7V1%2FlDjist7GOBvBFfQi7B5FI5IsVx7qeX9VSBqCaiD%2BLVOcNgJozsEIBzHM7%2BcZGEEBlhO4lBIMnR%2Bi%2BGSKQK72B2VWMQTjEJZ4vwIw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac4197e3c7e07ad-HKG
+Date: Thu, 01 Aug 2024 07:26:22 GMT
+Server: cloudflare
+
+2024-08-01 14:26:22,461 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 14:26:22,461 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 14:26:22,461 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:26:22,461 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 14:26:22,642 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 14:26:22,642 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=S2lQXfmB2IAg2dMhhMGZEFWZdLyLfDYVT4j6UEzCTW%2FroJnB0HhpqR4YMhjke92p%2FtevA%2BCHXjARFupvSkWeyyEnyDcxq5l%2FPVL7YoxXE54LVQnhOUfXMikNRH%2FzELauCjoMZQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac4197f4d9a07ad-HKG
+Date: Thu, 01 Aug 2024 07:26:22 GMT
+Server: cloudflare
+
+2024-08-01 14:26:22,642 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 14:26:22,643 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 14:26:22,922 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AA40Lp7NblEDGcKwHkihhsf
+  x-fb-trace-id: GFFt3+vCX1U
+  x-fb-rev: 1015316062
+  X-FB-Debug: UJOEdaZEQUW6FCAvfqL8wmNtQ3s+qWUxIFcXARORs5PoVFy5xIB1bWYXvtCpbRWDqIhWNNfU8/B/HR6eoGEZ0g==
+  x-fb-server-load: 22
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcIqTspAyYCb1AVRC3BNh7Gc7O2moffLRRW4eBwve3V_dhutY8ppkZyDTidUibJ2ImG6HelriAhANK9Txd6g"; e_fb_binaryversion="AcI5SJop8YCGh3NFuhI1F2DaEfxozuqhfF3J9ReQEbUkQTgG3WVgy1Nwlln7M9Yv3bxIKES-Gqg01WKCat6AQ-nj1-fm0AlVJV4"; e_fb_httpversion="AcIizE4jP_IBgR3lD3E3Zhgyppt7lW3mL9lHu461wz5rehfiEziIAkgdrf2R"; e_fb_responsebytes="AcJLuooFxv4_pPuGx-kLy7uxhb5jv2e9fvLc2X1fVlJgBg-jq3Ljm1Gkk3XK"; e_fb_requesttime="AcIhsyop2yDF85uhNatXKOQeoUbHM_ByfRqp2lL7lf3PojAh-e7dLKN8h6T6ynjnwiADvDVOzw"; e_fb_requesthandler="AcJ8QYtf4Sf4RUCoHt4Nj6eozh9sJcp1B8SJnXLFtJv7tXvXyIKPHc6Yx74fOJgBUzr-qYaKvCs"; e_fb_hostheader="AcKQ4SaFQxEjlcOoEDdNpcg4KKQ7Nn65nMZDn8MmY5jqvUk-w69ZS_AwpLFlqlQ0dvwCVewHV0IN2AcF"; e_fb_requestsequencenumber="AcLIpXTh6oyAd7EvY50xiQ54z_9eoBSvo_oBg_bgSB9rtOjrdRrYAr7xsAdI"; e_upip="AcL3emUJezl8Y1H_uur8yYamjHpFxeQfGuhIDq8_Lsz4u0H7yKnG1_qisKbAHgziFKcEAeAnljoN6LpD6K7WrzguIpv29IPNJ9v9rrw"; e_fb_builduser="AcIqwJOAQ04TLHcAQl7qqt1wFmKqOxiDzT1GE9cLzyfh_9xhti2uAH-TYQ2Wj5NFvis"; e_fb_vipport="AcKFZ8jUdg1zTeBCUEWtbsgbyG0lVaEvYn_9MnWOMhvcVjixj4T3SHTYP2eV"; e_clientaddr="AcKY-Lj2qrZQ0WQUyGbJmOjPyt-pxpuqbpfoD0_2YjSK1Ib1RVMCEgC88maJklrZE24-dajhFCQUAXXTpU30GSx36oH2m6rB9k4VZFBzaj3KoQ"; e_fb_vipaddr="AcIScqWJyaG6qf66hEFdIXzW9ZOmcu7d5l5daQuw-1tK6NueAuVCvnLEi1rqWaJ6r_F5NHD7pXwpR2VxorW3KnxRGqqRZnsk9g"; e_fb_configversion="AcJXvoop02Q0YTDbXoF9UfsDH0MaqGAFieLJXqjUHCXD9kkM3MuLorsypRfMTA", http_request_error; e_fb_configversion="AcKE-h_PSNvm94S4thPKRRa7lZYBYqmF2EOKM5wPxsVHFHTe7_7j42s8XWKu1w"; e_clientaddr="AcI_takrx9T7Fp0G1sl8mSYVmvwvO4Gv8nOHXglBQL0A0U5dbiVgePpRaGNBl8Lh1zBVjwW5J9M0c8ETCw"; e_fb_vipport="AcJKpBpOlEhJoSWytp5S-ixKm37Q68-hnnXAymfHd64l30NznzvKOjEqBi7S"; e_upip="AcKxyI6IPyHtDdxaqzWKMTO8n22lNH1IYFXFiO-FIEuFKW3ZfJ5rIuJ6ns7813oZUitZzedyouoZDPVsynuJ4JznDUGiXANGow"; e_fb_requestsequencenumber="AcKJwTRStIPRfd4erbFlzagXa5m5zGCj4CHX4JNVG-bJfZpiP9H5zO6SXw"; e_fb_hostheader="AcLrK7TjLhL1t-eCiROV2BNsD6sGYtMhWSLMqU1byMQocaT2lEvZDcocTBHgGhe3R9SD5apFkZ4ya47Z"; e_fb_vipaddr="AcJQprCfMmu-mu0T2VkeuLimetMcoqKS3AeLxG7rLOoIEvI3wOwdWwGZ5tCARIdS7Ylk_t2J56s"; e_fb_requesthandler="AcKx0J9fSk858CFlY7GsT2vv9cPg6uhq4lJvE5o7U897LnQ6MVC2lYL_NtqXG37S5fPx0OiDs9c"; e_fb_requesttime="AcLJvFlXLmjntjHXzuUoRM8xZ9j3LGe3hC3-GVaC2JlfIBCml-6KlLZJAYc-YEyEvFrmmbd4LQ"; e_fb_builduser="AcI8E58J78fweJ-83UhzHEr7iPB1_dfXS1vq0w3_BP4bJds1j6Ti7gsHbR8OEPdcPQA"; e_fb_httpversion="AcLSzmJZgVmdnvR_0Z331VgSf87NvtXCqwdiGv0y19mm3r5HrklOl3d6fGcf"; e_fb_binaryversion="AcKToG24Rs5oQiFOeLb-LRKNJTvIu7CZ5jzh2RFnMSOiWRMFt_prD73WyCOhfu6nuj6Bf9rVgcB1eBH4WMTiaSjWptgqW3cRlNA"; e_proxy="AcJsDPtydZdFQAFy0x3NTwnTtP-94I3oUK-TQU9zfggOkc3Q7jYVMkCTe7Exe1bpwhv4VOBaXwspqaw"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=20, rtx=0, c=10, mss=1392, tbw=3229, tp=-1, tpl=-1, uplat=179, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 07:26:22 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "Unsupported post request. Object with ID '_' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 14:26:24,214 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 14:28:05,225 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 14:28:05,327 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 14:28:07,053 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO4ABWZCXGsUl2lKGMZBp4CldZBCp74keJ5sTEky3zpsxxXE1HSVFRVJVfZBZBSg2Hg8ILryyMmZB1OvFZBmOv8vaLw1ZBIL5hbQuTbNZALNL3xaZCgZASb3iY9NrrzZBgm4UvCK8NaRjBW3ZCtqCmZA2EP9TS93OfmZBO5wrjhO0yJVMZBhFElAVbZCqziAXEjktkZAXJsLwZDZD"}
+2024-08-01 14:28:10,410 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 14:28:11,737 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:28:11,737 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 14:28:12,040 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  CF-Cache-Status: DYNAMIC
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=RtoqST1n6VoHfnJBpcmP0w8bbaMuIOj%2FRLALxNEsjUm0cbtdYqZ%2BVfCPE%2BEqQ3B12CVHlF54sy4kf4GF%2FOetwMvmjVyHbdpeoyeJq6LO%2BTJx%2FktaTG%2BDArd7crolJ2u7LPiE%2Bw%3D%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Strict-Transport-Security: max-age=0; includeSubDomains; preload
+  expect-ct: max-age=86400, enforce
+  referrer-policy: same-origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-xss-protection: 1; mode=block
+  CF-RAY: 8ac41c2abf528488-HKG
+  Date: Thu, 01 Aug 2024 07:28:12 GMT
+  Server: cloudflare
+  Content-Type: application/json; charset=UTF-8
+}
+2024-08-01 14:28:12,040 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 14:28:12,040 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=RtoqST1n6VoHfnJBpcmP0w8bbaMuIOj%2FRLALxNEsjUm0cbtdYqZ%2BVfCPE%2BEqQ3B12CVHlF54sy4kf4GF%2FOetwMvmjVyHbdpeoyeJq6LO%2BTJx%2FktaTG%2BDArd7crolJ2u7LPiE%2Bw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac41c2abf528488-HKG
+Date: Thu, 01 Aug 2024 07:28:12 GMT
+Server: cloudflare
+
+2024-08-01 14:28:12,040 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 14:28:12,041 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 14:28:12,041 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:28:12,041 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 14:28:12,233 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  CF-Cache-Status: DYNAMIC
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=yhoGlc6r2aJSCEY0OSUDcDwJCOlQP2lejlcNtOpvOxNdpefvWlwnbJ7orRa6tEtP0H1%2FgCMEhUdBFB%2B7%2FV9By7QMGuvl7dgcUmR7MRwPFDiQlQ8DHHqw6MAGA7Phb8c5rz5oHQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Strict-Transport-Security: max-age=0; includeSubDomains; preload
+  expect-ct: max-age=86400, enforce
+  referrer-policy: same-origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-xss-protection: 1; mode=block
+  CF-RAY: 8ac41c2c29a58488-HKG
+  Date: Thu, 01 Aug 2024 07:28:12 GMT
+  Server: cloudflare
+  Content-Type: application/json; charset=UTF-8
+}
+2024-08-01 14:28:12,233 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 14:28:12,233 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=yhoGlc6r2aJSCEY0OSUDcDwJCOlQP2lejlcNtOpvOxNdpefvWlwnbJ7orRa6tEtP0H1%2FgCMEhUdBFB%2B7%2FV9By7QMGuvl7dgcUmR7MRwPFDiQlQ8DHHqw6MAGA7Phb8c5rz5oHQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac41c2c29a58488-HKG
+Date: Thu, 01 Aug 2024 07:28:12 GMT
+Server: cloudflare
+
+2024-08-01 14:28:12,233 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 14:28:12,233 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 14:28:12,533 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AlQhyBbuaO1G7w4MCYU7xUr
+  x-fb-trace-id: A6mM/k6ytNg
+  x-fb-rev: 1015316062
+  X-FB-Debug: zs8ZsNUxAmRSJHX1kG72zJZGluFJUB2W+hivyRFRfHOYvzWeV0bGHPtEl/zcgPbsq8WWOGWxCByfpYiy9AqmPg==
+  x-fb-server-load: 21
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcJ_A2IXRqSKtEq_Ot9KSeNNfLGQvlRd2YOdOXRhP_vPNwsVPScXp6KqiwxPsCYnk8aHVxaTBqYUTerdp7kU"; e_fb_binaryversion="AcJ_WXFbJcaOsUcDP-JoKEj4eHsXyMF3__7kUwlrvUcF3W-j8lDQXiWmt0woyoxJVYnYlb-vdiJQSGufATwkFAnenEkyK02G-8Q"; e_fb_httpversion="AcJZqLnrBvI-iQMGuMGxgsPLqfv4wG_n8crB8IJNknbC8rjWx_GH0SmgVlzu"; e_fb_responsebytes="AcLvZbG-dbSrnap8U8gQOKw-dTRsHGb5u6CJLorjzcZ5Vsb_Zz_oU8WN8CtH"; e_fb_requesttime="AcLEQOxV9_LmQJ_OmcPQVKScTS9rAVzB-7i40tu2Vsh6oMnENLgZlvNip46IudufSu4dM1SvAw"; e_fb_requesthandler="AcImDwjAVKC836V2Tw58OLzogQm2voJ1KCCyl_WBOkYTANLaTSSHqZe8qn_CIThXYYH5z-1iUbo"; e_fb_hostheader="AcKhm40MOyIhgvkh23IcTTWVniBeqvSDDHQc7X67BFRoI5ExluoeMcL-00z6ZN5poM-nNaWSzlEHw16y"; e_fb_requestsequencenumber="AcLrMnKiBc8GKap5OszyJT2uIHvAa9uiLOfAbgLHxHTxkF73-8zuxyIniKEiGA"; e_upip="AcLbO5p_2e4DswqWAE4-Q3FTIV9SvbhQ2poVngLx1IT403LRHYCon4_7v_fCckZzYXfQlTy-6hktKMGyRzQ4U4v1j9EZ1hslFYbqF4o"; e_fb_builduser="AcL60aL9jTKi1V0qfyXgzKGWeW_MChc2MD5G3qZrzrpTvJ6H_2NMGOYp1mmVFKvGBjU"; e_fb_vipport="AcKXaNYN9hqHiw_-26cmZ7Qi47iTDGFkDP6RFgN05scz1eZa3dtCY3JyFrJI"; e_clientaddr="AcIjKUqYDh8aAv8GbUnavCdlvyMzFoGhCNdIEFwbwWFQY1RAtIQpEoQ27MoR9GMBFXodAl5uCh0Nv9v0VBlq26Juw1hXiKgtQxjIlC368RAos9Gh"; e_fb_vipaddr="AcIPgDrDeRhmRbzvg336FqRK80y2o-YVqNKqDVRP7jdcVGI7YS-QK7NBpQmbzFGMN_Ovg-KWkJOmOqkoQDirfUG8Vcoh6o3y8Q"; e_fb_configversion="AcIU0loKbe8AHJPO1c0DEo7JgWFFylvHFUMI0qIYXqtqL5CCMMkKUQV0i4_Nhw", http_request_error; e_fb_configversion="AcI5M7f9sT0YE6-1bXBrnZItNe1SYt1_BlGo_xmH-W38nqwpkavhLMx1XDvNjg"; e_clientaddr="AcLRaJvPTCcmwaUICPzrrsFI8zM8zvFIMDB-CqO502Jk6MwZHyE6ezvJrTD5mvMPfjURQ3ThgNf2uoZSsA"; e_fb_vipport="AcJvJQygkPI-KUxMVDSeiuJ7SurqWxPSNWSCnkimVMEWSnUqex9hMBbgqf9K"; e_upip="AcLCknuzmh8t_RVQr1DbzKUD3n6N3ukGNyBaNrJ_RqmGYHXY3rNnJoMYjYbw5HsznKoz79C6rexpkJECmYnio2mQleFrnLowwQ"; e_fb_requestsequencenumber="AcKKQ80PmJ52TRLodzGaOzdhlNVw4hnY85ZN_fOUSPDBWcOPtBtv701eDw"; e_fb_hostheader="AcKFAhJ-8fzjgyq_i4ZLt1hOuuwKDNNe2UYt25Ma10jfWVwqDmslvRdNiO3VUMGE8mULrRHlDdscCTZm"; e_fb_vipaddr="AcIhSQYphFFu2N79HO-lt-upJ1Ur12aBenCxcnYOqSMiuRPGY7RFloVfFZv7uKeCjoC_qWe6wiY"; e_fb_requesthandler="AcLX6Zc5lcVHhgbZnwUjIgapDEgLtvqVURGLaKVQGKhm16t4vO-S6yQn3ooS9yT-tcUSzXH7vmo"; e_fb_requesttime="AcIecwq0a-GN8vyVz_LsrBsd7enspX7g9TxMkUSfQNEJLoyDmWfH8QtJD1djC9puwF4Tf19Q6A"; e_fb_builduser="AcJssyh3xCyaFuWpCMZzpxhwS9-fDDPK6xQ_MEbK1Yw9MRAugqyXQ6-xjk3msA8h_2Q"; e_fb_httpversion="AcJWawHNnSvdZZvUkUqk3JG_QOzWEXbUl6DAQIk5i5qgEGzp3mtbFXEU2xFV"; e_fb_binaryversion="AcIxgBeifTAbF2cs1nq9_io1fKf1_QcNCjvdSYWDncb2gH3CXDrPxkX6HFA6FF4fJ5HeJRwbutYShZ-xoP8XWKO2lEdDFLmyM1g"; e_proxy="AcLPMiYtcDMLL9g055T-0sL5WTjcScggJakOwY7M6yyJuszM_uwOhFHfZSNVelNf9giP4sJZ1gtaD3U"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=34, rtx=0, c=10, mss=1392, tbw=3227, tp=-1, tpl=-1, uplat=178, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 07:28:12 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "Unsupported post request. Object with ID '_' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 14:28:14,229 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 14:30:34,616 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 14:30:34,725 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 14:30:36,300 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO7L5akZCnPVVm1ZA3N8NzuVzfodo2fTgY6NHsA0ZBZA9r4wkKaBzFP2QnaszONVg7TjPXsEj65sRIZBDzAf4ZBUW2sKS0vWCDfHfeQyM42YtTn7r1wURNoe2TG6edey5v76NPdqoEFjxTmQQXm9JpGkR2Bj8tkPZCmZCd4kQ4BKpVkpoVzmat0b16u4RQdpjRwZDZD"}
+2024-08-01 14:30:39,552 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 14:30:42,439 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:30:42,439 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 14:30:42,441 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Form Data - Name: link, Value: https://www.facebook.com/thinh3789
+2024-08-01 14:30:42,755 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  CF-Cache-Status: DYNAMIC
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=1yqvN%2FxQQ%2FpHlgLmFRvFRo72kqfk7aIMZrMD8KnO8FGVqApFG1WxF4m05PxTKlfXhLMuXakXf6WaoyIet25KhhdYr1CtVPfidSfze%2BR3sFSe07OIqZQSfj9YSfFrr0Q4wqJtdw%3D%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Strict-Transport-Security: max-age=0; includeSubDomains; preload
+  expect-ct: max-age=86400, enforce
+  referrer-policy: same-origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-xss-protection: 1; mode=block
+  CF-RAY: 8ac41fd8edc820ff-HKG
+  Date: Thu, 01 Aug 2024 07:30:42 GMT
+  Server: cloudflare
+  Content-Type: application/json; charset=UTF-8
+}
+2024-08-01 14:30:42,755 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 14:30:42,755 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=1yqvN%2FxQQ%2FpHlgLmFRvFRo72kqfk7aIMZrMD8KnO8FGVqApFG1WxF4m05PxTKlfXhLMuXakXf6WaoyIet25KhhdYr1CtVPfidSfze%2BR3sFSe07OIqZQSfj9YSfFrr0Q4wqJtdw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac41fd8edc820ff-HKG
+Date: Thu, 01 Aug 2024 07:30:42 GMT
+Server: cloudflare
+
+2024-08-01 14:30:42,755 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 14:30:42,755 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 14:30:42,755 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:30:42,755 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 14:30:42,756 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Form Data - Name: link, Value: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 14:30:42,958 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  CF-Cache-Status: DYNAMIC
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=RpMJVpKSDzB3FgnBJR4i48Zf4rduvHcOhwgieH2doYiwe5Jk6DSZia9Mg44cpvl0maaJytvg28YCXwt6DFWwo4WC32BbBz4nv9VGAF9Y91L8MTcocANvFFy3hxM5ktV8i2wTZA%3D%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Strict-Transport-Security: max-age=0; includeSubDomains; preload
+  expect-ct: max-age=86400, enforce
+  referrer-policy: same-origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-xss-protection: 1; mode=block
+  CF-RAY: 8ac41fda3fd220ff-HKG
+  Date: Thu, 01 Aug 2024 07:30:43 GMT
+  Server: cloudflare
+  Content-Type: application/json; charset=UTF-8
+}
+2024-08-01 14:30:42,958 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 14:30:42,958 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=RpMJVpKSDzB3FgnBJR4i48Zf4rduvHcOhwgieH2doYiwe5Jk6DSZia9Mg44cpvl0maaJytvg28YCXwt6DFWwo4WC32BbBz4nv9VGAF9Y91L8MTcocANvFFy3hxM5ktV8i2wTZA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac41fda3fd220ff-HKG
+Date: Thu, 01 Aug 2024 07:30:43 GMT
+Server: cloudflare
+
+2024-08-01 14:30:42,958 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 14:30:42,958 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 14:30:43,233 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AlYyfoAtHejmodJ2ahc5xfi
+  x-fb-trace-id: GPEfrccapq7
+  x-fb-rev: 1015316062
+  X-FB-Debug: ZK3V7EM/IRaFsnz/NwLdZ1F1sGVrsSSIUFKKneckcPg5kq5oRwV8t14rgRmtNcj97B2LWC48/GdPissixUsQ4Q==
+  x-fb-server-load: 34
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcKS5RUSWX-R5yn_3_awxC4q0e4PWPueKhe5i4yteRKpM1CwyPVqwPBpAM6jp4M3jxcM7E1Y58ssoI-nQ4r6"; e_fb_binaryversion="AcI609ORsmGD7dRBuRhVvbd8Dl2dc3G1yUJOVUWduoGIQH1lSmP__1GgaI9-aDRa-Y-O8m1mNHvXKOGPEPxdtbVnWFYqlJ20HBg"; e_fb_httpversion="AcL8g0rUuwYsCTV0DGDUPGZpP86-hdo1ml0patv65Xk3GjOPuWnoDAkwRCfI"; e_fb_responsebytes="AcLsms5IAn94a_37l4M-xhv42_NdF0BUBbacBlrxB9ENdHsUYpDxAvZVi2ij"; e_fb_requesttime="AcLloo0binU37eyfxZ3OKmlOS3e_jFd1BfFJ3QWslvCuseGU5mkd9_pVHuFRHr6ILaDdahwI1Q"; e_fb_requesthandler="AcKDnhCJqpNXJ2Ctrqp8u9WNLXEc-KcHz1qb7HI0xyTPXhk68UnjVxLox6Jaz_XfcFxm43ECxD0"; e_fb_hostheader="AcJ1Cu_Fts7TME__8SMYkmUBS7Ny8YTtWbcZfOL7cJTPvsCjOA3Cd7S06F0NnAv_JeUD05hlzvFYTkt_"; e_fb_requestsequencenumber="AcJISnuQbm5bTZVuqmYyowXZiFwifFPUzPVKHLOiMn52PWoK7De9yBpvwPn4"; e_upip="AcKBJMy0jxuTSdzRXq_b-lHycYp73p9ELbTn7WVzbSntqXGVQYPQ0XmJdnMjTk4R2xt6IAA7JcP_VZkNRpRw_PD10pQ_C50O9t04uWg"; e_fb_builduser="AcIEUy8gc-0sJXE3HBtKnjoRT8KOsqFZBGHNGdXG1hMXwlyWyPm754LNOWcwbOqeu-s"; e_fb_vipport="AcKDXTE42wtCVoSClCUcnQtHUQo7h8Yr4hItiYPDEZ13fF53TbCE0jiMVB0_"; e_clientaddr="AcI87VZtHmWkjaA9K3U3S1u4DUiAviSQA54X8wgoj5d7QVCn9lNpmMnpxYOA7qEiKfCM_YvHWF3ALUdvdH9iUeF56-TWQhvqrpEcM-HxAV5yrihPNw"; e_fb_vipaddr="AcI_9HeBTyiNXWXJnJbQFiYOZUtymu7usXVIJockrs7IMZFk0UMR8c2uQdcoz7gY7yV_70jeSD0VbkGX_N9lYDwhkP7r9foD-w"; e_fb_configversion="AcLuHRWW4PZryqVPwx-C964ByQSxTNlVtuxdPUSUWsV6vk6hA_PCYs9JIQBuKQ", http_request_error; e_fb_configversion="AcKcjaOYHSmaZKvokJlHw8jAxOEhnDyiwKoGfuSgdA1V6uJTdykZdjyYzgRHjQ"; e_clientaddr="AcLJkOkpPfBz3P6e5NFz2cmOv7EFhQ_21dDvLefRZ1sLDrsO_aO_izDFnVI9LP8DIL2TTQjrnD8XArWA"; e_fb_vipport="AcKHMRWEc5NWzYB6KtIN6CwAczQ-E5YemysKcHvxLZJff84ot3JIZYGrFB4L"; e_upip="AcLkK9CREhkqd0oJWAOdmqN1oCme0rZy8CjY4kFGcEt_7lI8qWFNAWgrKXCDugNylAze-whfsd-FYOnYcICgpesK5a4fVpCKMg"; e_fb_requestsequencenumber="AcKr3aKXR9mso9SitGeP2t2r8D2lFdhISEEHndvKTHOnUJLigl-yr6gJzw"; e_fb_hostheader="AcLVnMXjq9fdfHyEtSTyOPTz-GokCn2fj_Z2azUmuDFAf3Yp2Thghzg_KzeCOFtdaN3kcPais4udDBHW"; e_fb_vipaddr="AcLtjXBqiFqsochQeaKHuxeYv0VGk9nkDfiXneQce4deZUuLGRQVps5Emp61CFJVVLW31nGcDUE"; e_fb_requesthandler="AcKwEypHM-wq6zRmAW5L7dSpWIsLdbme4G7dREZoZX-zjA_FadSdKCrUOku4L0tDsJdvCH5JBd8"; e_fb_requesttime="AcL_lM8ypL2Ga1BSXW8BhLGoS4nmRY2V7tTTiB1Mb-FSR-wykfagXM8uVOmEf19fUhUXua63dw"; e_fb_builduser="AcLt4wm_aFGZeV_DVtq9DWl_mjQd2HuLsRYKjmV-ZjBRwZhaJqf1-6hTax2_h8SrVss"; e_fb_httpversion="AcLUgYIrR4i6N4Ssev28a3hgcHE9kT_udrOS35DR3Tninl85y5UoUJ-ikJbc"; e_fb_binaryversion="AcL67lWUHSgCFOb5U6VdHcIp6pFU1jqHjBXb8yMwu8JTDVgAO4M3-FmiTMXyVu969Gl-q_2aV7IF-p10WNMquJ5FHvxeCxX75D0"; e_proxy="AcJbyLlrLK5SXseU3YryMAaNGXpxpnbILNsd8myirMUswMPnrGHIiL9enpOjg41tZ5ZEbtE7MJR-u8o"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=20, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=179, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 07:30:43 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "Unsupported post request. Object with ID '_' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 14:30:44,154 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 14:32:47,229 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 14:32:47,318 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 14:32:49,105 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO9vnNLbpPNI98lYh0ls0CZBeP3mCZAthzxxBZAXWZCxlNjd1xGtEwEuVUa9vVHuR0ccZAzuH9THJ5kkQ5bLm215N3ZCk5fbdIIf5leMyRsS98H6pxtl2DBkZAiGdV4wJePh2PzzSiWrT3mfoBNeGpLXJqZB71alE6tC6AISfEYy0nHMuZBHrFvZBy83hw58NguawZDZD"}
+2024-08-01 14:32:54,261 [1] DEBUG traodoisub.frmMain - bat dau like
+2024-08-01 14:32:54,263 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:32:54,263 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789
+2024-08-01 14:32:54,265 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Form Data - Name: link, Value: https://www.facebook.com/thinh3789
+2024-08-01 14:32:54,635 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  CF-Cache-Status: DYNAMIC
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ONdOhJ%2Fni3Rl3zOt5PuS8f8HSSSZ1nlZ8VqlvkZzAzYzs4yz5rMpJtzTMJ8JL7May8I2Sv0zNkjv3Y3c3GXdkIiAE8kojzcv1p4TwHRgdhZiZ3F2k2TQLAZhEQ0sr7UfZpnR%2BA%3D%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Strict-Transport-Security: max-age=0; includeSubDomains; preload
+  expect-ct: max-age=86400, enforce
+  referrer-policy: same-origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-xss-protection: 1; mode=block
+  CF-RAY: 8ac42310ec531fb6-HKG
+  Date: Thu, 01 Aug 2024 07:32:54 GMT
+  Server: cloudflare
+  Content-Type: application/json; charset=UTF-8
+}
+2024-08-01 14:32:54,636 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 14:32:54,636 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ONdOhJ%2Fni3Rl3zOt5PuS8f8HSSSZ1nlZ8VqlvkZzAzYzs4yz5rMpJtzTMJ8JL7May8I2Sv0zNkjv3Y3c3GXdkIiAE8kojzcv1p4TwHRgdhZiZ3F2k2TQLAZhEQ0sr7UfZpnR%2BA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac42310ec531fb6-HKG
+Date: Thu, 01 Aug 2024 07:32:54 GMT
+Server: cloudflare
+
+2024-08-01 14:32:54,636 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 14:32:54,637 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 14:32:54,637 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Starting GetPostIdFromLinkAsync operation
+2024-08-01 14:32:54,637 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Link: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 14:32:54,638 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Form Data - Name: link, Value: https://www.facebook.com/thinh3789/posts/pfbid02rRWYYLxcpyc1okdsrcYFVKFiGHmgxLt6CmgtzXDfmwz7dmmA2ktsyByhM3cydM53l
+2024-08-01 14:32:54,836 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Vary: Accept-Encoding
+  CF-Cache-Status: DYNAMIC
+  Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=tsp3rcCzrRyrQfxDSqwWaSiKoTwMTd7MVceSMEOHyORXqiPeHn%2Bv8so68jCn3tqT015UOrfN2iSm34Mm%2BLTI4%2BzhhwJ0S%2BRaXgY0WXXWPTqwNdOSvchLZ140Dy46Z5fyBKndcw%3D%3D"}],"group":"cf-nel","max_age":604800}
+  NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Strict-Transport-Security: max-age=0; includeSubDomains; preload
+  expect-ct: max-age=86400, enforce
+  referrer-policy: same-origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-xss-protection: 1; mode=block
+  CF-RAY: 8ac423127f1f1fb6-HKG
+  Date: Thu, 01 Aug 2024 07:32:54 GMT
+  Server: cloudflare
+  Content-Type: application/json; charset=UTF-8
+}
+2024-08-01 14:32:54,836 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Status Code: OK
+2024-08-01 14:32:54,836 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Headers: Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=tsp3rcCzrRyrQfxDSqwWaSiKoTwMTd7MVceSMEOHyORXqiPeHn%2Bv8so68jCn3tqT015UOrfN2iSm34Mm%2BLTI4%2BzhhwJ0S%2BRaXgY0WXXWPTqwNdOSvchLZ140Dy46Z5fyBKndcw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains; preload
+expect-ct: max-age=86400, enforce
+referrer-policy: same-origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+CF-RAY: 8ac423127f1f1fb6-HKG
+Date: Thu, 01 Aug 2024 07:32:54 GMT
+Server: cloudflare
+
+2024-08-01 14:32:54,836 [1] INFO  traodoisub.ApiRequest.Facebook.ApiRequest - Response Content: 
+2024-08-01 14:32:54,836 [1] WARN  traodoisub.ApiRequest.Facebook.ApiRequest - Response content is null or empty
+2024-08-01 14:32:55,134 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AtQROak7PTcLBBLLzNODlLC
+  x-fb-trace-id: CHgBYp1xNjF
+  x-fb-rev: 1015316062
+  X-FB-Debug: kkw1sUX8BgWQRcAHqwCe6EcwRiuB9s8nQ/pMOR0qXOhhdR8obmV1Uy2jrMhw5nH+cLvRSI9YjEL7SDtklTlEdA==
+  x-fb-server-load: 39
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcJ5nPblhV6xXbp3G8qveKpDd0AJaDqvnn0G8ZLvBWWRKpQF62HivKKtoQbrmnOkquNC9qKK_brpuUA5nzE5"; e_fb_binaryversion="AcLHiQwYRzgBi3wr9z3XvWgNPj3gx5V-EWDaVZYe51hG69WGogvclguMjj8tPbX-A17exU4MuHKkMLwYj4ckn0vSrmD8YDWpAZk"; e_fb_httpversion="AcIvHN7Cy8btAeoEsY6M1CGLbBCJiricZ9pSFCSKkYIcFcwAi3LTXHBI8WYE"; e_fb_responsebytes="AcIpZ3ZSY6gqgemczzrFn3QKPjkUsCHnPdYx2QdYB9bGcN_QZgYMwlmJ9pnc"; e_fb_requesttime="AcIuEWezBq9Kme-JzAFSxdnzAzbwXcsj4xDjmfNRONJn8QEP6c6TRWPKIncJ2B8vjfA4dL9aJA"; e_fb_requesthandler="AcJgvG2rRHqsxOvYAMBSvAWGFRNHoDmtW7EN1jOaTefGCnh_qEhC0neBwGDSkvN6INtLSjitVlA"; e_fb_hostheader="AcJZiK-FIjAiaKS_9_AJ1pF1SaI3r6AaIzTGs3Y5UiVtfc5K5qizrjPVJw1fvt6aGHc4a-dEg8JAHEFI"; e_fb_requestsequencenumber="AcJIut-iMgvg2L9HTLJjArC362LTzDhZzlcJqoBu_i9rjtr5n-zOJSpschya"; e_upip="AcIy-zhuTiIZC4c5RxGR3ZnEDOtJ5ycc_xPIQuXi6AZ4y7vMM6tshOwCIRo2nppa4q-RLgjPIAuD7OKd42VAdsLBKfZOG22XqpSR6aA"; e_fb_builduser="AcKxasXawshL-KSx6VD25ia5FsZp6L2rRsGp-87XntWZ5fDWHgMZQgjy7698fSywpoY"; e_fb_vipport="AcK5JQbjW6eNwS5MXf7q53sNAu7rYw54wkJBjZytgNpgrvcPEGwkFmsp_wTd"; e_clientaddr="AcJ0xnMfH8_nPboA9F1ngrhg3GNoFPN_o8ZFT3ci9h0kUkizMrZu4c3IRBdAhpWtnC0aaBB4keKS1pdESWTfJbFCa1aLeeUz4P2ctNDRfMVa2azjhQ"; e_fb_vipaddr="AcLwk7ZmTdn_I5uzkPT63Zshj-oRr7fT6oFHu-lPTVX-FY4XlaPkHSs6R2Lt0vuaPeCy4Fg1AynpEnhE1hJ6iArSLbH2kZoJJg"; e_fb_configversion="AcJkaYHQAGG2OD4K-JoIrcdXUSNUUab07T0xw8gPj1xu2yCHgQ7jQxIFaQzUEg", http_request_error; e_fb_configversion="AcIWSGklYFV8_uZQeuzGtBQPaJuMMSvmxbrNS1i7gYdmhG7zGsQqJTEB37srNQ"; e_clientaddr="AcKHD6yURIB5lwTD-79Jcbi6v80O46gG1IkSVFCU_kdSB70z_1F4bMIVigghOURTCoRQIbXjNb7sPMnaew"; e_fb_vipport="AcLM4tgZVVNRro1PkAVvbSqz-hJC45w2ox4ak0ArkD38CCJYQVnHAOa1q_z6"; e_upip="AcKy0lnaBY9oCC7JpMCX5lJqHt7ckHLBCChiqtjBEIkED1wGtaXOLsl3ds4H7L1s4jsrTlxFNPyFpPi5lc_HIZJONpjqAFYrsA"; e_fb_requestsequencenumber="AcJYawnUxhRbW_EnJgS06F-d7KxOcv27600vJj1doJUIlHgy1rNpI4YLCA"; e_fb_hostheader="AcLVnOR6sxc8bIShjdbf545D63NDDWBP7Trrf5VUeTgA33m2bicoBcXse6QqvdpZKY1VaI5jCcjhp5VR"; e_fb_vipaddr="AcJanGbiOrSToQFzZ0TqnzKE8okyv6wvWOh7yNPoUWDIeyvgQglgURzXM_Om3McKX4WdJbm9UAo"; e_fb_requesthandler="AcIcJjGAif3EIHjuRnlpfRGkdGGbQ8OgTy4ngwaJTO-rXkBJJRMwSgBWMB1Ql4le5L_oaErFNrg"; e_fb_requesttime="AcKBWQGA8QFX0-3iWftMH9QnxyyylUziZAK8N179AlXKSiRtZ6mfIME3pWGtsHCUAD4NMHKznw"; e_fb_builduser="AcLg-jjqP4l9n1tFm1BGwZXFLzynOxUqKbzVUBQ4H1FfgF6Ws7nj5gFAo-iH0_KZYow"; e_fb_httpversion="AcKIrx-fidawiIbJilNpd-6uXg8kV6t3lwczBchsme5XwFZG1qVIkfAholEE"; e_fb_binaryversion="AcJXm3B9C7jYqWgEHj0WdR17x8iJ22lrb9y9HUedar38MrA6_9BGw5XFE87_SsM7p2tmHk82EcgR_wyGiN9seVbZkYfakyt4-Ng"; e_proxy="AcIXTZFiG8-jv4kkQUaTKQB7XYRQaGSfaukfEQCERNzsS3dzymIX6rUNVpwOyKUFBHXa6kxRRLn5rws"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=21, rtx=0, c=10, mss=1392, tbw=3229, tp=-1, tpl=-1, uplat=185, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 07:32:55 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "Unsupported post request. Object with ID '_' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 14:32:56,541 [1] INFO  traodoisub.frmMain - ket thuc like
+2024-08-01 15:04:58,284 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:04:58,387 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:05:00,259 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO7DqJQ3j30iXKebtALzOMdntoHuJixsRx4pnBnEzBdwZCJWMPsIuhNydXnGH4ZCtck97LCbelfDqlvpJ89thGSa4jLgg2Cr2B65MZCvqMZCfrWjuKvorg7CSj5tNZB2enzRDqP6JbQrHzP3aokXEpX32T836gDGLOXNbhdFfdSCz26iLMFZB0BjMNAGv3WQZAsWGAZDZD"}
+2024-08-01 15:05:17,353 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Get Data Response :{
+    "error": "Access token kh\u00f4ng h\u1ee3p l\u1ec7! xin th\u1eed l\u1ea1i"
+}
+2024-08-01 15:05:51,898 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Get Data Response :{
+    "error": "Access token kh\u00f4ng h\u1ee3p l\u1ec7! xin th\u1eed l\u1ea1i"
+}
+2024-08-01 15:05:59,056 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Get Data Response :{
+    "error": "Access token kh\u00f4ng h\u1ee3p l\u1ec7! xin th\u1eed l\u1ea1i"
+}
+2024-08-01 15:06:22,095 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:06:22,199 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:06:25,227 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO1aiX56ZAQcCeHd1WORn3LzTVp9GR1pqmx2bCba5tLZA8gba4zx88TKfezkIDAHLoHJyruIrntZBVe2FMInKVIogF4PZBTWZBOx1VNQfhYxtyw3f89RzYx5jpAkvYQAFTsVAwn0hKgDUHZBTDtrZBsjw1MgP0rhrRHSxaPFtNrFzaMRI8dHvbFbKguhNoCTKwZDZD"}
+2024-08-01 15:19:43,167 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:19:43,265 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:19:45,231 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO2zA4orDKZCwHbDTadNqPbyZBlk2vzNXonNuFHXpxhQtgdDmySZAE9ZAIlta9AUiVtB0UgFJz4CRG4iEwUGAgMNZCMBov5BCzVZBrm2t1yH9lCPojxpVJLPtWKWipbOLMx0hgdNoiY1fdnuU6Ykh7BhwPzZBJJXFuMSHljGpov2Dcw9YVERPW7sBoo0pw2scAZDZD"}
+2024-08-01 15:20:08,197 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Path '', line 0, position 0.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at traodoisub.ApiRequest.Traodoisub.ApiRequest.<GetListTask>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Traodoisub\ApiRequest.cs:line 34
+2024-08-01 15:22:13,158 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:22:13,276 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:22:15,081 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO7xnn6hNSSlmgEbtS2W1ExtOkSBZBAc3woNQpKXNbxsrlZCmih3D2UZBCZAgoZAWWtLxhDW032JVZBg9ixuSA7Tar3QbMVS2rINssvZBdm5QFS4sAKWH3O0bnTQNf9ZBrVeM8HEQ2aGSDAW5mOGufjZAqXBhD9a98k7ZAy8RuJ22F2Y5EVGmNAucpmC88Qi1DUHAZDZD"}
+2024-08-01 15:22:29,025 [1] INFO  traodoisub.ApiRequest.Traodoisub.ApiRequest - Response Body: 
+2024-08-01 15:22:29,071 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - JSON Parsing Error: Error reading JArray from JsonReader. Path '', line 0, position 0.
+2024-08-01 15:22:45,187 [1] INFO  traodoisub.ApiRequest.Traodoisub.ApiRequest - Response Body: 
+2024-08-01 15:22:45,207 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - JSON Parsing Error: Error reading JArray from JsonReader. Path '', line 0, position 0.
+2024-08-01 15:23:38,093 [1] INFO  traodoisub.ApiRequest.Traodoisub.ApiRequest - Response Body: 
+2024-08-01 15:23:38,118 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - JSON Parsing Error: Error reading JArray from JsonReader. Path '', line 0, position 0.
+2024-08-01 15:25:27,654 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:25:27,763 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:25:30,068 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO8V1zZBLkLuYfKmqLaeSFsJPZAOmRjbtKoND42CYXAHYq32kx4Uv7oK9SF7ia0ZCUZAeApZC56nRvEiABuwE2MFBFq42x4aPTshhV3kYKy2P0ZBuqxqqoC1u7hRteUfZBpSHTAimeoT4Qc7UOP1Djpkl2lsyrfx95F8L2IEwF7IT8VbDA8LBPZBo6iLRRH3BYgZDZD"}
+2024-08-01 15:25:51,393 [1] INFO  traodoisub.ApiRequest.Traodoisub.ApiRequest - Response Body: 
+2024-08-01 15:25:51,406 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - JSON Parsing Error: Error reading JArray from JsonReader. Path '', line 0, position 0.
+2024-08-01 15:28:38,960 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:28:39,086 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:28:41,042 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO22SnqKvUI2ToBQVa2ZBucgBxcX0RROMQrgxZBnW816oFROE7vxWzKzZBkGNzhZBMEqDPZBzsssLOTjP8bovClwMA64k3Qzy3840kgLw5XhP7AJvdCto5tDymMIWM3znfICFNlaaN94nVIwsk5nTVGN164hXZCw2aqgQPebZC4CZAX908rau4blnEsSngMNofwZDZD"}
+2024-08-01 15:29:00,948 [1] INFO  traodoisub.ApiRequest.Traodoisub.ApiRequest - Response Body: 
+2024-08-01 15:29:00,968 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - JSON Parsing Error: Error reading JArray from JsonReader. Path '', line 0, position 0.
+2024-08-01 15:38:04,814 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:38:04,926 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:38:06,837 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOwYlA6frPwEmT9TFfG88vw8l5uJZAIhWdgQuQVrxZABLZAPceZAmlCikTpevcrNwD6bvnZBpHrEUqpfhZAMkxgVmwsLAqARGIG8HAUvHRnnjb8JVsisJj4XyLpBRahGvfkIAk3KrdtWhrBerts3swAEZBdGks925BwQF1TJngyMIYYJyTjFsaxjZBqOljTRQVwZDZD"}
+2024-08-01 15:39:06,243 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:39:06,324 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:39:08,106 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO7D6nRPiNsMRuqASEJPA7b5lLLgyuV1jqcGRvmTZCZCVFgEIZC1PFERyVa2z4Ciyf5pSax5HC6KZC9cVYSH1x0dwENimrI7oyo6cZAgoU7c6DiW9TSD0tCxHlakHC1pahZCphIM69L0GDokS13TlqZApGSQ7x3TRnxZBNsUqyfMDXdwCzbSfhs169uWolhdnbuufngZDZD"}
+2024-08-01 15:40:00,668 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:40:00,761 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:40:02,712 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO1jBbYg3ctJ5aZCSIZC0xEJvXLNQOBZBS8W2HahkOUUEvk8WK5pp3c3xcgAbLk44AYMtmCb93gNxdRA2hQ2oMffWEJfZAIxf9oDL3xy3qCi69ZAanUofROzZAOJEjoyQRhzhsuyltqqZAQwgoTAhMR6uGj79ZBPKZBeaT5VSEZCoSr6ZBR5ecPfz5HoKJGKDB6pcgZDZD"}
+2024-08-01 15:41:44,193 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:41:44,298 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:41:46,144 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOyDzK47O3iWX6JdhvetAENndItZAaEoFhUrsaK3kIlyebaOQnsrvAYc4dm3CPCoq26D5882FWwIDAfbrdrCUhDu2axrQGMNWdhDQ0pbb8pZBipCZBNbDBtU0V56lOnO39ozWkdTw7e1LLPFiCaZBBjBYWwDQZCKPZARZBU5Rwfj1ir0QlPbbe7IEadINdeyUwZDZD"}
+2024-08-01 15:42:21,473 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:42:21,563 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:42:23,295 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO72dmRha1U3rmgk1ixbaQ63H0ZAEUfc8mRu0CmvgQ7iazZBaxKFaGSO8gRKnJcNi14atYzTtKBhrZCQ25WWbZBnV5zRs1OFlO8N3WMQ9Xnfo4Sv6Neb5SnA0vdXQXxg8kwoiQrvCqPeMHVTLpkuGCRfCNZBt3V9guRjj6CWx0jvXiSRv1OOTBDhY9uqQQZAAZDZD"}
+2024-08-01 15:42:53,697 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:42:53,820 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:42:56,748 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO8724eudFO0BGZCVtv4cUAuNuyHAayn6cgl0N0A7PZCWhZBh2YHAPxTHYbuZBeroa9fxluZAa0OSPW3m95IjBHiuoIjrA4wIeiNPk0u7yttIEZBQMcHY33WqWBm3ik38Kaylr9wZCj2DPnkfa6cr1NOYShUSeyQHdPDMKTcm10vPbQrq6yKDjd4mtCZAHUmo9wZDZD"}
+2024-08-01 15:56:37,268 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:56:37,348 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:56:40,067 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOwgkaC3rNjIyNRb8gVLiqKgRzHb83GMKnlo78slpMfXpS4UJHngYxlug8qRnZBCz07g6ByxwL5XNKoTgCG7Cflajz0LnJw1UOvyWJ0q3fTpd72B6IWC7UEZCBGd9ogJpKscTTkzjC9F88fK4GDnBkQ6gagfhJTv2jAeZBNseQ5iiXvyEgRHS5sTQcGhuAZDZD"}
+2024-08-01 15:56:52,407 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 15:56:52,407 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100075891371280_502413232298385
+2024-08-01 15:56:53,956 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AzZdx1_RDDvi2a9RJliDyTl
+  x-fb-trace-id: FBM8jKWy4jT
+  x-fb-rev: 1015316062
+  X-FB-Debug: 6ISazO7QpLZpY8RZCfuMTBp8YBmYDj+A5U7tYsuj9O6DJCsVB88NQxdIMdsWnhDe7XsxjlZ3I29PgNAtzNvGpA==
+  x-fb-server-load: 34
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=23, rtx=0, c=10, mss=1392, tbw=3227, tp=-1, tpl=-1, uplat=1446, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 08:56:53 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 15:56:53,956 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 15:56:59,899 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 891350819680369
+2024-08-01 15:57:01,150 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AzfgjORilabfkROcBtbGuwT
+  x-fb-trace-id: B6dBw6y+Lwf
+  x-fb-rev: 1015316062
+  X-FB-Debug: +KsZ10O3PWKYkaEbocSaaX7UPHbyw2jkWl+RbVCzDZ1maM7/S13fd/AqXsmSzCOqm+CWyVmWvIFjCkKy/rv2iA==
+  x-fb-server-load: 28
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=29, rtx=0, c=10, mss=1392, tbw=4018, tp=-1, tpl=-1, uplat=1226, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 08:57:01 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 15:57:01,150 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 15:57:01,504 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100088682604449_473033288996087
+2024-08-01 15:57:03,115 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: A_jtDe4DHNxt8eEfEMZ7m_T
+  x-fb-trace-id: C3JGPhuJ6AP
+  x-fb-rev: 1015316062
+  X-FB-Debug: cO0+E8TCxknmAknt+IiMKKTDHz0cVJLjpfLuPUH9HvvT6V25eQgLHgiMIlNtZCwOtw2bv0V2KlwckLnb22RCYg==
+  x-fb-server-load: 39
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=35, rtx=0, c=10, mss=1392, tbw=4809, tp=-1, tpl=-1, uplat=1588, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 08:57:03 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 15:57:03,116 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 15:57:03,596 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100023463948008_1411744562950995
+2024-08-01 15:57:05,296 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AbLHAf1_Gaft2xlyHBA1a2D
+  x-fb-trace-id: Asa+0aBLYPb
+  x-fb-rev: 1015316062
+  X-FB-Debug: d+t4FjCQJPHcc1YI5Zqyr4bbaKmxBGye7IZ3WCaMDCD6UV84SAmt6fT5RidBZYpFJ37Q7K/IHcMmJ0xaqcmSvQ==
+  x-fb-server-load: 30
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=39, rtx=0, c=10, mss=1392, tbw=5600, tp=-1, tpl=-1, uplat=1674, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 08:57:05 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 15:57:05,296 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 15:57:05,625 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61561907692408_122111086346396923
+2024-08-01 15:57:07,219 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AV5MEmn-KeBoGlMBJRtJ796
+  x-fb-trace-id: HTJkRaO+PlA
+  x-fb-rev: 1015316062
+  X-FB-Debug: NaHIIh4znbCzYrVO9KlKbzGl2VhpSkCBe86Bi9YMlvfVIgrMf0JhdPA9opjxOBpAk0IRpVn7VSn1CfrLYE84Pw==
+  x-fb-server-load: 29
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=42, rtx=0, c=10, mss=1392, tbw=6391, tp=-1, tpl=-1, uplat=1569, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 08:57:07 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 15:57:07,219 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 15:59:25,731 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 15:59:25,860 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 15:59:27,894 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOZCmdjlJ8dQ6kN1pDpHvd9SQ51GJgysHKZAqHPnMlpRVHpLM3ki7zOcOd4RgenCmJg2gXetAvZAgfZAMQZCGIuh2bezZACeDWShhUtSdefxfW5vEgPzSpOMnZCs2BGNbFuLbyj42LIWNUmwF1h4OS2JR3xh6QMRvtJVnt5L5ZAwgXyoJRcEVO0gbjDME8ZB3nGAZDZD"}
+2024-08-01 15:59:32,541 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 15:59:34,492 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 15:59:34,492 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61561425045971_122104421192380834
+2024-08-01 15:59:34,786 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: Aw_AnFgCZAhXqpPRsbHYXgf
+  x-fb-trace-id: EH4jy0Dp1ny
+  x-fb-rev: 1015317544
+  X-FB-Debug: TBzmN7J3Da/PhbAUk6UUEYFaxrdz1fkxkGmfMWvfpQJ8HkXNClI/UGDvAeyXBvGU5MA+p2dg0xOsQOJh5rojRg==
+  x-fb-server-load: 23
+  Proxy-Status: http_request_error; e_proxy="AcJa3U0Krqug4FmZNaSPmpJLAgkd0KwsRTLGTW1OwutKREYlTgVNcDwW4Oy-GNz3C09kPvwpkAGJxbkJk6D0"; e_fb_binaryversion="AcJpKXAvol-9m8xD8qmrK7EY9_SD0Tj2IltDuqbI3-In7zP50Z_pDUo8uLn9VFwI8wia7fmm_kkJSTr9b2VgAJCENUFpUh3BuMg"; e_fb_httpversion="AcK9uSRPl0tLCyGWWf-iOhyp7sRjFq48UETXek88Lc8TBSQa6-wq3LC40lQB"; e_fb_responsebytes="AcKNLCGUZJBbIwSAaW6sUj2GEQuNIcjo0ju_6JKuK_1ybSdUNSnouChgI1PY"; e_fb_requesttime="AcIH0KKIsxpr3-2l59zP2gc4TzjatamHDZoj_oVKhfbthKKFUulBii9cgk53qJ3QGU2txSSkjA"; e_fb_requesthandler="AcIi7zr0nJBMa0Fi3rOWruKGhz6xqSuP4TP2v4QXwwa1bLorE_EhEz6UvcZC2ybrhSfDvvsqxNQ"; e_fb_hostheader="AcLu90OX_CGsXbzQcGQQGRQYbZFMPSXN1Yc6TrSQPdy8A5X_ZAKjpnP0ycWCQMlGDE7Ie3t8RRT1cPcX"; e_fb_requestsequencenumber="AcL6iZQcg7Qs5BlPvrNXZEai6oLNUV3yYKLrHXKigdHCf7DcJmt046Q0LwbEpQ"; e_upip="AcKnXSnAPO9fZiz3upSAhh1ElpJn_TiwxZtaEgJ4lsWszetC95k-JIvUMwnknB3D9U7AhvcHyOfKKxqTQ5RRF0rCmyEpuKML2HzYp6E"; e_fb_builduser="AcKCXZh221Px2X4tDjUi0Gk9MS6w5BimlQVxDjKwv3fQlPf7YW-tI-BMdN7yj_G9P30"; e_fb_vipport="AcLAtJrS7-pbHjZ7E27Qx9oeaZX0HlEeTiW2M-I1u8J6K1afZj1IPqfrIwF1"; e_clientaddr="AcKDF-f1jS8L656P8bYqMNOyPlTWB7MLJk1alfhwXwr8lUtgsm40Z4TYsudwGPKjLkOlJQcvV5mDLm0c_L3llB2dUB7CCRcr9V0pjd2ME_XZ2GS-FQ"; e_fb_vipaddr="AcJGOuyFqpv0oKIrjPbDvoYD5bw7DSZgljZkD7WWaZ2rcZquQ1nzRxsZ4NyJa0ZXv3s3RR0JVKAjA5FcGYmJd4iov1bOY2nDcQ"; e_fb_configversion="AcLJU0dwY8Zs-oagsy2IYPDxUAAHaieI96dsOQnLjtZQeP1L_2g7ajZkSnwWsA", http_request_error; e_proxy="AcJlcyNSKDGTuypoIE_AuOteUK3yrk9lb37aOrbS_Mpn1Y6IXYO6FvfjQZjJiGLNydmrkzBiVAE91L0"; e_fb_binaryversion="AcL-snI6G2kXC6tpl7gHjTrR_-mTbIKq8lcda7bY3PeNkHQPp_2TMOEyvEMQsZqcY3Twfbxw3rUADgsBhB3lVwO2Z1_F6h8jGy8"; e_fb_httpversion="AcJNLXhFfqhZZPqrVE3p-mUPxdb8cqBvlxf3uoheTNFDseNpfYY59v7OxtD4"; e_fb_responsebytes="AcJX6GoxZszom9vYqO3TZ-aXJY9F6153bbfsqEnzoYvU-RbQJ0Gpk2gajVMu"; e_fb_requesttime="AcLAHdne36A8IdhKXABMS40LZIIt3fwuQATcdI1eJXpXeJKE1ONqN4pb1BAWQHGSn7ZGpBp0ww"; e_fb_requesthandler="AcJx6WvujytvDSmuiyvzu1de0DJCtorE37SGwXd_FIoirfR1jvw2zxh6c_LkA-WhoZjF_6eNddA"; e_fb_hostheader="AcKHBjpnMCVF2z0L6Uy86rREBKxCTX630ZSbbVM_Z_Qo0uux3rk7eaSHWAGS21dMI1Cy_ogK32mT-tAh"; e_fb_requestsequencenumber="AcILZigIO4N21zyYqbpkCwBZZcc_t81wrgPkTklwdjtcfoRHoodUJN8CoQ"; e_upip="AcKIErtn8FYzin4I5i1Zml9bdQI0NAeMYqCJG4JaOnZEVrVBWgd6FBvDjK3wL-wxh4RrTvlTzjOkOkgxt-fDVhvOilgyc8hJEQ"; e_fb_builduser="AcIu7LT-9cBKzXOW6xepZ7r98sIEX_Cbp9WJxWxTRBJfzbmQsDYh1dSAAFUogIZ1JBU"; e_fb_vipport="AcICgRCblY8kjp17BUwc6L6aGZw3h2sZIh-jy4xPf_g6VOoM4VYOdG2isA9e"; e_clientaddr="AcLdlcCfUl14OaNk0y-7MsQYL-lRjEsTr5KRYFa0d8AkAOVKgCodW-zYvlD_GNqkGHk3y8WEomvQoI58NA"; e_fb_vipaddr="AcJ1qZA2NHei_No5RUZgUQgrC88eqwtfwMv3k0op_8DY_e8gAIzHPJK3HraKYIRUtpD1svl9"; e_fb_configversion="AcILJ4h5fkkMpoMFkk2WxBztItrsYZNumlrbF2MpbnMGsu7HLq1EdrUmxWn73A"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=22, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=194, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 08:59:34 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#100) Story does not exist or user does not have permission to interact with it"
+  Content-Length: 178
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 15:59:34,787 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100063985512862_906317714844404
+2024-08-01 15:59:35,339 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AE2sRdUejdnAxuahFy9RFF_
+  x-fb-trace-id: HHgGtvngQFj
+  x-fb-rev: 1015316062
+  X-FB-Debug: AFqDrkpMvJlErud8lnedLLs2FB/2hJvJ6/z1hNrUPF/YOn7VZDsOiiemSZndasRezimDNf5JiMIiiLdsoQU1dA==
+  x-fb-server-load: 43
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=22, rtx=0, c=10, mss=1392, tbw=7107, tp=-1, tpl=-1, uplat=526, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 08:59:35 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 15:59:35,339 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 15:59:35,805 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 15:59:35,805 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100088837406455_480251011612808
+2024-08-01 15:59:36,932 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: A8iXZ1RvenJO4jit0TE-tCf
+  x-fb-trace-id: BWQ68ZI6gPa
+  x-fb-rev: 1015316062
+  X-FB-Debug: UqRTLvKU/qAQA6F/v1AXPSJ1ENGQ1TVrTYzdQDn3wS7B3GszoDdCgTLWPAZ1lGtGtyWWJwKarJEzlRMFnc226g==
+  x-fb-server-load: 25
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=27, rtx=0, c=10, mss=1392, tbw=7897, tp=-1, tpl=-1, uplat=1100, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 08:59:36 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 15:59:36,933 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 15:59:37,229 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 15:59:37,229 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100071606598360_502721372124745
+2024-08-01 15:59:38,549 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: ASnwn8YPH9sGEq-IrvT2ql4
+  x-fb-trace-id: Cysgv6y6Xok
+  x-fb-rev: 1015316062
+  X-FB-Debug: RuPUZRVcHqKktNT1sSGkmDqLYxAgH2lZ0ehli2EvaR4YbbSUj+PAQ48GoPfT3sBlE3MCExQy/LdpjJeFvzKZmA==
+  x-fb-server-load: 30
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=33, rtx=0, c=10, mss=1392, tbw=8688, tp=-1, tpl=-1, uplat=1295, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 08:59:38 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 15:59:38,549 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 15:59:38,839 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 15:59:38,839 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100091499298116_414271938299446
+2024-08-01 15:59:41,602 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AahBMR_QgUvDSjNb4jqAD3c
+  x-fb-trace-id: AROekeNydiF
+  x-fb-rev: 1015316062
+  X-FB-Debug: dAb/HNRf5iwbecZjXJ4bMppxjrjF6mfaAe3iYqwFqhul/f9YPAYdVuC6qzntBJ9hMswAypBwigdSxwuX0njOoA==
+  x-fb-server-load: 39
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=39, rtx=0, c=10, mss=1392, tbw=9479, tp=-1, tpl=-1, uplat=2739, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 08:59:41 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 15:59:41,602 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 15:59:41,930 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 15:59:41,930 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 15:59:42,037 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   at Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json)
+   at traodoisub.ApiRequest.Traodoisub.ApiRequest.<GetListTask>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Traodoisub\ApiRequest.cs:line 33
+2024-08-01 16:00:32,341 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:01:00,178 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:01:00,291 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   at Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json)
+   at traodoisub.ApiRequest.Traodoisub.ApiRequest.<GetListTask>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Traodoisub\ApiRequest.cs:line 33
+2024-08-01 16:04:01,527 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:04:01,608 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:04:03,489 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOzeqwNUEjJ4Aki4LANglm80jzBZBKp93NwUCUeDwdTSogKTUzzr9bkwGEi6N63RzX4Y5LfG2fxBNioWlq9FORAZA3V5USW2nP4vBRBKjU42ZCBNOZBxbYx3gyWsyDt3h1hpMl6ShH50H5x4QF51nXdclxGOOeQw1OywC1Gj0o8JmJ4SyzSyssegMHeNHZAQZDZD"}
+2024-08-01 16:04:10,036 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:04:12,358 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:04:17,375 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100026140596680_26067941242852070
+2024-08-01 16:04:17,718 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: A1x6LVfDsOERAG0oqhDMDeG
+  x-fb-trace-id: C6skvolBz9E
+  x-fb-rev: 1015316062
+  X-FB-Debug: wqtWZyYAbnpPzGxKoPmS/Ql0S9eJ0YlORLPGPneOl924t9RNWG7USkDnznIR3WpplUdeTUwyBu6piymPJk8x4g==
+  x-fb-server-load: 33
+  Proxy-Status: http_request_error; e_proxy="AcJG52QQD-O8F4NNnKdgjlQnLwaRKy8KXqcK6J0VXOndLZy6hFZ5JCknaMtTUVTsaOL6sQu3Ec3dO1w4rvxB"; e_fb_binaryversion="AcItPgBktElgS8m9nyNSdq3bwcEnBNPp2XlVBoAd2pChUbthjXCKCzrS7WG9Fo9E2P-f6S-qIvNFW2nIckx847zZDDNoqHzTSeg"; e_fb_httpversion="AcLEJTh6dWVyhXSq6lh-hyi5M-mn0Yz8VrEhAZJbpc4R9o7K0RVmHYeGysqX"; e_fb_responsebytes="AcI4-3Hy7zFi5XCgNVlfaw4HiXuqvSZR69RTKWMgwygmROdNtfkXcGnReu0L"; e_fb_requesttime="AcKflo1uOd2n-LjGaUzpSED1wlT8nyVLyo2aziWQokwReDjrP-E-MusjAT0XTHg_kWu5DfhtXw"; e_fb_requesthandler="AcKzI8Cv91hv5llQWDqqkXDfkL7IXhU08zYlNqSd_K1q20-pnPzFP0uxgQBGI8XkbyewwiXXSjs"; e_fb_hostheader="AcLTWnmtINTOjr_rE5a_JO1RnONgHWbvtnjJX10Dz_sVAGS_CuhAgewuDZsfBSSlCkHXgOqQO3E8mUav"; e_fb_requestsequencenumber="AcKqPJXyK7LA1LJGdNORjNqfu5SbCXKzPuEO45yv96lJ_HLfIuUALtYdRHZo"; e_upip="AcIL5-28KTJcrbcBVtb9ZlxxtkDMo488yemKkVleaOmykMXAdhD1KRu5XVvxla1264nTD0RfWaYL4czhz9zYiiHTyMy2SKNs3GOY8g"; e_fb_builduser="AcJIC25KO7AApawFDJKAx0Q83YkTYvWingXdylnumiCbd5AYVQ4bMlj_bl9mnlg8kow"; e_fb_vipport="AcKSs8Hd4vMSHoPxP_gMH9Sq1QARLBmvUx9S3OZ4cMVK-rqqoPBN0QLRJtMh"; e_clientaddr="AcInGODLVEra-0VMqFumZlWMIOvizktKg3Cg-9Xpkg7kPyNG3EUHEjn2YH3KNfdXuNfUEoo-qwQO0oIHKCtpC8ZEssIIo74dQ6HDLFdAZewTWTMRcA"; e_fb_vipaddr="AcKw9MCiglEtyKun91tPFNcooxgk7y_vqEbbjtnYxxuM36VJ98sTylkBP7DjcNVkorbHE8N_PmOHDQcc58D5cCaXTW2oyBUACw"; e_fb_configversion="AcIPHqzXxDnZkrMJHpb9qab-W2qETcvEkNJ4b6ewER1CMjAJgGcp2lcnEWbgbA", http_request_error; e_proxy="AcJYkgOMErh-pjepmlZFl8S7EWvSiu4zY63-x1dtLoK_0UElmwKvsr3OZvY4hhi67xd6cTQ_fw1XwkM"; e_fb_binaryversion="AcJjTjTviMjHGs7aXmbR2ZxaOg4iN1daXY3chaC1GAlYpqUxev1R61vAWEYRX8KJfpQ9_nuglH5ZPmMrMyIPwg8n_VVhnW42ZCw"; e_fb_httpversion="AcLyjAiezpXGc5bqK_cnjMFq2BTlOkGRYGLjTvNPoJE2-GdSzNdTEoLLwiTz"; e_fb_responsebytes="AcINLgXvgPndfKlu0vCr25hKRER70Bbp1E9D122254Cx9AylczRPbm4x_IP-"; e_fb_requesttime="AcL9hwhkcg7Yx7AW9E72CMPEX3AUHXKhkV3cmi07DsMQMKLfIUOELKRzsDfGK9cpuZeZBoD5OQ"; e_fb_requesthandler="AcKM4GAKjC3cdsBjcUxON11ByuPvNG8eHENnpYWDQVhoPsGmih-PQAYAlIVC2qHLfLXSiyAA2lQ"; e_fb_hostheader="AcIvOkg9xfVlLLJg1Dze0Cf4bjIeortmuXz0G8JXQpkEkUhfKqblPdZT0CFXxvzy8KK9ZU3ObyrWvFmg"; e_fb_requestsequencenumber="AcJHc8UWH2sjN6p_dvppQryWKpk4lVDkSbJKTuqVrfOUdBas9XJYa0cdTg"; e_upip="AcJwIa5JzM-tDEI3diikPr0--B9ttLrnqqGVj_VR8AsJcWL26yZXyCAOQ0xVuYbf2kzlYIqnm9adL1s5NmaOC3orOCzcFttqLA"; e_fb_builduser="AcLKltE1wOSnyRRAwFnXDz7ST_r-2lqHz7RZdMpZ4XQXNhXrwj2qG0cBDk8kOuHzcyk"; e_fb_vipport="AcJAo9llrcrDPVWmya6upOPIiYpuOFEm9yjN-a5EeLYMafFxUOY1PwHlk8i5"; e_clientaddr="AcJF0Ksm3cp0ETzTxeItv3EIKKOn_AZc0W8A949kl3jVLPwS2bCFC1zXdSqqclPEe0X2F9FogzBqSwM2SA"; e_fb_vipaddr="AcK8j5BZm1_audG1cC1ACDZSeuUJCL-2U4XvWOHqGslUWAFPnDl3D21GM4lF1hwho6EFmhJF"; e_fb_configversion="AcI-lnWRKxALY9oqobDYWXW2rzWltSeSEz2yv55Tjc4r9rAr0kJiOv8suEMkbw"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=21, rtx=0, c=10, mss=1392, tbw=3229, tp=-1, tpl=-1, uplat=247, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Thu, 01 Aug 2024 09:04:17 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#100) Story does not exist or user does not have permission to interact with it"
+  Content-Length: 178
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 16:04:22,720 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100000017398389_8420266247983871
+2024-08-01 16:04:23,503 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: ASUrh_sawdepAcQj6Vy4XkT
+  x-fb-trace-id: FGzHa9U0mX4
+  x-fb-rev: 1015316062
+  X-FB-Debug: tSCd3RsGYumnu4LkyWQ2W5gaER6zm+6LbQzBOCmKWPi295UoMHUecni7kuMyh+gNJnRmDx5gJOwIuyBEoeVkZQ==
+  x-fb-server-load: 33
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=26, rtx=0, c=10, mss=1392, tbw=7105, tp=-1, tpl=-1, uplat=757, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 09:04:23 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 16:04:23,503 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:04:24,180 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:04:29,185 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100012544419148_1905661149862014
+2024-08-01 16:04:29,972 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: A6k2l_bs8uzRX5XaytjQOjN
+  x-fb-trace-id: AXkd1UQUyId
+  x-fb-rev: 1015316062
+  X-FB-Debug: k6br1KQtJIanwB5FLS8MVLkPLkQtawBMdg8i6HEr2zFZZFUP27ZPonxlyyQSBabSRX9Cc+2pVnQ7loyPoNo7TA==
+  x-fb-server-load: 33
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=31, rtx=0, c=10, mss=1392, tbw=7895, tp=-1, tpl=-1, uplat=737, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 09:04:29 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 16:04:29,972 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:04:35,391 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100068170186980_809763587972640
+2024-08-01 16:04:36,971 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: Ay5PeEboOgsVM9yNUnvtVX4
+  x-fb-trace-id: B5PEfmk4Mjq
+  x-fb-rev: 1015316062
+  X-FB-Debug: JnVo/gssPVlRTbDWgLahChktoEw0tGq+rUD9W7VZDnZZlr3hY5qk+xReZGskWOdtZI1TITAdkHeXOTCwwPY3fA==
+  x-fb-server-load: 27
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=39, rtx=0, c=10, mss=1392, tbw=8685, tp=-1, tpl=-1, uplat=1555, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 09:04:37 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 16:04:36,971 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:04:37,418 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:04:42,423 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100080570259632_507902131905458
+2024-08-01 16:04:44,069 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AtGyWWQs-UbQcCxhy1Jfg2c
+  x-fb-trace-id: CZvqoejHsBr
+  x-fb-rev: 1015316062
+  X-FB-Debug: erPjnaiR9P3m+mY8HoW76QC3vTBuLDnxo2pRFVGGdDMohuPcw6A0FGEsV11THabueMg7H0i1FFOoVrBDFKN9ag==
+  x-fb-server-load: 28
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=42, rtx=0, c=10, mss=1392, tbw=9476, tp=-1, tpl=-1, uplat=1621, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 09:04:44 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 16:04:44,069 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:04:44,393 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:05:04,397 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 16:07:01,887 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:07:02,712 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:07:07,727 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100036025243948_1160633608480803
+2024-08-01 16:07:08,706 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: Ai7JNo_XO25lqz1GjbbrD5X
+  x-fb-trace-id: CW4yfZhy3Lj
+  x-fb-rev: 1015316062
+  X-FB-Debug: q6MdkHST7IxutBmfQwE5M6T69ez7sMtLGhbJpVf3nmq1xo8uHlg5TE2tw5QCcVonSV5zqP+Ffdw5YdiIvKHwow==
+  x-fb-server-load: 31
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=29, rtx=0, c=10, mss=1392, tbw=3228, tp=-1, tpl=-1, uplat=877, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store, must-revalidate, no-cache, private
+  Date: Thu, 01 Aug 2024 09:07:08 GMT
+  Content-Length: 4
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+2024-08-01 16:07:08,706 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:07:08,998 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:08:32,423 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:08:32,514 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:08:34,213 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOx8V4g9XERnbfjEDHLzx8vk1nZBbvY31qUGWY9AGZCaXpT6hVZA0s4kcTr5spZBZAsYiHol4po7bGwga4bwRtE6NaeOwrVWCUkFNC9waZBkvVTucuC0ydAf9496S5LIWAZCAfclZBhYt3JidZApVKu9Ae4JEs6VJa3yvaqd6iZAZAybvd9XPrZC4qh8IkgOsyXk4awZDZD"}
+2024-08-01 16:08:40,618 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:08:42,142 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:08:47,152 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 1954738774769622_1025124902313719
+2024-08-01 16:08:49,216 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:08:54,547 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100086182415897_443394268543317
+2024-08-01 16:08:55,120 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:09:00,441 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100077531271571_508356791758692
+2024-08-01 16:09:01,166 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:09:06,555 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100004141653045_2791896964291665
+2024-08-01 16:09:07,250 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:09:08,717 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:09:13,733 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100083128817133_473001385480818
+2024-08-01 16:09:16,206 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:09:16,474 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:09:36,493 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 16:12:25,154 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:12:25,162 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:12:25,163 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:12:25,163 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:12:25,163 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:12:25,163 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:12:25,163 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:12:25,246 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:12:27,484 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO9MkdQAnrNVznXElSVktx6pce6ZB0ZAXIIplCqPHZBQ7ROiqmBskCl6BZAVcBuRqG5TsOZAlZCZCqYJXl8RXbILOhS1fAIVTRcOH7RS11uZB8WCZAZBVawZBACTsEmSBDsOCCfjjeVkjCVZAAdNSqWERcMqKyEqP4AzZBhzbKmNwUr8UpcGIwXdCwrqyxo81goqxmSQZDZD"}
+2024-08-01 16:12:33,360 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:12:34,739 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:12:39,744 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 1177218776880361_1177219823546923
+2024-08-01 16:12:45,063 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100080302561927_422477053772377
+2024-08-01 16:12:46,294 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:12:46,634 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:12:51,636 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100052171118041_1055385939543767
+2024-08-01 16:12:53,132 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:12:53,424 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:12:58,433 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100004428523729_2720867004737557
+2024-08-01 16:13:00,354 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:13:00,659 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:13:05,663 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100002196170824_998900171717207
+2024-08-01 16:13:07,679 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:13:08,177 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:13:28,195 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 16:18:05,620 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:18:05,632 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:18:05,632 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:18:05,632 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:18:05,632 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:18:05,632 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:18:05,632 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:18:05,736 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:18:08,024 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOZBRSzP0EiTqSiVBHuWkc4eJIyxzOxqWCGy25I2ye5eJTQY5yM6B6Htw6QX6ndvhzpSi1XppGpDdhJIgZAjeG4nT3ipZBlzDZB9EZCvYKGvyphGZBZAV9HPN6hB7EYibZALRBuAVxY7JjrKcNf3dH7JtZBDBRkK1yY0gMDDqt2fgTphd1qdpp9OoAhJgZAqxEqBAZDZD"}
+2024-08-01 16:18:14,049 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:18:15,293 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:18:25,299 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100063664865089_1022919603173526
+2024-08-01 16:18:26,123 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:18:33,103 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:18:43,112 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100026140596680_1474540190093987
+2024-08-01 16:18:53,508 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100027747824644_1543943926540520
+2024-08-01 16:18:54,863 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:19:42,933 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:19:42,939 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:19:42,939 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:19:42,939 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:19:42,939 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:19:42,939 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:19:42,939 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:19:43,035 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:19:44,859 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOzqoI9Pj2MKcoHx5ZBSXhKM8O9Q2MIGnfeuPrc090mYE2ZBm5JBkELLNH2YE15v7kG077LB0xiohDAEOuwxiJBu9GvlfZCjpMBbTimu8rGTJfMguNIMkfbKXQd4borCTJZBZBo4PdO3wiVOQfEE0QzLeweSL8pq2ZAGPp27tZAZCpZBl3c5JheY2he09PWVWGzQZDZD"}
+2024-08-01 16:19:49,799 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:19:50,624 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:20:00,640 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 1611442709_695272602757938
+2024-08-01 16:20:02,342 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:20:07,979 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: traodoisub.Model.ApiResponseGetCoin
+2024-08-01 16:20:07,979 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:20:17,985 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100080780060831_179150964787571
+2024-08-01 16:20:19,792 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:21:33,204 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:21:33,219 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:21:33,219 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:21:33,219 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:21:33,219 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:21:33,219 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:21:33,219 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:21:33,322 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:21:35,114 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO1Hny5HhtqXawGA7WZAJgsM1j9BG0qxS4dde8u9oOZAVFSYlYotW04ok73FYKRzE0AcTZAW6TzUyAe3CHWpz7WQeS6LDDBJ89drkeFnAc2pMFly3BE9szQYmStbglPLETai03MwqBcclahrUONhpbZBwhzQZA2Cr4lNZBODRT4Y5OltbtexiaEgKtTlUmokAZDZD"}
+2024-08-01 16:21:40,640 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:21:42,085 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:21:52,099 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100041345336876_1267267137994785
+2024-08-01 16:21:53,463 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:21:59,158 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 5400,
+        "id": "100041345336876_1267267137994785",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:21:59,158 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:22:09,163 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100001046283041_8381689465209180
+2024-08-01 16:22:11,447 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:22:18,163 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 5700,
+        "id": "100001046283041_8381689465209180",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:22:18,163 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:22:28,165 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100041937641841_1299037181504191
+2024-08-01 16:22:30,305 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:22:36,157 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 6000,
+        "id": "100041937641841_1299037181504191",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:22:36,158 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:22:46,173 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61552819512853_122158829990093983
+2024-08-01 16:22:49,547 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:22:54,950 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 6300,
+        "id": "61552819512853_122158829990093983",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:22:54,950 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:23:04,964 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61560511246111_122130915890350374
+2024-08-01 16:23:07,687 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:23:13,339 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 6600,
+        "id": "61560511246111_122130915890350374",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:23:13,340 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:24:03,370 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 16:26:12,072 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:26:12,081 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:26:12,081 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:26:12,081 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:26:12,081 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:26:12,081 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:26:12,081 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:26:12,189 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:26:14,577 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOxhgr21cstHnzSA6ZAMUsl2unfzNgJAsQ2A2zetaomKbV2Ff6wkumVMkD3fOwoVgABvYkJSWswG8jwfiqcT2SBR12SsKukl33fzJOuZAWEzkWKxnWIP9q1hA1Kds8Qwk8lLrLv2IBbiRaI1rNweHthLZC3cu7TeqZCNSzrZCumv44NxsZByh2JZCY2Rno1qCgZDZD"}
+2024-08-01 16:26:22,248 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:26:24,281 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:26:34,288 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100057746256125_909077924360408
+2024-08-01 16:26:35,424 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:26:41,491 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "Th\u1ea5t b\u1ea1i! B\u1ea1n ch\u01b0a like ID n\u00e0y!"
+}
+2024-08-01 16:26:41,492 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:26:51,504 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100041345336876_1267143714673794
+2024-08-01 16:26:52,211 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:26:57,832 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 6900,
+        "id": "100041345336876_1267143714673794",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:26:57,832 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:27:07,843 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100068039131364_810788451199119
+2024-08-01 16:27:08,813 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:27:15,303 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 7200,
+        "id": "100068039131364_810788451199119",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:27:15,303 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:27:25,320 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61557312928476_122160585398243764
+2024-08-01 16:27:26,052 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:27:31,736 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 7500,
+        "id": "61557312928476_122160585398243764",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:27:31,736 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:27:41,739 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100067230612711_797847225799624
+2024-08-01 16:27:42,405 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:27:47,977 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 7800,
+        "id": "100067230612711_797847225799624",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:27:47,977 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:28:37,994 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 16:28:37,994 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 16:28:37,994 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:28:38,000 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:28:48,008 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100057746256125_909077924360408
+2024-08-01 16:28:48,231 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:28:53,452 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "Th\u1eadt b\u1ea1i! B\u1ea1n \u0111\u00e3 like ID n\u00e0y r\u1ed3i"
+}
+2024-08-01 16:28:53,452 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:28:53,517 [1] ERROR traodoisub.Facebook.frmFacebook - System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at traodoisub.Facebook.frmFacebook.<btnStart_ClickAsync>d__12.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\Facebook\frmFacebook.cs:line 83
+2024-08-01 16:33:03,271 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:03,282 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:03,283 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:03,283 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:03,283 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:03,283 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:33:03,283 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:33:03,396 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:33:05,081 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO9I9U8KSV3Ex3R03JMSwhdhmD4SOPdOlnY8g7jW4Si2JDZBETDBc0Xk6wqpnyZAyhuuET8OQkoBKw14Ut1dUAY8HtWQLZBOPQyV5VxjPVWfHAThAnd58ht8DnDt7tfVByRWQco1CBu0n0ivdtvf7OOyBHonKiElvx1qaDwS4ItZBmyOQnYS7H2vhVG9H7wZDZD"}
+2024-08-01 16:33:37,772 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:37,779 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:37,779 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:37,779 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:37,779 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:37,779 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:33:37,779 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:33:37,856 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:33:39,976 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO8tTD1IKuIRZAiBzOKw9tyKReks7p1qDZCXuq3CVt7FWqKw1hSVG1lZC7Dh9jlHBUfZBF1CGcFlZBPca4H9toHJPWrYQZCGPGOS1xv8S2zN81NZBRauEPEDAXzw0FgeEXn3ypbQJ6oZBBYrehHRGF1rztka7MZAIyObedKDuKEtFxMkFJFlFn1kQPzWcDgkSZCCAZDZD"}
+2024-08-01 16:33:54,695 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:54,702 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:54,702 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:54,702 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:54,702 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:33:54,702 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:33:54,702 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:33:54,945 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:33:57,794 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOzzrJVbxfeY5UEmM3a1hAdHJh5nuhUHci6zZATiq338sQ62YRqst6IFub5KII6yWKDPUEFGAlv9k2yLyKJwkSZCUFqg7APoS5m2lYjIccqlvLo04gEKohHJ5qaoZAIUrzSpwZAdyBbqg8QMZBPjZB0ECF7HCGmn7roiWR43tcZAIRSDHaCky9jSQqhE41huFAZDZD"}
+2024-08-01 16:34:03,533 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:34:04,941 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:34:14,945 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 399510286570241_122104698938398978
+2024-08-01 16:34:25,280 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100091983722152_407733525636102
+2024-08-01 16:34:26,681 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:34:33,801 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 8100,
+        "id": "100091983722152_407733525636102",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:34:33,801 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:35:21,431 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:35:21,438 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:35:21,438 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:35:21,438 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:35:21,438 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:35:21,438 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:35:21,438 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:35:21,520 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:35:23,304 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO6EgWywPHEdYkVlSaD1tAP1jl9nSvHcxElQHWEjTxWOdZBoFgNHcrXyeaM0ycLf23ifdgHLVQZAyyJ8Xy8eyhZASbZBXH1eNCH7VXsDKII5OVvFoZCYmyLXdLa4pjRMGz7R71YKmWnZCjUWzzZBSLxe4HwoxMVwJZBpeBtKxUH3opwZCMGZAP8f605J6VPyEkMZCgZDZD"}
+2024-08-01 16:35:29,909 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:35:30,917 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:35:40,932 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100010146460426_2275040376177489
+2024-08-01 16:35:41,928 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:35:52,446 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 8400,
+        "id": "100010146460426_2275040376177489",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:35:52,446 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:36:07,465 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100000249522238_8273513576000211
+2024-08-01 16:36:08,345 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:36:18,950 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 8700,
+        "id": "100000249522238_8273513576000211",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:36:18,950 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:36:33,972 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100083649816040_109874025144258
+2024-08-01 16:36:35,988 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:36:46,598 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 9000,
+        "id": "100083649816040_109874025144258",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:36:46,598 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:37:01,612 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100015369043208_1830568090798808
+2024-08-01 16:37:03,576 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:37:14,067 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 9300,
+        "id": "100015369043208_1830568090798808",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:37:14,067 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:38:09,082 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 16:38:09,082 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 16:38:09,082 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv
+2024-08-01 16:41:32,721 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:41:32,727 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:41:32,727 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:41:32,727 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:41:32,727 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:41:32,727 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:41:32,727 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:41:32,804 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:41:34,985 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO5N7zn2Onaomyrs4OJsW1dCsxSXiIZBlBZBZBEC4ZB2dpZBxJ1CkUkjAS4ZCGCJqxheTHNJ7EWu6rJpGez7ZAUQrY8TFvB9E8vrJ1ijUYweHqAE4ThZBva5UuS3vto52WZCQc7l1iQcHoHVqrxN7J9igYVsqmGmGzYcRFfH7HZCybXrr4ZAiqUti6slRb19ZCwmMcBlr2gZDZD"}
+2024-08-01 16:41:57,491 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:41:57,832 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:42:04,396 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:42:04,680 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:42:07,934 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:42:08,150 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:42:10,960 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:42:11,623 [1] ERROR traodoisub.ApiRequest.Traodoisub.ApiRequest - Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   at Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json)
+   at traodoisub.ApiRequest.Traodoisub.ApiRequest.<GetListTask>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Traodoisub\ApiRequest.cs:line 33
+2024-08-01 16:42:14,509 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:42:14,509 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 16:42:14,509 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
+2024-08-01 16:42:46,223 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:42:46,510 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:42:47,330 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:42:57,339 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61556733842641_122162230310224461
+2024-08-01 16:42:58,974 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:43:04,510 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:43:04,718 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:43:09,633 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "Vui l\u00f2ng t\u1ea3i job \u0111\u00fang quy \u0111\u1ecbnh, kh\u00f4ng c\u01b0\u1edbp job!!"
+}
+2024-08-01 16:43:09,633 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:43:24,638 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100006944614901_3718527298388721
+2024-08-01 16:43:25,863 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:43:36,448 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "Vui l\u00f2ng t\u1ea3i job \u0111\u00fang quy \u0111\u1ecbnh, kh\u00f4ng c\u01b0\u1edbp job!!"
+}
+2024-08-01 16:43:36,448 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:43:51,473 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100090107559509_449586304721618
+2024-08-01 16:43:53,319 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:44:03,877 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "Vui l\u00f2ng t\u1ea3i job \u0111\u00fang quy \u0111\u1ecbnh, kh\u00f4ng c\u01b0\u1edbp job!!"
+}
+2024-08-01 16:44:03,877 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:44:56,100 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:44:56,106 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:44:56,106 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:44:56,106 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:44:56,106 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-01 16:44:56,106 [1] DEBUG traodoisub.frmMain -  
+2024-08-01 16:44:56,106 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-01 16:44:56,183 [1] DEBUG traodoisub.frmMain - Convert cookie to token
+2024-08-01 16:44:58,195 [1] DEBUG traodoisub.frmMain - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOyYuJ4yvdpZBSVdyu8Tpdh5pqFEHYXe6QRHNMoy5elCDFR6rywSZCzcN29fNquwNIHqELZAbObnHHJb44FxWtUdl5EIebzU0tupSE2GCrPYOaTUbSnoCrkuT0c7ayCAsm7KtW2BZAraZCQnKh1NzCq5Cyu9E2F7kaPSSHaCVEerSZCHrwnWQJG9ZBhzKNPgPQZDZD"}
+2024-08-01 16:45:07,238 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-01 16:45:07,597 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-01 16:45:08,922 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-01 16:45:18,930 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 26104042212576594_26104121652568650
+2024-08-01 16:45:21,133 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:45:31,885 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 9600,
+        "id": "26104042212576594_26104121652568650",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:45:31,885 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:45:46,894 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100047424151128_998519775072152
+2024-08-01 16:45:48,420 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:45:58,941 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 9900,
+        "id": "100047424151128_998519775072152",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:45:58,941 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:46:13,972 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61551501938753_122152299878050064
+2024-08-01 16:46:15,653 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:46:26,143 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "error": "C\u00f3 l\u1ed7i x\u1ea3y ra vui l\u00f2ng th\u1eed nhi\u1ec7m v\u1ee5 kh\u00e1c!"
+}
+2024-08-01 16:46:26,143 [1] DEBUG traodoisub.Facebook.frmFacebook - loi nhan coin
+2024-08-01 16:46:41,166 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100050529574043_1124100912617551
+2024-08-01 16:46:42,111 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:46:52,577 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 10200,
+        "id": "100050529574043_1124100912617551",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:46:52,577 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:47:07,606 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100065248220587_866891062162493
+2024-08-01 16:47:09,083 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-01 16:47:19,683 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 10500,
+        "id": "100065248220587_866891062162493",
+        "msg": "+300 Xu"
+    }
+}
+2024-08-01 16:47:19,684 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-01 16:47:24,701 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
+2024-08-01 16:47:24,701 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi

@@ -34,7 +34,7 @@ namespace traodoisub
             {
                 config = new ConfigManager();
                 configAdo = new ConfigADO();
-                loadDefaultConfig();
+                loadDefaultConfigAsync();
 
             }
             catch (Exception ex)
@@ -44,7 +44,7 @@ namespace traodoisub
             }
         }
 
-        private void loadDefaultConfig()
+        private async Task loadDefaultConfigAsync()
         {
             try
             {
@@ -53,10 +53,11 @@ namespace traodoisub
                 {
                     txtToken.Text = configAdo.TokenTDS;
                     txtToken.Enabled = false;
-                    DialogResult rs = MessageBox.Show("Đã có config. Bạn có muốn quay lại?");
-                    if(rs == DialogResult.OK)
+                    DialogResult rs = MessageBox.Show(this,"Đã có config. Bạn có muốn quay lại?","",MessageBoxButtons.YesNo);
+                    if(rs == DialogResult.Yes)
                     {
                         this.Close();
+                        await CheckUser(this.configAdo.TokenTDS);
                         updateConfig.Invoke(configAdo);
                     }
                 }
