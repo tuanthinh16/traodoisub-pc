@@ -37,10 +37,6 @@ namespace traodoisub.Facebook
             this.panel.AutoScroll = true;
         }
 
-        private async void btnGetList_ClickAsync(object sender, EventArgs e)
-        {
-            _ = GetNVAsync();
-        }
         int yOffset = 10;
         public async Task GetNVAsync()
         {
@@ -53,23 +49,24 @@ namespace traodoisub.Facebook
                     var rs = await tds.GetListTask(cboType.Text);
                     if (rs != null)
                     {
+                        yOffset = 10;
                         listTask.AddRange(rs);
-                        //panel.Controls.Clear(); // Xóa các điều khiển hiện có trên panel
-                         // Khoảng cách dọc giữa các điều khiển
+                        panel.Controls.Clear(); // Xóa các điều khiển hiện có trên panel
+                        // Khoảng cách dọc giữa các điều khiển
 
-                        foreach (var item in rs)
+                        foreach(var item in rs)
                         {
                             Label lblTask = new Label
                             {
-                                Text = item.ToString(), // Bạn có thể thay đổi để hiển thị thông tin cần thiết
+                                Text = item.ToString(),
                                 AutoSize = true,
                                 ForeColor = Color.Red,
-                               
                                 Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
                             };
 
                             panel.Controls.Add(lblTask);
-                            yOffset += lblTask.Height + 10; // Cập nhật vị trí cho điều khiển tiếp theo
+                            yOffset += lblTask.Height + 10;
+                            panel.ScrollControlIntoView(panel.Controls[panel.Controls.Count - 1]);
                         }
                         log.Debug("Lay danh sach nv.____End");
                     }
@@ -81,12 +78,25 @@ namespace traodoisub.Facebook
                 log.Error(ex);
             }
         }
+
+
         private async void btnStart_ClickAsync(object sender, EventArgs e)
         {
             try
             {
+                await GetNVAsync();
                 this.btnStart.Enabled = false;
                 log.Debug("bat dau chay");
+                Label lblTask2 = new Label
+                {
+                    Text = "=======Bat dau chay like",
+                    AutoSize = true,
+                    ForeColor = Color.Green,
+                    Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
+                };
+
+                panel.Controls.Add(lblTask2);
+                yOffset += lblTask2.Height + 10;
                 foreach (var item in listTask)
                 {
                     
@@ -100,32 +110,58 @@ namespace traodoisub.Facebook
                         if(rs != null)
                         {
                             log.Debug("nhan coin thanh cong");
-                            string msg = "Tong: "+rs.xu+" xu ----------- NV: " + rs.ID + " msg: " + rs.msg;
+                            txtTotal.Text = "Tổng : " + rs.xu + " xu";
+                            string msg = "----------- ID: " + rs.ID + " msg: " + rs.msg;
                             Label lblTask = new Label
                             {
-                                Text = msg, // Bạn có thể thay đổi để hiển thị thông tin cần thiết
+                                Text = msg,
                                 AutoSize = true,
                                 ForeColor = Color.Green,
                                 Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
                             };
-                            txtTotal.Text = "Tổng : " + rs.xu + " xu";
+
                             panel.Controls.Add(lblTask);
                             yOffset += lblTask.Height + 10;
+                            panel.ScrollControlIntoView(panel.Controls[panel.Controls.Count - 1]);
                         }
                         else
                         {
                             log.Debug("loi nhan coin"+ rs);
+                            Label lblTask = new Label
+                            {
+                                Text = item+"=======Loi nhan coin",
+                                AutoSize = true,
+                                ForeColor = Color.Green,
+                                Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
+                            };
+
+                            panel.Controls.Add(lblTask);
+                            yOffset += lblTask.Height + 10;
+                            panel.ScrollControlIntoView(panel.Controls[panel.Controls.Count - 1]);
                         }
 
+                    }
+                    else
+                    {
+                        log.Debug("Like that bai");
                     }
                     await Task.Delay(5000);
                 }
                 
                 log.Debug("da like het list");
                 log.Debug("lay danh sach moi");
-                await Task.Delay(30000);
-                await GetNVAsync();
+                Label lblTask1 = new Label
+                {
+                    Text = "Da lam het =======Lay du lieu moi",
+                    AutoSize = true,
+                    ForeColor = Color.Green,
+                    Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
+                };
 
+                panel.Controls.Add(lblTask1);
+                yOffset += lblTask1.Height + 10;
+                panel.ScrollControlIntoView(panel.Controls[panel.Controls.Count - 1]);
+                await Task.Delay(10000);
                 btnStart_ClickAsync(null, null);
 
             }

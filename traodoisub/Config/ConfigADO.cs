@@ -8,5 +8,7 @@ namespace traodoisub.Config
         public string TokenTDS { get; set; }
         public UserInfo user { get; set; }
         public string cookieFB { get; set; }
+        public string access_token { get; set; }
+
     }
 }

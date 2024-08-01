@@ -24,6 +24,7 @@ namespace traodoisub
         ApiRequest.Facebook.ApiRequest facebook ;
         private static readonly HttpClient client = new HttpClient();
         ConfigADO config = new ConfigADO();
+        ConfigManager configManger = new ConfigManager();
 
         // EAAaKr7mzAZC8BOzPGAo32HmfzlltdxQiLGQyeZCieP4xwX7Ui2gmgHwBMPJnI4P2e0w3AXmh0dorJNr3tGOEgJSUMKAtlCvv1W42KMZBFZCUzw3Ok8ZBJPoW3MWNXjtDWOEuTPspZAYvZBQIJX8FmcgHbnZBujh3siKgZAhA7hksuGBJFf36RhvgIQ7ICaKoandSG0rIPub621a96lhuyxrd089ZBxtF3yZCbf5uceOCWdA5m6lVK8mWs89dS4EjLFWfeI2qHCLNZCK1PhgZD
         public frmMain()
@@ -85,16 +86,25 @@ namespace traodoisub
 
             }
         }
-        private async void frmMain_LoadAsync(object sender, EventArgs e)
+        private async void FrmMain_LoadAsync(object sender, EventArgs e)
         {
             try
             {
-                log.Debug("Convert cookie to token");
-                string cookieString = "b=-XGHZuHwncXt5xKeVsPkthS2;%20datr=-XGHZkG2zw95ie9mKavKZn74;%20ps_n=1;%20ps_l=1;%20locale=vi_VN;%20c_user=100082413946084;%20m_page_voice=100082413946084;%20presence=C%7B\"t3\"%3A%5B%5D%2C\"utc3\"%3A1722486447265%2C\"v\"%3A1%7D;%20wd=1920x953;%20xs=19%3Am_aU7K0vfZFu4g%3A2%3A1722476862%3A-1%3A6242%3A%3AAcWPOB7heKYVL0Pna1SIqbCCzGtXBAPs-SYgWTmdnw;%20fr=1GvLx3ElpKVqNX8ib.AWXxI7xlBdELLC34m68C8iu1rLw.Bmqw7X..AAA.0.0.Bmqw7p.AWW8pW4CZqg";
-
-                var responseString = await GetToken(cookieString);
-                _accessToken = responseString;
-                facebook = new ApiRequest.Facebook.ApiRequest(_accessToken);
+                this.config = configManger.LoadConfig();
+                if(this.config != null)
+                {
+                    _accessToken = this.config.access_token;
+                    facebook = new ApiRequest.Facebook.ApiRequest(_accessToken);
+                }
+                else
+                {
+                    DialogResult rs = MessageBox.Show(this, "Chưa có cấu hình. Bạn có muốn cấu hình?", "", MessageBoxButtons.YesNo);
+                    if(rs == DialogResult.Yes)
+                    {
+                        btnConfig_Click(null, null);
+                    }
+                }
+                
                 
             }
             catch (Exception ex)
@@ -120,7 +130,7 @@ namespace traodoisub
             catch (Exception ex)
             {
 
-                throw;
+                log.Error(ex);
             }
         }
 
@@ -175,33 +185,8 @@ namespace traodoisub
             try
             {
 
-                frmFacebook frm = new frmFacebook(this.config,UpdateConfig,this._accessToken);
+                frmFacebook frm = new frmFacebook(this.config,UpdateConfig,this.config.access_token);
                 frm.ShowDialog();
-
-                //log.Debug("bat dau like");
-                //string fullUrl = txtPostID.Text;
-                //int index = fullUrl.IndexOf("/posts/");
-                //string trimmedUrl = "";
-                //if (index != -1)
-                //{
-                    
-                //    trimmedUrl = fullUrl.Substring(0, index);
-                //    Console.WriteLine(trimmedUrl);
-                //}
-                //string userID = await facebook.GetPostIdFromLinkAsync(trimmedUrl);
-                //string postID = await facebook.GetPostIdFromLinkAsync(fullUrl);
-                //string postId = userID+"_"+postID;
-                //if (postId == null) return;
-                //bool success = await facebook.LikePostAsync(postId);
-                //if (success)
-                //{
-                //    MessageBox.Show("Đã like bài viết thành công!");
-                //}
-                //else
-                //{
-                //    MessageBox.Show("Không thể like bài viết.");
-                //}
-                //log.Info("ket thuc like");
             }
             catch (Exception ex)
             {
@@ -229,7 +214,7 @@ namespace traodoisub
 
             // Khởi tạo frmConfig và truyền delegate
             frmConfig configForm = new frmConfig(updateDelegate);
-            configForm.Show(); // Hoặc sử dụng ShowDialog() nếu bạn muốn form là modal
+            configForm.ShowDialog(); // Hoặc sử dụng ShowDialog() nếu bạn muốn form là modal
         }
 
         private void UpdateConfig(ConfigADO config)

@@ -29,94 +29,197 @@ namespace traodoisub.Facebook
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel = new System.Windows.Forms.Panel();
-            this.btnGetList = new System.Windows.Forms.Button();
-            this.btnStart = new System.Windows.Forms.Button();
-            this.cboType = new System.Windows.Forms.ComboBox();
-            this.txtTotal = new System.Windows.Forms.Label();
+            this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.txtTotal = new DevExpress.XtraEditors.LabelControl();
+            this.cboType = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.btnStart = new DevExpress.XtraEditors.SimpleButton();
+            this.panel = new DevExpress.XtraEditors.PanelControl();
+            this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.emptySpaceItem4 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
+            this.layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cboType.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel
+            // layoutControl1
             // 
-            this.panel.BackColor = System.Drawing.Color.Black;
-            this.panel.Location = new System.Drawing.Point(12, 12);
-            this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(553, 399);
-            this.panel.TabIndex = 0;
-            // 
-            // btnGetList
-            // 
-            this.btnGetList.Location = new System.Drawing.Point(713, 12);
-            this.btnGetList.Name = "btnGetList";
-            this.btnGetList.Size = new System.Drawing.Size(75, 23);
-            this.btnGetList.TabIndex = 1;
-            this.btnGetList.Text = "Lấy danh sách";
-            this.btnGetList.UseVisualStyleBackColor = true;
-            this.btnGetList.Click += new System.EventHandler(this.btnGetList_ClickAsync);
-            // 
-            // btnStart
-            // 
-            this.btnStart.Location = new System.Drawing.Point(713, 59);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(75, 23);
-            this.btnStart.TabIndex = 2;
-            this.btnStart.Text = "Start";
-            this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_ClickAsync);
-            // 
-            // cboType
-            // 
-            this.cboType.FormattingEnabled = true;
-            this.cboType.Items.AddRange(new object[] {
-            "like",
-            "follow",
-            "likegiare",
-            "likesieure",
-            "reaction",
-            "comment",
-            "share",
-            "reactcmt",
-            "group",
-            "page"});
-            this.cboType.Location = new System.Drawing.Point(586, 12);
-            this.cboType.Name = "cboType";
-            this.cboType.Size = new System.Drawing.Size(121, 21);
-            this.cboType.TabIndex = 3;
+            this.layoutControl1.Controls.Add(this.txtTotal);
+            this.layoutControl1.Controls.Add(this.cboType);
+            this.layoutControl1.Controls.Add(this.btnStart);
+            this.layoutControl1.Controls.Add(this.panel);
+            this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.layoutControl1.Location = new System.Drawing.Point(0, 0);
+            this.layoutControl1.Name = "layoutControl1";
+            this.layoutControl1.Root = this.Root;
+            this.layoutControl1.Size = new System.Drawing.Size(764, 425);
+            this.layoutControl1.TabIndex = 0;
+            this.layoutControl1.Text = "layoutControl1";
             // 
             // txtTotal
             // 
-            this.txtTotal.AutoSize = true;
-            this.txtTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotal.Location = new System.Drawing.Point(586, 110);
+            this.txtTotal.Appearance.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTotal.Appearance.Options.UseFont = true;
+            this.txtTotal.Location = new System.Drawing.Point(12, 48);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(60, 24);
-            this.txtTotal.TabIndex = 4;
-            this.txtTotal.Text = "Tong:";
+            this.txtTotal.Size = new System.Drawing.Size(72, 39);
+            this.txtTotal.StyleController = this.layoutControl1;
+            this.txtTotal.TabIndex = 7;
+            this.txtTotal.Text = "Tổng";
+            // 
+            // cboType
+            // 
+            this.cboType.Location = new System.Drawing.Point(53, 12);
+            this.cboType.Margin = new System.Windows.Forms.Padding(4);
+            this.cboType.Name = "cboType";
+            this.cboType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cboType.Properties.Items.AddRange(new object[] {
+            "like",
+            "follow"});
+            this.cboType.Size = new System.Drawing.Size(326, 26);
+            this.cboType.StyleController = this.layoutControl1;
+            this.cboType.TabIndex = 6;
+            // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(508, 12);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(4);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(128, 32);
+            this.btnStart.StyleController = this.layoutControl1;
+            this.btnStart.TabIndex = 5;
+            this.btnStart.Text = "Start";
+            this.btnStart.Click += new System.EventHandler(this.btnStart_ClickAsync);
+            // 
+            // panel
+            // 
+            this.panel.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.panel.Appearance.Options.UseBackColor = true;
+            this.panel.Location = new System.Drawing.Point(12, 91);
+            this.panel.Margin = new System.Windows.Forms.Padding(4);
+            this.panel.Name = "panel";
+            this.panel.Size = new System.Drawing.Size(740, 322);
+            this.panel.TabIndex = 4;
+            // 
+            // Root
+            // 
+            this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            this.Root.GroupBordersVisible = false;
+            this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.layoutControlItem1,
+            this.layoutControlItem3,
+            this.emptySpaceItem4,
+            this.layoutControlItem2,
+            this.emptySpaceItem3,
+            this.layoutControlItem4});
+            this.Root.Name = "Root";
+            this.Root.Size = new System.Drawing.Size(764, 425);
+            this.Root.TextVisible = false;
+            // 
+            // layoutControlItem1
+            // 
+            this.layoutControlItem1.Control = this.panel;
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 79);
+            this.layoutControlItem1.Name = "layoutControlItem1";
+            this.layoutControlItem1.Size = new System.Drawing.Size(744, 326);
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem1.TextVisible = false;
+            // 
+            // layoutControlItem3
+            // 
+            this.layoutControlItem3.Control = this.cboType;
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem3.Name = "layoutControlItem3";
+            this.layoutControlItem3.Size = new System.Drawing.Size(371, 36);
+            this.layoutControlItem3.Text = "Loại";
+            this.layoutControlItem3.TextSize = new System.Drawing.Size(29, 19);
+            // 
+            // emptySpaceItem4
+            // 
+            this.emptySpaceItem4.AllowHotTrack = false;
+            this.emptySpaceItem4.Location = new System.Drawing.Point(628, 0);
+            this.emptySpaceItem4.Name = "emptySpaceItem4";
+            this.emptySpaceItem4.Size = new System.Drawing.Size(116, 36);
+            this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
+            // 
+            // layoutControlItem2
+            // 
+            this.layoutControlItem2.Control = this.btnStart;
+            this.layoutControlItem2.Location = new System.Drawing.Point(496, 0);
+            this.layoutControlItem2.Name = "layoutControlItem2";
+            this.layoutControlItem2.Size = new System.Drawing.Size(132, 36);
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem2.TextVisible = false;
+            // 
+            // emptySpaceItem3
+            // 
+            this.emptySpaceItem3.AllowHotTrack = false;
+            this.emptySpaceItem3.Location = new System.Drawing.Point(371, 0);
+            this.emptySpaceItem3.Name = "emptySpaceItem3";
+            this.emptySpaceItem3.Size = new System.Drawing.Size(125, 36);
+            this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
+            // 
+            // layoutControlItem4
+            // 
+            this.layoutControlItem4.Control = this.txtTotal;
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 36);
+            this.layoutControlItem4.Name = "layoutControlItem4";
+            this.layoutControlItem4.Size = new System.Drawing.Size(744, 43);
+            this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem4.TextVisible = false;
             // 
             // frmFacebook
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtTotal);
-            this.Controls.Add(this.cboType);
-            this.Controls.Add(this.btnStart);
-            this.Controls.Add(this.btnGetList);
-            this.Controls.Add(this.panel);
+            this.ClientSize = new System.Drawing.Size(764, 425);
+            this.Controls.Add(this.layoutControl1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmFacebook";
             this.Text = "frmFacebook";
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
+            this.layoutControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.cboType.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel;
-        private System.Windows.Forms.Button btnGetList;
-        private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.ComboBox cboType;
-        private System.Windows.Forms.Label txtTotal;
+        private DevExpress.XtraLayout.LayoutControl layoutControl1;
+        private DevExpress.XtraEditors.ComboBoxEdit cboType;
+        private DevExpress.XtraEditors.SimpleButton btnStart;
+        private DevExpress.XtraEditors.PanelControl panel;
+        private DevExpress.XtraLayout.LayoutControlGroup Root;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
+        private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem3;
+        private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem4;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
+        private DevExpress.XtraEditors.LabelControl txtTotal;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;
     }
 }

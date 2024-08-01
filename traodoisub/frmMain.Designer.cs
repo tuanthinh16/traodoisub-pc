@@ -235,7 +235,7 @@ namespace traodoisub
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMain";
-            this.Load += new System.EventHandler(this.frmMain_LoadAsync);
+            this.Load += new System.EventHandler(this.FrmMain_LoadAsync);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).EndInit();
