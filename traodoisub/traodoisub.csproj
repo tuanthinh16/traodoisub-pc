@@ -167,4 +167,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "..\test" mkdir "..\..\..\test\"
+xcopy /y /e "$(TargetDir)*.*" "..\..\..\test\"
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>

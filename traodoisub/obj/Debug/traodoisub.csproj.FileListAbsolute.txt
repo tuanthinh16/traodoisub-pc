@@ -262,4 +262,3 @@ D:\Thinh\traodoisub-pc\traodoisub\bin\Debug\DevExpress.XtraLayout.v21.2.xml
 D:\Thinh\traodoisub-pc\traodoisub\bin\Debug\DevExpress.XtraPrinting.v21.2.xml
 D:\Thinh\traodoisub-pc\traodoisub\bin\Debug\DevExpress.XtraTreeList.v21.2.xml
 D:\Thinh\traodoisub-pc\traodoisub\bin\Debug\DevExpress.XtraVerticalGrid.v21.2.xml
-D:\Thinh\traodoisub-pc\traodoisub\obj\Debug\traodoisub.csproj.AssemblyReference.cache

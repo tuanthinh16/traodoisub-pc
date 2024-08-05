@@ -171,6 +171,7 @@ namespace traodoisub.Facebook
                     {
                         this._tokenFB = responseString;
                         facebook = new ApiRequest.Facebook.ApiRequest(this._tokenFB);
+                        countError = 0;
                     }
                 }
                 stopwatch.Stop();
