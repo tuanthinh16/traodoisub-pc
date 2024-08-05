@@ -1,4 +1,5 @@
 ﻿using log4net;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,6 +7,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -116,7 +118,7 @@ namespace traodoisub.Facebook
                         DataCoin rs = await tds.GetCoinTask(cboType.Text, item);
                         if(rs != null)
                         {
-                            log.Debug("nhan coin thanh cong");
+                            log.Debug("Nhận coin thành công");
                             txtTotal.Text = "Tổng : " + rs.xu + " xu";
                             string msg = "---------- ID: " + rs.ID + " msg: " + rs.msg;
                             Label lblTask = new Label
@@ -160,19 +162,25 @@ namespace traodoisub.Facebook
                     }
                     await Task.Delay(5000);
                 }
+                if (countError >= 2)
+                {
+
+                    log.Debug("Lỗi token. Đang tiến hành lấy lại");
+                    var responseString = await GetToken(this.config.cookieFB);
+                    if (responseString != null)
+                    {
+                        this._tokenFB = responseString;
+                        facebook = new ApiRequest.Facebook.ApiRequest(this._tokenFB);
+                    }
+                }
                 stopwatch.Stop();
                 if (stopwatch.Elapsed < TimeSpan.FromMinutes(1))
                 {
                     var delay = TimeSpan.FromMinutes(1) - stopwatch.Elapsed;
                     await Task.Delay(delay);
                 }
-                if(countError > 10)
-                {
-                    MessageBox.Show("Lỗi. Kiểm tra lại token hoặc log");
-                    return;
-                }
                 log.Debug("Đã like hết danh sách");
-                log.Debug("lay danh sach moi");
+                log.Debug("Lấy danh sách mới");
                 panel.Controls.Clear();
                 Label lblTask1 = new Label
                 {
@@ -193,6 +201,32 @@ namespace traodoisub.Facebook
             {
 
                 log.Error(ex);
+            }
+        }
+        private static readonly HttpClient client = new HttpClient();
+        public async Task<string> GetToken(string cookie)
+        {
+            try
+            {
+
+                var response = await client.GetStringAsync(string.Format("https://alotoi.com/fb/?cookie={0}&type=EAAA", cookie));
+                log.Debug("GetToken Response :" + response);
+                var jsonResponse = JObject.Parse(response);
+                if (jsonResponse["status"]?.ToString() == "success")
+                {
+                    return jsonResponse["token"]?.ToString();
+                }
+                else
+                {
+                    log.Warn("Failed to retrieve token: " + jsonResponse["message"]?.ToString());
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                log.Error(ex);
+                return null;
+
             }
         }
     }
