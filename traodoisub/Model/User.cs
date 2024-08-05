@@ -17,5 +17,10 @@ namespace traodoisub.Model
 
         [JsonProperty("xudie")]
         public string XuDie { get; set; }
+
+        [JsonProperty("nameFB")]
+        public string NameFB { get; set; }
+        [JsonProperty("email")]
+        public string email { get; set; }
     }
 }

@@ -95,6 +95,7 @@ namespace traodoisub
                 {
                     _accessToken = this.config.access_token;
                     facebook = new ApiRequest.Facebook.ApiRequest(_accessToken);
+                    UpdateConfig(this.config);
                 }
                 else
                 {
@@ -134,7 +135,7 @@ namespace traodoisub
             }
         }
 
-        private void DisplayUserInfo(UserInfo userInfo)
+        private async void DisplayUserInfoAsync(UserInfo userInfo)
         {
             pInfo.Controls.Clear();
             LabelControl lblUser = new LabelControl { Text = $"Người dùng: {userInfo.User}", Location = new Point(10, 10) };
@@ -143,6 +144,18 @@ namespace traodoisub
             pInfo.Controls.Add(lblUser);
             pInfo.Controls.Add(lblXu);
             pInfo.Controls.Add(lblXuDie);
+            facebook = new ApiRequest.Facebook.ApiRequest(this.config.access_token);
+            var userProfile = await facebook.GetFacebookDataAsync("me?fields=id,name,email");
+            if (userProfile != null)
+            {
+                //pInfo.Controls.Clear();
+                LabelControl name = new LabelControl { Text = $"Người dùng: {userProfile["name"]}", Location = new Point(10, 90) };
+                LabelControl email = new LabelControl { Text = $"Email : {userProfile["email"]}", Location = new Point(10, 110) };
+
+                pInfo.Controls.Add(name);
+                pInfo.Controls.Add(email);
+            }
+            
         }
 
         private async void btnCheck_ClickAsync(object sender, EventArgs e)
@@ -164,7 +177,7 @@ namespace traodoisub
             var userProfile = await facebook.GetFacebookDataAsync("me?fields=id,name,email");
             if(userProfile != null)
             {
-                pInfo.Controls.Clear();
+                //pInfo.Controls.Clear();
                 LabelControl lblUser = new LabelControl { Text = $"Người dùng: {userProfile["name"]}", Location = new Point(10, 10) };
                 LabelControl lblXu = new LabelControl { Text = $"Email : {userProfile["email"]}", Location = new Point(10, 40) };
 
@@ -223,7 +236,7 @@ namespace traodoisub
             //MessageBox.Show($"Token TDS đã được cập nhật: {config.TokenTDS}");
             this.config = config;
             txtToken.Text = config.TokenTDS;
-            DisplayUserInfo(config.user);
+            DisplayUserInfoAsync(config.user);
         }
         #endregion
 

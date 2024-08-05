@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -97,6 +98,8 @@ namespace traodoisub.Facebook
 
                 panel.Controls.Add(lblTask2);
                 yOffset += lblTask2.Height + 10;
+                Stopwatch stopwatch = new Stopwatch();
+                stopwatch.Start();
                 foreach (var item in listTask)
                 {
                     
@@ -147,9 +150,16 @@ namespace traodoisub.Facebook
                     }
                     await Task.Delay(5000);
                 }
-                
+                stopwatch.Stop();
+                if (stopwatch.Elapsed < TimeSpan.FromMinutes(1))
+                {
+                    var delay = TimeSpan.FromMinutes(1) - stopwatch.Elapsed;
+                    await Task.Delay(delay);
+                }
+
                 log.Debug("da like het list");
                 log.Debug("lay danh sach moi");
+                panel.Controls.Clear();
                 Label lblTask1 = new Label
                 {
                     Text = "Da lam het =======Lay du lieu moi",
