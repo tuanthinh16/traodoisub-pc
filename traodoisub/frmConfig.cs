@@ -66,7 +66,7 @@ namespace traodoisub
                     {
                         
                         await CheckUser(this.configAdo.TokenTDS);
-                        updateConfig.Invoke(configAdo);
+                        await loadDefaultAsync();
                         this.Close();
                     }
                 }
@@ -123,7 +123,7 @@ namespace traodoisub
             try
             {
 
-                var response = await client.GetStringAsync($"https://alotoi.com/fb/?cookie={cookie}&type=EAAA");
+                var response = await client.GetStringAsync(string.Format("https://alotoi.com/fb/?cookie={0}&type=EAAA",cookie));
                 log.Debug("GetToken Response :" + response);
                 var jsonResponse = JObject.Parse(response);
                 if (jsonResponse["status"]?.ToString() == "success")
@@ -167,7 +167,7 @@ namespace traodoisub
             bool success = false;
             try
             {
-                string apiUrl = $"https://traodoisub.com/api/?fields=profile&access_token={TDS_token}";
+                string apiUrl = string.Format("https://traodoisub.com/api/?fields=profile&access_token={0}",TDS_token);
 
                 using (HttpClient client = new HttpClient())
                 {
@@ -191,12 +191,43 @@ namespace traodoisub
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}");
+                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
             }
 
             return success;
         }
 
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                txtToken.Enabled = true;
+                txtToken.Text = "";
+                txtCookie.Enabled = true;
+                txtCookie.Text = "";
+                btnSave.Enabled = true;
+                dxErrorProvider1.ClearErrors();
+            }
+            catch (Exception ex)
+            {
 
+                MessageBox.Show("Đã xảy ra lỗi: "+ ex.Message);
+            }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                txtCookie.Enabled = true;
+                txtToken.Enabled = true;
+                btnSave.Enabled = true;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
+            }
+        }
     }
 }

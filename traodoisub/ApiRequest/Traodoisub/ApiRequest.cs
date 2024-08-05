@@ -25,7 +25,7 @@ namespace traodoisub.ApiRequest.Traodoisub
             try
             {
                 List<string> idlist = new List<string>();
-                var request = new HttpRequestMessage(HttpMethod.Get, $"https://traodoisub.com/api/?fields={type}&access_token={_accessToken}");
+                var request = new HttpRequestMessage(HttpMethod.Get, string.Format("https://traodoisub.com/api/?fields={0}&access_token={1}",type, _accessToken));
                 var response = await client.SendAsync(request);
                 //log.Debug("Response lấy dữ liệu nhiệm vụ:" + response);
                 response.EnsureSuccessStatusCode();
@@ -49,7 +49,7 @@ namespace traodoisub.ApiRequest.Traodoisub
             try
             {
                 List<string> idlist = new List<string>();
-                var request = new HttpRequestMessage(HttpMethod.Get, $"https://traodoisub.com/api/coin/?type={type}&id={id}&access_token={_accessToken}");
+                var request = new HttpRequestMessage(HttpMethod.Get, string.Format("https://traodoisub.com/api/coin/?type={0}&id={1}&access_token={2}", type, id, _accessToken));
 
                 var response = await client.SendAsync(request);
                 response.EnsureSuccessStatusCode();

@@ -24,34 +24,35 @@ namespace traodoisub.ApiRequest.Facebook
             try
             {
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _accessToken);
-                var response = await client.GetStringAsync($"https://graph.facebook.com/{endpoint}");
+                var response = await client.GetStringAsync(string.Format("https://graph.facebook.com/{0}", endpoint));
                 //log.Debug("Get Data Response :" + response);
                 return JObject.Parse(response);
             }
             catch (Exception ex)
             {
-                log.Error(ex);
+                log.Error("Loi lay thong tin facebook user"+ex);
                 return null;
                 
             }
         }
 
 
-        public async Task<bool> LikePostAsync(string postId)
+        public async Task<Object> LikePostAsync(string postId)
         {
             try
             {
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _accessToken);
-                var response = await client.PostAsync($"https://graph.facebook.com/{postId}/likes", null);
-                //log.Debug("Like Response :"+response);
-                return response.IsSuccessStatusCode;
+                var response = await client.PostAsync(string.Format("https://graph.facebook.com/{0}/likes", postId), null);
+                if(!response.IsSuccessStatusCode)log.Debug("Like Response :"+response);
+                
+                return response.StatusCode;
                 
             }
             catch (Exception ex)
             {
 
                 log.Error(ex);
-                return false;
+                return 404;
             }
         }
         public async Task<bool> FollowUserAsync(string userId)
@@ -59,7 +60,7 @@ namespace traodoisub.ApiRequest.Facebook
             try
             {
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _accessToken);
-                var response = await client.PostAsync($"https://graph.facebook.com/me/friends/{userId}", null);
+                var response = await client.PostAsync(string.Format("https://graph.facebook.com/me/friends/{0}", userId), null);
                 return response.IsSuccessStatusCode;
             }
             catch (Exception ex)
@@ -75,8 +76,8 @@ namespace traodoisub.ApiRequest.Facebook
             try
             {
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _accessToken);
-                var content = new StringContent($"message={message}", Encoding.UTF8, "application/x-www-form-urlencoded");
-                var response = await client.PostAsync($"https://graph.facebook.com/{postId}/comments", content);
+                var content = new StringContent(string.Format("message={0}", message), Encoding.UTF8, "application/x-www-form-urlencoded");
+                var response = await client.PostAsync(string.Format("https://graph.facebook.com/{0}/comments", postId), content);
                 return response.IsSuccessStatusCode;
             }
             catch (Exception ex)
@@ -122,14 +123,14 @@ namespace traodoisub.ApiRequest.Facebook
                         var jsonResponse = JObject.Parse(responseString);
                         string postId = jsonResponse["id"].ToString();
 
-                        log.Info($"Retrieved Post ID: {postId}");
+                        log.Info(string.Format("Retrieved Post ID: {0}", postId));
 
                         return postId;
                     }
                     catch (JsonReaderException ex)
                     {
                         log.Error("Error parsing JSON response", ex);
-                        log.Error($"Raw response: {responseString}");
+                       
                         return null;
                     }
                 }

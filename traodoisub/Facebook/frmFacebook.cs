@@ -36,6 +36,7 @@ namespace traodoisub.Facebook
             facebook = new ApiRequest.Facebook.ApiRequest(this._tokenFB);
             updateConfig = UpdateConfig;
             this.panel.AutoScroll = true;
+            this.cboType.EditValue = "like";
         }
 
         int yOffset = 10;
@@ -80,17 +81,19 @@ namespace traodoisub.Facebook
             }
         }
 
-
+        int countError = 0;
         private async void btnStart_ClickAsync(object sender, EventArgs e)
         {
             try
             {
+                
                 await GetNVAsync();
                 this.btnStart.Enabled = false;
                 log.Debug("bat dau chay");
+                log.Debug("========== Loai nhiem vu: "+cboType.Text);
                 Label lblTask2 = new Label
                 {
-                    Text = "=======Bat dau chay like",
+                    Text = "========== Bắt đầu chạy",
                     AutoSize = true,
                     ForeColor = Color.Green,
                     Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
@@ -100,12 +103,13 @@ namespace traodoisub.Facebook
                 yOffset += lblTask2.Height + 10;
                 Stopwatch stopwatch = new Stopwatch();
                 stopwatch.Start();
+                
                 foreach (var item in listTask)
                 {
                     
                     log.Debug("bat dau like ID: "+item);
-                    bool success = await facebook.LikePostAsync(item);
-                    if (success)
+                    var success = await facebook.LikePostAsync(item);
+                    if (Convert.ToInt64(success) == 200)
                     {
                         log.Debug("Like thanh cong");
                         await Task.Delay(10000);
@@ -114,7 +118,7 @@ namespace traodoisub.Facebook
                         {
                             log.Debug("nhan coin thanh cong");
                             txtTotal.Text = "Tổng : " + rs.xu + " xu";
-                            string msg = "----------- ID: " + rs.ID + " msg: " + rs.msg;
+                            string msg = "---------- ID: " + rs.ID + " msg: " + rs.msg;
                             Label lblTask = new Label
                             {
                                 Text = msg,
@@ -132,7 +136,7 @@ namespace traodoisub.Facebook
                             log.Debug("loi nhan coin"+ rs);
                             Label lblTask = new Label
                             {
-                                Text = item+"=======Loi nhan coin",
+                                Text = item+" ========== Lỗi nhận coin",
                                 AutoSize = true,
                                 ForeColor = Color.Green,
                                 Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
@@ -144,8 +148,14 @@ namespace traodoisub.Facebook
                         }
 
                     }
+                    else if(Convert.ToInt64(success) == 401)
+                    {
+                        countError += 1;
+                        log.Debug("Loi token.lay lai di");
+                    }
                     else
                     {
+                        countError += 1;
                         log.Debug("Like that bai");
                     }
                     await Task.Delay(5000);
@@ -156,16 +166,20 @@ namespace traodoisub.Facebook
                     var delay = TimeSpan.FromMinutes(1) - stopwatch.Elapsed;
                     await Task.Delay(delay);
                 }
-
-                log.Debug("da like het list");
+                if(countError > 10)
+                {
+                    MessageBox.Show("Lỗi. Kiểm tra lại token hoặc log");
+                    return;
+                }
+                log.Debug("Đã like hết danh sách");
                 log.Debug("lay danh sach moi");
                 panel.Controls.Clear();
                 Label lblTask1 = new Label
                 {
-                    Text = "Da lam het =======Lay du lieu moi",
+                    Text = "========== Đã làm hết nhiệm vụ. Lấy dữ liệu mới",
                     AutoSize = true,
                     ForeColor = Color.Green,
-                    Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
+                    Location = new System.Drawing.Point(10, yOffset) 
                 };
 
                 panel.Controls.Add(lblTask1);

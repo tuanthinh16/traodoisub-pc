@@ -66,7 +66,7 @@ namespace traodoisub
             try
             {
 
-                var response = await client.GetStringAsync($"https://alotoi.com/fb/?cookie={cookie}&type=EAAA");
+                var response = await client.GetStringAsync(string.Format("https://alotoi.com/fb/?cookie={0}&type=EAAA",cookie));
                 log.Debug("GetToken Response :" + response);
                 var jsonResponse =  JObject.Parse(response);
                 if (jsonResponse["status"]?.ToString() == "success")
@@ -138,22 +138,31 @@ namespace traodoisub
         private async void DisplayUserInfoAsync(UserInfo userInfo)
         {
             pInfo.Controls.Clear();
-            LabelControl lblUser = new LabelControl { Text = $"Người dùng: {userInfo.User}", Location = new Point(10, 10) };
-            LabelControl lblXu = new LabelControl { Text = $"Xu: {userInfo.Xu}", Location = new Point(10, 40) };
-            LabelControl lblXuDie = new LabelControl { Text = $"Xu die: {userInfo.XuDie}", Location = new Point(10, 70) };
+            LabelControl tdsName = new LabelControl { Text = "Traodoisub user", Location = new Point(10, 10) };
+            LabelControl lblUser = new LabelControl { Text = string.Format("Người dùng: {0}", userInfo.User), Location = new Point(10, 30) };
+            LabelControl lblXu = new LabelControl { Text = string.Format("Xu: {0}", userInfo.Xu), Location = new Point(10, 50) };
+            LabelControl lblXuDie = new LabelControl { Text = string.Format("Xu die: {0}", userInfo.XuDie), Location = new Point(10, 70) };
+            pInfo.Controls.Add(tdsName);
             pInfo.Controls.Add(lblUser);
             pInfo.Controls.Add(lblXu);
             pInfo.Controls.Add(lblXuDie);
             facebook = new ApiRequest.Facebook.ApiRequest(this.config.access_token);
+            LabelControl fb = new LabelControl { Text = "Facebook user", Location = new Point(10, 90) };
+            pInfo.Controls.Add(fb);
             var userProfile = await facebook.GetFacebookDataAsync("me?fields=id,name,email");
             if (userProfile != null)
             {
                 //pInfo.Controls.Clear();
-                LabelControl name = new LabelControl { Text = $"Người dùng: {userProfile["name"]}", Location = new Point(10, 90) };
-                LabelControl email = new LabelControl { Text = $"Email : {userProfile["email"]}", Location = new Point(10, 110) };
+                LabelControl name = new LabelControl { Text = string.Format("Người dùng: {0}", userProfile["name"]), Location = new Point(10, 110) };
+                LabelControl email = new LabelControl { Text = string.Format("Email : {0}", userProfile["email"]), Location = new Point(10, 130) };
 
                 pInfo.Controls.Add(name);
                 pInfo.Controls.Add(email);
+            }
+            else
+            {
+                LabelControl name = new LabelControl { Text = "Lỗi token "+ userProfile, Location = new Point(10, 110) };
+                pInfo.Controls.Add(name);
             }
             
         }
@@ -162,7 +171,7 @@ namespace traodoisub
         {
             try
             {
-                GetUserProfile();
+
 
 
             }
@@ -172,25 +181,6 @@ namespace traodoisub
                 log.Error(ex);
             }
         }
-        private async void GetUserProfile()
-        {
-            var userProfile = await facebook.GetFacebookDataAsync("me?fields=id,name,email");
-            if(userProfile != null)
-            {
-                //pInfo.Controls.Clear();
-                LabelControl lblUser = new LabelControl { Text = $"Người dùng: {userProfile["name"]}", Location = new Point(10, 10) };
-                LabelControl lblXu = new LabelControl { Text = $"Email : {userProfile["email"]}", Location = new Point(10, 40) };
-
-                pInfo.Controls.Add(lblUser);
-                pInfo.Controls.Add(lblXu);
-            }
-            else
-            {
-                MessageBox.Show("Không tìm thấy người dùng");
-            }
-        }
-
-        
         
 
         private async void btnLikePost_ClickAsync(object sender, EventArgs e)

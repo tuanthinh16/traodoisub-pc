@@ -29,6 +29,7 @@ namespace traodoisub.Facebook
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFacebook));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.txtTotal = new DevExpress.XtraEditors.LabelControl();
             this.cboType = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -189,7 +190,9 @@ namespace traodoisub.Facebook
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(509, 276);
             this.Controls.Add(this.layoutControl1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmFacebook";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmFacebook";
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);

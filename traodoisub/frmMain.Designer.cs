@@ -29,6 +29,7 @@ namespace traodoisub
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.layoutControl2 = new DevExpress.XtraLayout.LayoutControl();
             this.btnConfig = new DevExpress.XtraEditors.SimpleButton();
@@ -231,6 +232,7 @@ namespace traodoisub
             this.ClientSize = new System.Drawing.Size(693, 367);
             this.Controls.Add(this.btnLikePost);
             this.Controls.Add(this.layoutControl1);
+            this.IconOptions.Icon = ((System.Drawing.Icon)(resources.GetObject("frmMain.IconOptions.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

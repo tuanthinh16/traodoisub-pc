@@ -119,7 +119,6 @@ D:\Thinh\traodoisub-pc\traodoisub\obj\Debug\traodoisub.csproj.CoreCompileInputs.
 D:\Thinh\traodoisub-pc\traodoisub\obj\Debug\traodoisub.csproj.CopyComplete
 D:\Thinh\traodoisub-pc\traodoisub\bin\Debug\log4net.dll
 D:\Thinh\traodoisub-pc\traodoisub\bin\Debug\log4net.xml
-D:\Thinh\traodoisub-pc\traodoisub\obj\Debug\traodoisub.csproj.AssemblyReference.cache
 D:\Thinh\traodoisub-pc\traodoisub\obj\Debug\traodoisub.Facebook.frmFacebook.resources
 D:\Thinh\traodoisub\traodoisub\bin\Debug\traodoisub.exe.config
 D:\Thinh\traodoisub\traodoisub\bin\Debug\traodoisub.exe
@@ -263,3 +262,4 @@ D:\Thinh\traodoisub-pc\traodoisub\bin\Debug\DevExpress.XtraLayout.v21.2.xml
 D:\Thinh\traodoisub-pc\traodoisub\bin\Debug\DevExpress.XtraPrinting.v21.2.xml
 D:\Thinh\traodoisub-pc\traodoisub\bin\Debug\DevExpress.XtraTreeList.v21.2.xml
 D:\Thinh\traodoisub-pc\traodoisub\bin\Debug\DevExpress.XtraVerticalGrid.v21.2.xml
+D:\Thinh\traodoisub-pc\traodoisub\obj\Debug\traodoisub.csproj.AssemblyReference.cache
