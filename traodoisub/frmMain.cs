@@ -141,8 +141,19 @@ namespace traodoisub
                     if (userProfile.ContainsKey("name")) _cf.user.NameFB = userProfile["name"].ToString();
                     if (userProfile.ContainsKey("email")) _cf.user.email = userProfile["email"].ToString();
                 }
-                if (!listUser.Any(u => u.User == _cf.user.User))
+                var existingUser = listUser.FirstOrDefault(u => u.User == _cf.user.User);
+                if (existingUser != null)
+                {
+                    // Cập nhật thông tin người dùng nếu đã tồn tại
+                    existingUser.NameFB = _cf.user.NameFB; // Cập nhật tên
+                    existingUser.email = _cf.user.email; // Cập nhật email
+                }
+                else
+                {
+                    // Nếu chưa tồn tại, thêm người dùng vào danh sách
                     listUser.Add(_cf.user);
+                }
+
             }
             
             gridControl.DataSource = listUser;
@@ -160,7 +171,7 @@ namespace traodoisub
                     foreach(var item in listSelectedUser)
                     {
                         ConfigADO _config = listConfig.Where(s => s.user.User == item.User).FirstOrDefault() ;
-                        frmFacebook frm = new frmFacebook(_config, UpdateConfig, _config.access_token);
+                        frmFacebook frm = new frmFacebook(_config ?? new ConfigADO(), UpdateConfig, _config.access_token);
                         frm.Show();
                     }
                 }
@@ -188,6 +199,7 @@ namespace traodoisub
                 log.Error(ex);
             }
         }
+        
         private void OpenConfigForm()
         {
             // Khởi tạo delegate
@@ -310,7 +322,31 @@ namespace traodoisub
             }
         }
 
-        
+        private void gridView_DoubleClick(object sender, EventArgs e)
+        {
+            try
+            {
+                var gridView = sender as DevExpress.XtraGrid.Views.Grid.GridView;
+                if (gridView == null) return;
+
+
+                var data = gridView.GetFocusedRow() as UserInfo;
+                if (data != null)
+                {
+                    UpdateConfigDelegate updateDelegate = new UpdateConfigDelegate(UpdateConfig);
+                    ConfigADO _cf = listConfig.Where(s => s.user.User == data.User).FirstOrDefault();
+                    frmConfig frm = new frmConfig(updateDelegate, _cf);
+                    frm.ShowDialog();
+                }
+                
+
+            }
+            catch (Exception ex)
+            {
+
+                log.Error(ex);
+            }
+        }
     }
 
     

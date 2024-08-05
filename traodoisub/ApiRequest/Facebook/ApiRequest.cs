@@ -4,6 +4,7 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,7 +26,8 @@ namespace traodoisub.ApiRequest.Facebook
             {
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _accessToken);
                 var response = await client.GetStringAsync(string.Format("https://graph.facebook.com/{0}", endpoint));
-                //log.Debug("Get Data Response :" + response);
+                
+                log.Debug("Get Data Response :" + response);
                 return JObject.Parse(response);
             }
             catch (Exception ex)
@@ -37,7 +39,7 @@ namespace traodoisub.ApiRequest.Facebook
         }
 
 
-        public async Task<Object> LikePostAsync(string postId)
+        public async Task<HttpResponseMessage> LikePostAsync(string postId)
         {
             try
             {
@@ -45,29 +47,47 @@ namespace traodoisub.ApiRequest.Facebook
                 var response = await client.PostAsync(string.Format("https://graph.facebook.com/{0}/likes", postId), null);
                 if(!response.IsSuccessStatusCode)log.Debug("Like Response :"+response);
                 
-                return response.StatusCode;
+                return response;
                 
             }
             catch (Exception ex)
             {
 
                 log.Error(ex);
-                return 404;
+                return null;
             }
         }
-        public async Task<bool> FollowUserAsync(string userId)
+        public async Task<HttpResponseMessage> FollowUserAsync(string userId)
         {
             try
             {
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _accessToken);
-                var response = await client.PostAsync(string.Format("https://graph.facebook.com/me/friends/{0}", userId), null);
-                return response.IsSuccessStatusCode;
+                var requestBody = new StringContent(
+                                        "{ \"object\": \"user\", \"fields\": \"id\" }",
+                                        Encoding.UTF8,
+                                        "application/json");
+
+                var response = await client.PostAsync(string.Format("https://graph.facebook.com/{0}/subscriptions", userId), requestBody);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    log.Debug(" Follow response: " + response);
+                    if (response.StatusCode == HttpStatusCode.NotFound)
+                    {
+                        log.Error(string.Format("User with ID '{0}' might not exist.", userId));
+                    }
+                    else if (response.StatusCode == HttpStatusCode.Forbidden)
+                    {
+                        log.Error("Access token might lack necessary permissions for subscriptions.");
+                    }
+                }
+                return response;
             }
             catch (Exception ex)
             {
 
                 log.Error(ex);
-                return false;
+                return null;
             }
         }
 

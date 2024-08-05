@@ -44,12 +44,18 @@ namespace traodoisub.Facebook
         }
 
         int yOffset = 10;
+        int countTaskReload = 0;
         public async Task GetNVAsync()
         {
             try
             {
+
                 listTask = new List<string>();
                 log.Debug("Lay danh sach nv.____Start");
+                if(countTaskReload >= 5)
+                {
+                    //Load nhiem vu khac
+                }
                 if (cboType.Text != null)
                 {
                     var rs = await tds.GetListTask(cboType.Text);
@@ -74,6 +80,7 @@ namespace traodoisub.Facebook
                             yOffset += lblTask.Height + 10;
                             panel.ScrollControlIntoView(panel.Controls[panel.Controls.Count - 1]);
                         }
+                        countTaskReload += 1;
                         log.Debug("Lay danh sach nv.____End");
                     }
                 }
@@ -115,8 +122,16 @@ namespace traodoisub.Facebook
                 {
                     
                     log.Debug("bat dau like ID: "+item);
-                    var success = await facebook.LikePostAsync(item);
-                    if (Convert.ToInt64(success) == 200)
+                    HttpResponseMessage success = new HttpResponseMessage();
+                    if(cboType.Text == "like")
+                    {
+                        success = await facebook.LikePostAsync(item);
+                    }
+                    else if(cboType.Text == "follow")
+                    {
+                        success = await facebook.FollowUserAsync(item);
+                    }
+                    if (success.IsSuccessStatusCode)
                     {
                         log.Debug("Like thanh cong");
                         await Task.Delay(10000);
@@ -155,7 +170,7 @@ namespace traodoisub.Facebook
                         }
 
                     }
-                    else if(Convert.ToInt64(success) == 401)
+                    else if(Convert.ToInt64(success.StatusCode) == 401)
                     {
                         countErrorToken += 1;
                         countError += 1;
@@ -167,35 +182,6 @@ namespace traodoisub.Facebook
                         log.Debug("Like that bai");
                     }
                     log.Debug("Số lần lỗi: " + countError + ", Số lần lỗi token: " + countErrorToken);
-                    if (countErrorToken >= 2 || countError >= 2)
-                    {
-
-                        log.Debug("Lỗi token. Đang tiến hành lấy lại");
-                        Label lblTask = new Label
-                        {
-                            Text = item + " ========== Lỗi token. Đang tiến hành lấy lại",
-                            AutoSize = true,
-                            ForeColor = Color.Green,
-                            Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
-                        };
-
-                        panel.Controls.Add(lblTask);
-                        yOffset += lblTask.Height + 10;
-                        var responseString = await GetToken(this.config.cookieFB);
-                        if (responseString != null)
-                        {
-                            this._tokenFB = responseString;
-                            facebook = new ApiRequest.Facebook.ApiRequest(this._tokenFB);
-                            countError = 0;
-                            countErrorToken = 0;
-                        }
-                        else
-                        {
-                            MessageBox.Show("Lỗi khi lấy token. thử lại ở config");
-                            this.Close();
-                            return;
-                        }
-                    }
                     await Task.Delay(5000);
                 }
                 

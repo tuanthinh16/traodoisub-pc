@@ -31,14 +31,24 @@ namespace traodoisub
         {
             InitializeComponent();
             this.updateConfig = UpdateConfig;
-            
+        }
+        public frmConfig(UpdateConfigDelegate UpdateConfig,ConfigADO ado)
+        {
+            InitializeComponent();
+            this.updateConfig = UpdateConfig;
+            if (ado != null)
+            {
+                configAdo = ado;
+            }
+            else configAdo = new ConfigADO();
+
         }
         private void frmConfig_Load(object sender, EventArgs e)
         {
             try
             {
                 config = new ConfigManager();
-                configAdo = new ConfigADO();
+                
                 loadDefaultConfigAsync();
 
             }
@@ -54,7 +64,16 @@ namespace traodoisub
             try
             {
                 
-                configAdo = new ConfigADO();
+                //configAdo = new ConfigADO();
+                if(this.configAdo != null)
+                {
+                    txtCookie.Text = this.configAdo.cookieFB;
+                    txtToken.Text = this.configAdo.TokenTDS;
+                    txtTokenFB.Text = this.configAdo.access_token;
+                    txtCookie.Enabled = txtToken.Enabled = btnGet.Enabled = txtTokenFB.Enabled = false;
+                    if (string.IsNullOrEmpty(txtTokenFB.Text)) btnGet.Enabled = true;
+                    btnSave.Enabled = false;
+                }
             }
             catch (Exception ex)
             {
@@ -69,11 +88,12 @@ namespace traodoisub
             {
                 string token = txtToken.Text;
                 string cookie = txtCookie.Text;
+                string tokenFB = txtTokenFB.Text;
                 // Kiểm tra người dùng với token
                 //log.Debug("Convert cookie to token");
                 //string cookieString = "b=-XGHZuHwncXt5xKeVsPkthS2;%20datr=-XGHZkG2zw95ie9mKavKZn74;%20ps_n=1;%20ps_l=1;%20locale=vi_VN;%20c_user=100082413946084;%20m_page_voice=100082413946084;%20presence=C%7B\"t3\"%3A%5B%5D%2C\"utc3\"%3A1722486447265%2C\"v\"%3A1%7D;%20wd=1920x953;%20xs=19%3Am_aU7K0vfZFu4g%3A2%3A1722476862%3A-1%3A6242%3A%3AAcWPOB7heKYVL0Pna1SIqbCCzGtXBAPs-SYgWTmdnw;%20fr=1GvLx3ElpKVqNX8ib.AWXxI7xlBdELLC34m68C8iu1rLw.Bmqw7X..AAA.0.0.Bmqw7p.AWW8pW4CZqg";
 
-                var responseString = await GetToken(cookie);
+                var responseString = tokenFB;
                 configAdo.access_token = responseString;
                 configAdo.cookieFB = cookie;
                 bool isValid = await CheckUser(token);
@@ -83,7 +103,7 @@ namespace traodoisub
                     {
                         // Nếu người dùng hợp lệ, lưu cấu hình
                         configAdo.TokenTDS = token;
-
+                        configAdo.access_token = tokenFB;
                         // Gọi delegate để cập nhật dữ liệu
                         updateConfig.Invoke(configAdo);
 
@@ -188,7 +208,8 @@ namespace traodoisub
                 txtToken.Text = "";
                 txtCookie.Enabled = true;
                 txtCookie.Text = "";
-                btnSave.Enabled = true;
+                btnSave.Enabled = btnGet.Enabled = true;
+                
                 dxErrorProvider1.ClearErrors();
             }
             catch (Exception ex)
@@ -204,7 +225,26 @@ namespace traodoisub
             {
                 txtCookie.Enabled = true;
                 txtToken.Enabled = true;
-                btnSave.Enabled = true;
+                btnSave.Enabled = btnGet.Enabled = txtTokenFB.Enabled = true;
+            }
+            catch (Exception ex)
+            {
+
+                log.Error(ex);
+            }
+        }
+
+        private async void btnGet_ClickAsync(object sender, EventArgs e)
+        {
+            try
+            {
+                string cookie = txtCookie.Text;
+                var response = await GetToken(cookie);
+                if (!string.IsNullOrEmpty(response))
+                {
+                    txtTokenFB.Text = response;
+                    MessageBox.Show(this, "Thành công", "Lấy token", MessageBoxButtons.OK);
+                }
             }
             catch (Exception ex)
             {
