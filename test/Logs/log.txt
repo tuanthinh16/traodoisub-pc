@@ -1522,23 +1522,274 @@
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at traodoisub.ApiRequest.Facebook.ApiRequest.<GetFacebookDataAsync>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Facebook\ApiRequest.cs:line 27
 
-2024-08-05 14:58:42,389 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 15:02:12,642 [1] DEBUG traodoisub.frmMain - ==========================================================
 
-2024-08-05 14:58:42,394 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 15:02:12,648 [1] DEBUG traodoisub.frmMain - ==========================================================
 
-2024-08-05 14:58:42,394 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 15:02:12,648 [1] DEBUG traodoisub.frmMain - ==========================================================
 
-2024-08-05 14:58:42,394 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 15:02:12,648 [1] DEBUG traodoisub.frmMain - ==========================================================
 
-2024-08-05 14:58:42,394 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 15:02:12,648 [1] DEBUG traodoisub.frmMain - ==========================================================
 
-2024-08-05 14:58:42,394 [1] DEBUG traodoisub.frmMain -  
+2024-08-05 15:02:12,648 [1] DEBUG traodoisub.frmMain -  
 
-2024-08-05 14:58:42,394 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-05 15:02:12,648 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
 
-2024-08-05 14:58:43,062 [1] ERROR traodoisub.ApiRequest.Facebook.ApiRequest - Loi lay thong tin facebook userSystem.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+2024-08-05 15:02:13,297 [1] ERROR traodoisub.ApiRequest.Facebook.ApiRequest - Loi lay thong tin facebook userSystem.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
    at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    at traodoisub.ApiRequest.Facebook.ApiRequest.<GetFacebookDataAsync>d__4.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\ApiRequest\Facebook\ApiRequest.cs:line 27
+
+2024-08-05 15:02:20,839 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+
+2024-08-05 15:02:21,281 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+
+2024-08-05 15:02:21,285 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+
+2024-08-05 15:02:21,285 [1] DEBUG traodoisub.Facebook.frmFacebook - ========== Loai nhiem vu: like
+
+2024-08-05 15:02:21,286 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61552122353164_122138681138070745
+
+2024-08-05 15:02:21,501 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 401, ReasonPhrase: 'Unauthorized', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: Ay9AY9m8RF92668BccdZ9dx
+  x-fb-trace-id: HP8HvLsqN5f
+  x-fb-rev: 1015402125
+  X-FB-Debug: QntLOr5cBBxdbpufchyQ5S2b3hjJHIvYVQ57Iz+c1KMeYw8uQCisQJFRzGLKLHTtKvfqvIvEg5U3rHkmXECieg==
+  x-fb-server-load: 31
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcLuf-nu_agtf3zq5Wp9zufwb-jsiRr8yKQptFsDwqtkTnxM8fdKNUkIVf3o7vdExNkCUXdQlnFRC7xYXVZN"; e_fb_binaryversion="AcI5DopvOwWyvSgnPRj6d4V56Km9Hrz3W9ccoVW8sBz65t74bjdE9DNT4-ZQI8Pj09o-xG1okawSSpctjE89uNzwMhHapOo46TA"; e_fb_httpversion="AcKgYHja2rBg4nA4a-uEgtHWyz4GQUkv6rPZDTITa_RHqdugaROZHdT_GQyJ"; e_fb_responsebytes="AcKyXiXdAWIbyaFpXQPkUemC88v5q-LMowbPoMdiKoqyh2_V_nw9rd47MZbd"; e_fb_requesttime="AcJXLvb0nFvUMWulrUfmfP40srYvMhhdXKLYBZOausRbGiJY-0d_h-QSt2SItnFeW1N4VraMKA"; e_fb_requesthandler="AcIngyKxU5EHYsJlXXgPT37dY7dw6QjZhWAoPb-D2fZ4KXM3nUD2tEe_i3KcCMoyqsXif-0MUns"; e_fb_hostheader="AcIrks9f8E_MFF-n_ix2Xr0aDnp4lOj8UU5pYvapVaPt_YYIoRxTxrtL24jrL56Mxw-SDSrnfMlQtyke"; e_fb_requestsequencenumber="AcKSgD3NLcBGMD5jachTSCESC0HTdCkGi_Ba-XH0AyEnMhEabU9JxrxDR1Ozrg"; e_upip="AcJ8l0aBjeyB4BdAowGZ9xxtP7D7G9DQDnJS71ckiMswAsL-hc6FGNSbwSeR69l0xLRzM7Ha5_7i6XEq2hhkyqY2K2rHEYCIFB1Yvvc"; e_fb_builduser="AcKFH9nq1Dz12fphJP2eciMfEagED1BCMnGeNupjVRjG_odQWKE4N2Jth5FdE31P-3k"; e_fb_vipport="AcJkHAPo13DwQYQgE22DLA5G4iGRXkEh7fL3CnJY6FWUlT03dPj0OzGpGaC_"; e_clientaddr="AcLjQKR5OsdSjMs7Yw85tFdfIbqTEQGDvyQ9xYqaqa6Wn5twb7Jg9TWQjIlhI77JfGKfjgH9Kkt0CdLzHfCGJdjFbeX36pa7Nhu2abyxAtunKyzE8g"; e_fb_vipaddr="AcLO6woWDIR66NRWi0iX_aeEffyJSBXT3w3cu7zBNrOlothOh7NmKjpVoPvNIcSzIr3P6iz0bTxBj_WfBorXdBhHmi1QDQveBA"; e_fb_configversion="AcIOPDKlvHkbG7tYB_fmKSQXtCCDVsynLQjYC6uuxXq3CQKn3TSMZu0wI8XFng", http_request_error; e_fb_configversion="AcJ12nR6NWMBL7SvTBefbI60g0QV_khBXHOuCwV59iZ6GQzvPbkXQHsnorU-3Q"; e_clientaddr="AcIqkZ_3TxDJkOJL5bfGw8wpxYbS43hDBVCbAMpHtq2fSOw3AmkcQUmV9ovq0qI0ETNRKTAtZZj8RXBBNQ"; e_fb_vipport="AcKIPJNOlQ27D6ymTjEe1SMczVYkK-Qgp7CDCpR9jGpviNBmTrm4BHN5zqj3"; e_upip="AcKpc8C7AZPLdGerwb5sENsUdRHJlJTsk0t_IEiznKF1C0Cr-fzQc7eIATpXPS2mOMx9hh6A_35du2ibcs5i4nWU-JKGeHw2Ag"; e_fb_requestsequencenumber="AcK0ejGTFSdrjKaxrNWhIPhUZ74Kak8UMzhViECufaV7P8ctklKVYUTh2Q"; e_fb_hostheader="AcLmJq54n6YW1P14OcXnuqINOFoJVoOj1kKAFvr_Tim_6gJocLA4hNAo-SDXsWuVMSb2fu79DkmR-10P"; e_fb_vipaddr="AcKK56aRsMgrAC4UFA6wBK4Wx9lgVw6blkwkObh6Hg6xw-zd6GEkCEUrlUnZyM5WB1MgAayW"; e_fb_requesthandler="AcJE2aAAnSp6ATc5dw9wxMXLQlMCoRGdHae_t33FkReXAqMwXqMDzQ41ao0Yih_tRq9TNTE1EtU"; e_fb_requesttime="AcJAtmapv0LWErmQ01aWlZ6NBQJi30offm2XrsRnxO_cJzIjl2Tqt_MNuh_5v3yepiTuth_pJw"; e_fb_builduser="AcIe6WNi8i3T7_KW6zl3cDc44Xre1sdOVn6Qz8oJnAvJIlh_-OtTpahcL4y9b2u-rKY"; e_fb_httpversion="AcLSg7qJpO-2TSWCi2peRF30rzGmd5FruAf9nIz6Cuxuo3u5cLHN9y2nmngV"; e_fb_binaryversion="AcJgOINSttioX16a2PpP4bKE8o15rm2oAY3iJRJCsvbf6jmKpE8RbT2LteSkRYsVy9rRQB67D4CuvlEk8VWDgiKrnzM66yIPd88"; e_proxy="AcKxvMZS0zWEsnqEH2XZLu19TO88UTjV4lgvDq3hMboCY1ZSoQKTmOaVXMngmguRyrT7dR05o-p4O_0"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=27, rtx=0, c=10, mss=1392, tbw=7219, tp=-1, tpl=-1, uplat=189, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Mon, 05 Aug 2024 08:02:21 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_token" "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+
+2024-08-05 15:02:21,501 [1] DEBUG traodoisub.Facebook.frmFacebook - Loi token.lay lai di
+
+2024-08-05 15:02:26,517 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100070123038933_792573673090060
+
+2024-08-05 15:02:26,733 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 401, ReasonPhrase: 'Unauthorized', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: A-POy6iFVTSLJICNNIAwB0f
+  x-fb-trace-id: DVyuCnmWFkA
+  x-fb-rev: 1015402125
+  X-FB-Debug: 0bqpfKqnuUvbIMabkfRygY5e6vtX1XmAftNqU7ENqjzsgp9d/5kxWN+r0eMetzvk86j25RgixiYXUBtrOKvJtQ==
+  x-fb-server-load: 25
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcIvIoqQK7jRIEVY3-n1LawknUh43ESSSRkIlC8byH0d23L6SKnBbeVw7VjHDV79MMH8A4bZRf4bPdghD5U6"; e_fb_binaryversion="AcJUFnzN6NHF9_65oDxzAAyJGyzzz151FYLtm2Zmu9I4CucyefjWs6yViZjVYt_w7IR6d8VQqFJY9lmw7rvEGeqjMVdfv-f3hPM"; e_fb_httpversion="AcKdY45QF__3RHiWcAKCA7wClqkqI-c9NfsJ4Hu2kVnsZ35T8WxYCQ5Nuuh7"; e_fb_responsebytes="AcLZtLQMJO1S_vPSPtJ5eorG_S4SJUG8g6qaDSJ-59mWdDR2qPAx6Ynma0ye"; e_fb_requesttime="AcIYkllvBIcnoCDiJmIHp1t3eyrH3P-VG90zMQ6c3i1T2SGXYHG3_nY-pvfdd6UhaKCDP-FjGw"; e_fb_requesthandler="AcKQ5Hcj0HWP0vy2ytDH2MKYKUTbdio4ZLjXVWx33oTUKkHr4r_sSlQmLBWItfQSwl6Xh9IIzpg"; e_fb_hostheader="AcKvbUsuhpaq2AJoerc0eNbOrmQEv7Xgqpy7f0Ew9Jn7vc7SP1ANYQbLioTfAjxqMPRCrb_vR8wHrYzJ"; e_fb_requestsequencenumber="AcJ2Lu0Yy5VLMueWQeHhhLdN6oXYFTQwz9u5pg7gAILm_KB8svFeUVjWY0uIaA"; e_upip="AcI88mmBPgewgLcPGrwTL4nKGod1IdiF08YnWHKi5CQsVUQiqpSkoECSW4Ads4qSoSGxr-xhHkjfV1A2bmWldBik6ExfNAlDCPSYlP4"; e_fb_builduser="AcLmApCXUr3iRI6UrM-KtiwW4H_Y1y7_7TTw3z4bknCzPatFEAGgEv9Ov7u-b-e47ew"; e_fb_vipport="AcLkpTDxDYViXsXpax6NKgzA67raGh61A0r-mEZ4L6hvcnSkVPvOnTc4OFaY"; e_clientaddr="AcLoX5xJ36Du7Tjiey0wbMwRTEy2Pbxl2tN1P18jqo0wfQcgsAcabxls6SqBmQQip0dz4cMd6ztUD_DXawjzyCyfeeFaq_hzne3c0q2cCI6KvPkGGw"; e_fb_vipaddr="AcJ7_C9b94Yr5cZn7c-Hvtw_oAsRkwBfkOkEXBE0ijEFEfY7sfv-aU-0LaVQZSZHJHWzOWCx9dRpaWYMuIU0Cy2r1eKfhWpEog"; e_fb_configversion="AcLOWfcPqQLeejekvBNNCYgAWLI6kKOcXE1KrM8gEzbf_8OUjkcG4CL6uh5ojA", http_request_error; e_fb_configversion="AcIMwFi4RfKPCRIpa47-6hqrvN-4NYHJfMOl4FCoaQ4CNJrNwGXQljof6WnYig"; e_clientaddr="AcKxRyesmxfupYoyqgR5FTmPv0KlRUvycLXg4Qb3dwHcHzPcUr2LyuoxOtaUQEAuGJqetNxJVUYh918x2Q"; e_fb_vipport="AcI2I_zv3GQDO-f7s4TLldBvuzsqfGleLsZOlhv1jr55XSCFovCp7g3i7nB1"; e_upip="AcLQrcRW-_B2MaDpXU97PVucbswAbs9UG1SQcti_zAXgCiVFZye7Tv9MJIr6KgRtSRAEOMwLP5QJ8Bk3R_drrondR9qJ8kcLRg"; e_fb_requestsequencenumber="AcLAgQV2I1nuFg5FZRAc3bwH_AQBOWJz-ZCI76QjWVygpZASjMjrTu-rWg"; e_fb_hostheader="AcJs4FhYMZmvXiUkyJoB_z32mz7KuxCJxsHyulGg1LZzNiKah6bonJrrrsVdvDuIh18yrZBjg7_YSmm1"; e_fb_vipaddr="AcKXtqgaj9COsPkcC5YMT2TOtiJ2y20YRKbe877LkHeSNJzeNcq6aZ1SlaASLYh1twODWhKX"; e_fb_requesthandler="AcKbvOnxENeH_29powipbHD7gjLiBz1vorYlV_IvYiNuKyUDDiax1WMR-9ojLZBVDHWEAhhJt0w"; e_fb_requesttime="AcKvvHKIpw09nl7WDgJm0q5fIT-5cUkdcWQNmpo3nPYxZQoqDVpLOMWLFKwBRUiVYYNKucrsJQ"; e_fb_builduser="AcJxX2rEW11B2vAQBzbcCWqRUDRVSL1GUZVYP2vcuoxRX6VaOfsZT738fMsBsTpm54M"; e_fb_httpversion="AcIs7FsA7j0fiAjqeT-wMTvWdmCgXfEPWUINnvzeDi8orzMlE_4LO5UZKlEY"; e_fb_binaryversion="AcJNSoILZtExVlZ21r6Fv8ZKTNM4TW4u91p4ckjRl5Y9l6DChFUb3qvHVca_Sq2qWe--k5dd8ReQJLCnilG2To2voGDxDTlHBmg"; e_proxy="AcLP3Xd27PrHy9j6io_Bgk1K8NYGJPRt72tVbpCs2_sm3Nq-8I71Me9bLPRdfXEiKc6X0hEfFwBmPIE"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=33, rtx=0, c=10, mss=1392, tbw=11210, tp=-1, tpl=-1, uplat=189, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Mon, 05 Aug 2024 08:02:26 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_token" "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+
+2024-08-05 15:02:26,733 [1] DEBUG traodoisub.Facebook.frmFacebook - Loi token.lay lai di
+
+2024-08-05 15:02:31,745 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61559381532100_122131216268312717
+
+2024-08-05 15:02:31,955 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 401, ReasonPhrase: 'Unauthorized', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: ADQPBalyW0499BADSESMvvl
+  x-fb-trace-id: DK6UMHz1llX
+  x-fb-rev: 1015402125
+  X-FB-Debug: qxmcb4Zz7kHa/GrHa1qKi46yOV1p+ZL4+CCFo548iY3vQaNL24b+cxTguwBaFfgZDiUZak97w3TjQ6ZvFSBFAg==
+  x-fb-server-load: 34
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcLYknAOI8zJykSpeGwpqd1dcICdI7-seY3i8dhZqezN9Sze1ewoo-IVbRrZ3IZyWXqLRLUgs5YV_1vf4ZBO"; e_fb_binaryversion="AcL7EdKJCVLjGw3XKc9UXpqwf5VVQjndWxZd3K2fldLbTgn8_M6vNioOHfAwrqPPTywVqvdxGzjKChfLjWsTq38wQh4rrI2xr6Q"; e_fb_httpversion="AcLEVFpEdwevydjWZ-ptfBUfsZKegf1f7dbLit56PLgKfvMKb8BZP6mbrVsL"; e_fb_responsebytes="AcIL8tO7QJqn5mkecCmAd0-OSmk6wIaSDJt0DLhRoPkKWgD-tIzgHVkQS-2M"; e_fb_requesttime="AcJW0Okvv7s0GX6xeTIXdo-1fwkTRzZ4NGnvl_aDiX0U4hpF5r8v1ehljsbgdQc8nd-jwc0wHQ"; e_fb_requesthandler="AcIyORRYsw3Mb7fYc7VAm7tJAnjM1W2pib_mqUhZbbaecQft-StWNyuugAswSCI3hmsSZNq9ugo"; e_fb_hostheader="AcJBndouojtwvUe4GREk8-T5GzVJ_OxFnnQhDmG42xDCiTkVrnmgl8_rKqhroPGD_ILFP5Rk-ttR3-8S"; e_fb_requestsequencenumber="AcL7DpaISrOzk6Kda4uZLNd7oIaAT1eOlIGYzhHHtJ1yFrQ9evjV_PKnOA0sgg"; e_upip="AcJIXqxcrUu2wPCLFCLnJ7w-CbbU01QPmlB74RNN6W50KMzH2H0L9V9EkPtek8GdsZ4FK475sor_Y2Jd7xie0bh2lZ-L5yDYorA96Q"; e_fb_builduser="AcJW_bUo8wT6a-FlNtJPDl69CYkMHpdYp-tQiAiAoeGUUjwg7P9y2Qy4COpcqAcG0oo"; e_fb_vipport="AcIzO9MoYPFu8oE-s6QY-aMlCgDYxKd8GRzAitkkDGU-SrlvxPZrtHolwnwP"; e_clientaddr="AcJCN3EumNlRF2X1H0oGhKeaoXTEYhMHBeuMM1oDJrNDAF9M8XzeC0kgAe8W7Orp6LcvHvxPRilbv9HTgNC53ojAuNw86wtfsWW-9Qj4KgHJcT2wPw"; e_fb_vipaddr="AcKEnmvLv-fHxMDl5XUyagj0O-CtvD4lWm0smeNYU1IHEh5MzLfLAXOcQfZzTiQv2Q42elwGYccgoOdxF-uE_7DciaSypHV4fg"; e_fb_configversion="AcLq5ccCSdXQXvVj-csfQkJZvbZhQ63p0XKDqQPW0DQwhU5JMnsAI8oIKRL2Wg", http_request_error; e_fb_configversion="AcIMImfGb9AsmKzfyt-FY2Da6NwNI9OU3rnQlYiG7aq1Mw17tzC5nmlR3f-r4w"; e_clientaddr="AcKhj5vO2dT0eOjqZhkYcIEoNnoK9gf78qxc-h3O14qPt5hWARf9l1PR-XnAuyjEFwOKc7JT7z25jcVceQ"; e_fb_vipport="AcLfxQQyu43GqwCOu8r2bvbU4mkGeVuENwQeod7h48DS8J6Sx8r_ObWDpN9T"; e_upip="AcIaQG7uhfhZHHXPlD0D070lzBQv3KOpyrLahTqYpinBolIa8hrWGx8hfPIwbDxBqSDV91rrE7yHJbPKmSGmZ099BLG_9DK1SQ"; e_fb_requestsequencenumber="AcKZwpqynJHT9RBW15kgeWMIqhBkap-ow11phsHWxjOSHgtxA7bAtrk3DA"; e_fb_hostheader="AcLt8GcWeVgCcMPeD4pNDotOBVVgzYC6ZVsOlV5AQOPfg9ZemPZSz7jvdZRjztKPT4q9hUfSZlZR5Uk0"; e_fb_vipaddr="AcLgcXv1vLQQJEixt0C9YgG_4r7-Vpqn4sS3eJr0ulDpgJ5UtcPzhlgBbY_B3o8spkptrprF"; e_fb_requesthandler="AcKKGOyNQxFh1g7y2XMQQIkwWh_YpqL7b31VTOHeVVUOLA1uxEp5UYqeGBZcEpFCTtExgzknlbQ"; e_fb_requesttime="AcJd70BQJ5X-bzvTsbiyjfJl9SvLnt1PHixDXTwxQ62TVJhqFoOAKhVnZrjUDNsm_jMxXVYJsA"; e_fb_builduser="AcKz8El3rbux3BA8nS-9NZCxg-uqcQSrLurV5yCgZx8KefPiBIoBtO7zk2YeCFP2bEk"; e_fb_httpversion="AcJxBE7-oNJdFkAtWAad5wOWW-jqKxLLaz1ZPNPRBbDPnwBdEH-1AOk03PDd"; e_fb_binaryversion="AcLWscmO8yi2JsQMB1QabPkzne7tjAfo2cJbo9k5EdNyzsqf0u9jr_RaebeNrBJRO3rAHOXonTyQyTi19h_mOLNRZOPwc2Nxlms"; e_proxy="AcK74QMTAaQHGYanqIq4RTFVP-Rp4qznR_7tH33dOnBMO8F9qlZlUXOJdyvK22fUSQWpPiRFNPUVfoc"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=37, rtx=0, c=10, mss=1392, tbw=15202, tp=-1, tpl=-1, uplat=184, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Mon, 05 Aug 2024 08:02:31 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_token" "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+
+2024-08-05 15:02:31,955 [1] DEBUG traodoisub.Facebook.frmFacebook - Loi token.lay lai di
+
+2024-08-05 15:02:36,968 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61562337808451_122105835212411260
+
+2024-08-05 15:02:37,179 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 401, ReasonPhrase: 'Unauthorized', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AuFBCpWaxAHdsS75k-pcAuG
+  x-fb-trace-id: B4Y/fmdvI+7
+  x-fb-rev: 1015402125
+  X-FB-Debug: /EEoCkW5Gt9RbClV7Nx5lLJ+Fl7Y+u08m2fKybLEWnnXNh1WMrpgTeGwORSeEDP/JnhEaiXflEBWtSUL/hQkIA==
+  x-fb-server-load: 35
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcItWQ-QL61lWE605zxg7orn3pZ51VW9aprNgzEYaCUZvUAUU87Wdb_Pgubr703FBc51Q0b9yxyhFuGFHywn"; e_fb_binaryversion="AcIRtPzOP70snzwoKdbTbFSPV6uggGzHLuGg2r29StpJhwJgJQtJe2hQEjg1aIFqjUAPJw26popi4wnWjh-F3FT0VDPfCPHsTjk"; e_fb_httpversion="AcJCDpFbQz7nW6diiASSlBEdUKxK1YdBp-x7-H4vSQHVi3jC57qCvQPxt4Yc"; e_fb_responsebytes="AcLCx41hs4Y8QQ_jkD2qdi0-FYZD-rdJCztVY5IRI9MfOwm5LSkXwljKVn9i"; e_fb_requesttime="AcLRHkZurJG7FMmeUhYZBJ590tMyl0Z7dylkObF11I1ONDywpQd_Tw3utA6C09pKrepluoMsRA"; e_fb_requesthandler="AcJ43t5MA22Jr1sChgL1a0TFmvlsDNH4N_ZlOpiKHjlV9P4KTGXqEYQOjxYRoDzCbagPBJRpE90"; e_fb_hostheader="AcLJCLzndW05AsNajZ92MYU4S04HvH-Q53EIm32cNHuhv4q-R797VKx9zxvzGwjdmRAxz2PB87bh0KIi"; e_fb_requestsequencenumber="AcI0i1JjJ26VFuN6zUYO6NIrdTpKetdgaB6088MQQVSFGR_1yk25_KXI9Uif2g"; e_upip="AcIaVP9tG-utc70Vt0SBIUAJva5gvzwwmAdXCN-ymdr4fQw1-Qpp8ZprZTzh4-RpbxzVoZVpbRnJQ1_jirxZ491rPnvMz0tWEM1hyp4"; e_fb_builduser="AcLayfQhyr6vPM84_ZUfXwCAi8tynNGwcrwt5fkJtrBcn8ekpBI_VMyg2Cc0jzKaPSQ"; e_fb_vipport="AcKjrxCvIB0CUp4UsWPLuA6Qg0eXw0Pnxy8zPAj-AxUlZKdGjGXzhrR_gcxm"; e_clientaddr="AcK3yIRemNi_njobASSUaFR-49rybVkm7poys8HhcA4-dSsFePKm19bpPxg9PFQrKxkRFYRzD0gK05PZ4xV4qccgicRCk9rfl-jDHwqurcJfQcPIeg"; e_fb_vipaddr="AcI9Eb0BJJlEVMur8AheH_AazceQdVrj9ohgG0KRXfpNm7QyXJW_HpA_USc8XXyrn6BcwMb1k__1HF5-LzIfOYzTsaRqbIGU2Q"; e_fb_configversion="AcKujXy14Enb__X5vm9X3md6ce0haGfT3wZJWfqBJYnT9XdXYI0vwXUSKPx46A", http_request_error; e_fb_configversion="AcIJcZr-Lc_a9vAA_HvC45FJPq6xO_TEmObupj6LGjJPqTaBBqXmMY1Wctsr-g"; e_clientaddr="AcJCBsWatdk8B8If3nqEZrBem9XJKvJzrSIDbuT8j4TF7RWcQmxnCgSzZx8v0qIlP-tEWWQDeRkE5yiSKw"; e_fb_vipport="AcK0YWco0oRoGNZss6JyLx1_Y7q_kU_HNbCap2nyV1mSkL8nW0jW80-Nz_rP"; e_upip="AcKOxJVOXaxBixanXrIKSkHLKHwAbmKWSj6frfW_v5EeamU5CbxTJbju3f3MM-RYl8L8NtfyQ7mPWkZ3pYN6MQZ4XaNM_uNkLA"; e_fb_requestsequencenumber="AcKoUYcgEQ1XZ-0-C30_4PoYhB_sZJFjDEr0kR4F7P6if_uum0AhQtfj7Q"; e_fb_hostheader="AcKNzOPTU8fF8xSDdydOl1cdyxG79o965bSbqk3P-f74mPjBoh3ux0vNewx0CgUQBWr6calqGkCWEmlc"; e_fb_vipaddr="AcIZFjZzVALoBMuPLCBO6bA_w_TRNPYy3LGbmlV74ZAxtNHnyZ5gr94_9kfJ-UscRSkhUx_L"; e_fb_requesthandler="AcJHmkEc836CJOp_40P9Gjg2BIi91QPDn4vkVydNUkvO4Oh_igkOAdxN8kSDpmyCE7_W13NoxgI"; e_fb_requesttime="AcKZqgNH1h8Ktc5mlYyAbpqVuUIjSHKYneZMX73rNkOS78VoakcQee5ENPFC_b48gj_iogTzMw"; e_fb_builduser="AcIR4X9HEJD-bMTHby-62aCgiD6twr6Dhvv7_l09CpfcIqVos0NXKd2-6N4qEmYkqMs"; e_fb_httpversion="AcKn5BnTui1zYVc2g_uFMVq9O9wjHS_2LVzVS7PanPBsxSHpg1Ef3fSkfboC"; e_fb_binaryversion="AcLHulCYXpH85H1tv7SgXb7RTG8BoaB1cjLzt_COHUyIWRhDbKXegqWSpzwUYN2fINyyQGkF0nYI7Pfra3u6tFPtn6f5hVy2LCg"; e_proxy="AcLH49Ga6BGaLcwmM7-uQL_FAaVgIxFF7S_ZnxDWaekCJJ4zkZmlAuVhPZ3DXYvR6GAdOTm2ld79-xY"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=39, rtx=0, c=10, mss=1392, tbw=19193, tp=-1, tpl=-1, uplat=185, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Mon, 05 Aug 2024 08:02:37 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_token" "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+
+2024-08-05 15:02:37,179 [1] DEBUG traodoisub.Facebook.frmFacebook - Loi token.lay lai di
+
+2024-08-05 15:02:42,192 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100001072211274_8140295322682794
+
+2024-08-05 15:02:42,404 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 401, ReasonPhrase: 'Unauthorized', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: ArwTYZVIWnYp76oISs1Wimk
+  x-fb-trace-id: DNQPF3Ng7m/
+  x-fb-rev: 1015402125
+  X-FB-Debug: ibGNIyMfO+qU5vXliWhQW/r8ueDNuHR/hbDGNNqb+NewgOxjTmdX+QgGxC4iPMltvX9FD1/H4yNRMme387fgkg==
+  x-fb-server-load: 30
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcJiCVlNUdoaSiMnv9Oixz3lAzWnglj9gLDFZc1rI_OdxjCiCBuHX0bACUJm1ejzoMc6XiDIqe4UXAef28Pr"; e_fb_binaryversion="AcLpSQIj1iMthFQ-t54qjuPNItyscBGRNa0z_hnWe_Wub1lmETNBELrMuW7giHAMch2nWVseizkOIai0mJ3AdL3AFm8LxRaXyzc"; e_fb_httpversion="AcIKokd8gCcN2iwUJDUWSpa_G5L7ARTxcTSZrbOVL5gJvHdktRfO5DuoOaN4"; e_fb_responsebytes="AcKu8wmlhSZlcXnzq6swyoS4LZmeY_1CmouZ5BHcWG1CmC5ThAYIibd510qh"; e_fb_requesttime="AcLZbQGEHmCuOx9DFg0aXHUaqFde9RVrAzL2NoAf2kryPgszMYauOu_rDYRS_AXGPnWQwuyW7w"; e_fb_requesthandler="AcJQoIR7jJMy16CacAv6lmTAFm-hoR2qY76AQQGAuMAmNL3WVf19zA4w1go3h-6gOlcRLRed3H0"; e_fb_hostheader="AcIrPBQo0rDAiwssCNtZzRGt61qmCxIqwmhwX8E91Q84vBZzsbyAgTkUEjnnvOjH4B5Tf_C-GyTwa2iI"; e_fb_requestsequencenumber="AcLW-4_Vl4sd_68as-ADuCcYaBQCAWqXSs5KUJ8MJDEPh2f2X6g9yZiF6LA3nQ"; e_upip="AcKGg7w_bOdv46Dos4JCHZ9dSK6UTpGCUGvCsCLljFu_NXtzGcZWRUj0zMEs1sJ0P2SO0kYzQxkqGUW4oFL4dpbSr1NnlXEZTA8tivY"; e_fb_builduser="AcLCJoBOqpBkHoQULbjxgWsqLs82FgYO_tjYzRExtVUVy8ZoV3_y04ViFH_H3D1t-rs"; e_fb_vipport="AcJmkeiz3xgYxyxI8CofQ3CGkmp4lnGf52zNkSq0CuaCJvYJQe2EgsuoLjjc"; e_clientaddr="AcIbZHfYz6lIC0XAlY0QPP8jUEQdVS7aaa3A43bg_JyrRXCNS1wVvfi7I2G4l7LbiW9q3Lgwo_2cnColrZlEOuGzUUIWlhAAl3Dn24enbac0EHRh-Q"; e_fb_vipaddr="AcL1NndBTf8C1d4DpjE0C45vc3AJCxe5ZvUvBjXiD6uTRfxOiIzOCbEPz4u71O0OBQGbOcc-Em06OXVPSw3ZAJjn3RCcWjwX5Q"; e_fb_configversion="AcLLCt_HZ2g4RO9t0GTmL7kz7iv5ffHXlUNOz6EBfKtzSr-StBkbp-lQmuO-vw", http_request_error; e_fb_configversion="AcJ-jqK_3_zKMmmGHqbcYFGLFpH9_IKNyH5UUhG4GxEYUj9G23LNGBrIfBNORQ"; e_clientaddr="AcKxsZi7DKfqaRMU7m0RMDu9vI-P_u2q9p8HCisIP08IkQ123quVgT_cjWxTt87bmrmZIlCIIM2JlGEDcg"; e_fb_vipport="AcLEnTwJqI6hQIjklnTVrVaxfWtGUmUkwz92Jd2dkOAaw13RnUJhT8epL5g1"; e_upip="AcKYOEglXcfAxYvpOtG-OlIMkrOcwd9Crs8VyBfK6VPEKmUjv5FBcAW0HgEQk2athkeTNqR-Ib61hwp2v9_YzaZklKETLg6nQQ"; e_fb_requestsequencenumber="AcIx_mdls75QSsZGgf1vDQ2-TKK0Y2hMZEMws1bBeOJpOf9ukU-yhj_4nA"; e_fb_hostheader="AcKJZSPnNLXPfBcxm_XNb86Wi7wckZKoGWT6GJUdT27Wh_Zb3MprG-YNXUm2OJO-6UFmon7tUOYoUoj3"; e_fb_vipaddr="AcL0WQd0TLD_tfg3Io7uJyV36Eu65lBfyo8DX7zVDCmUM2yz7mS5v6Sfo5WjzMmPfAXf5LQr"; e_fb_requesthandler="AcLs4cZ2aF4iekzUY-Iv0-gEnk3GXyM7uzm11gDC1BimuC2BYWNeDtXu-yDBN8XAd2VAjm6xseo"; e_fb_requesttime="AcL6nescvXIr0Zl1wHXt3vzq5BWjdjTRSICbsZIvmpMhkBjUtiAYhuVSFcpLZ_Xr2b9GiE1DGQ"; e_fb_builduser="AcKo5-uOo7FL4fjWEGc2P_FxJiAoDKYVLe1XBTEezHBQKust09_n0WknHvTBNDtXO5U"; e_fb_httpversion="AcL5g_TY9UTX2xB9StW-hdSP_Q0TqER8ex3m-vXZPK5iUeg3LJELStbEuPzb"; e_fb_binaryversion="AcKk2nWUa2WOuqxOBMNG14V8UDzSTzNvsu-pHnWyZ79pk7NEu0tyebeIrMbtVgqc2uVlnvrjCanerdyaOIJ9ASYuiZevfNp214U"; e_proxy="AcKdv6Jmmw7b1qx9olC59_agqU5B5-gIbhT7pWJeu5KgBTkylc1Y4jUPc4RLaDbmabLMitPbMUL9qEk"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=42, rtx=0, c=10, mss=1392, tbw=23185, tp=-1, tpl=-1, uplat=185, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Mon, 05 Aug 2024 08:02:42 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_token" "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+
+2024-08-05 15:02:42,404 [1] DEBUG traodoisub.Facebook.frmFacebook - Loi token.lay lai di
+
+2024-08-05 15:02:47,406 [1] DEBUG traodoisub.Facebook.frmFacebook - Lỗi token. Đang tiến hành lấy lại
+
+2024-08-05 15:02:49,052 [1] DEBUG traodoisub.Facebook.frmFacebook - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABOyXZBxyrZBvZAsE0OyKTTquXTG9bjnZBrdWykNfr5MlimjOCIyrsbNIV2slu0QGYjVMHWE0B2IYuoIGJSNOZA6x9ZAheF7g5ZCN42rG4VCamom4zP4myeGSqVRkmZCIUjW9roS8rDoQ3RDdTvRkyly3UeTqThFIZB3LScztqFfxAOUELotAZDZD"}
+
+2024-08-05 15:03:21,290 [1] DEBUG traodoisub.Facebook.frmFacebook - Đã like hết danh sách
+
+2024-08-05 15:03:21,290 [1] DEBUG traodoisub.Facebook.frmFacebook - Lấy danh sách mới
+
+2024-08-05 15:03:31,318 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+
+2024-08-05 15:03:31,537 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+
+2024-08-05 15:03:31,537 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+
+2024-08-05 15:03:31,537 [1] DEBUG traodoisub.Facebook.frmFacebook - ========== Loai nhiem vu: like
+
+2024-08-05 15:03:31,540 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 459272451275906_933969542081422
+
+2024-08-05 15:03:31,770 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Vary: Accept-Encoding
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: AAW6E_TbPNOgAori1DCpNpB
+  x-fb-trace-id: HRg/n101Trf
+  x-fb-rev: 1015402125
+  X-FB-Debug: vMzLhl2taKcxyV41oDhf6NDoN4o7M2cieX353tOrARuP72k7IcdINRES633dBQCEUhXWUvGhrZf7b4hH3YcXRw==
+  x-fb-server-load: 22
+  Transfer-Encoding: chunked
+  Proxy-Status: http_request_error; e_proxy="AcJ0aL0_dJq7wr2jy9awsJ1mt4GX6bKhJdQLFZzGMVAliu-_TisM2V0ntF9qm13rzwuRRuaK-nwHUJyE_urk"; e_fb_binaryversion="AcLjiF99v7cMSses1JBGaUvxu5TOPnonqg3pk-LhToMtTMnzazRoOPgEu5zNRaxXQWn3F7T5oELcIC-iTUNrOXDixMBBmkTFChc"; e_fb_httpversion="AcIk_yUAi7EbyzOd6GLg8WB3McnmUjV6mvnZEUJ2fqEuMuOI2Z4IjToic1uY"; e_fb_responsebytes="AcK9UfTFDwtsaWpoV2-TRUknBja9vvpLksIXYFDRaz4WvdXKcRZjEAap7eP7"; e_fb_requesttime="AcLmczk-bszwmhMq-9WnKERxAuSrGSSWNlmpvj-JRZLcDz8mIJPi5UU0y6lHhbWIbau6QzTIpg"; e_fb_requesthandler="AcKIchYfk8knDJJj52DmGZFsId7kgj8OIOulI4xhIRHrFNrjik6GVBHxbSy_1IxvbwZ1nhRiQEE"; e_fb_hostheader="AcKwMYyFbtRciT_DJzwdosssE6XB8gWgeVH6JQGHZtSxbkC6zNSIktuWhazGR2tvXs1g7pDwjJXPaeZu"; e_fb_requestsequencenumber="AcJaQvlJv-aD8wlBijaT_gDXkZCGLatvASWjFDf-Uw0YZ4iU0RNhp04k3XT9Yw"; e_upip="AcLD5JFyGL8sqzEwPcwkbwOEdP-UVwNWSI-vNec1-jx9AuRb19ZYsXFZlXFoVi23ZLOH0NfB9FfTTZS7ORRMv_0phaR_PHT08WVkc7A"; e_fb_builduser="AcJrQ-zQdn1G-txUy-w_JhikDkJiUBs9lksuNgtB97Xb1daFCx_q1-aS6BJV2GvfoGg"; e_fb_vipport="AcLk3L9mDVepzO3iEmOvG0Ai0wFS50DZuVu2drDzUwTkeS_itrIzgGbxoVtl"; e_clientaddr="AcJ1mr0Yji9ZiUH8PpNmtXZTyTqsISTC1ilzEk5sVxy2Y2EZZHqS5HlrFusZNoM82blhUwa_UZyZbKhYOJb-y4WqZqyuIyT14cO0pHHK6Qk7pwgj5g"; e_fb_vipaddr="AcI4pW5jqv1W7vVur4tCU8DFnAdsUAmRX0Or0YxdWQ6WymBcpR4NqhK4Ndd9ccUgFqUegZqA6ydDcSBYYtwzty968vUGzOFW6A"; e_fb_configversion="AcKKHU4WlgnOa-sXTK-GvwhPdBtBQwvo3Sfi1WWiKESxMWVdrTiLJJAfOEPNKg", http_request_error; e_fb_configversion="AcJ7zRpljp0CKZ1NfXZvTsv_OhQz0NWoQMS12qqvJRzeNeEIh56NvIqzOhUA9w"; e_clientaddr="AcJRqWwUbzE3pIE65MFbXy9jE5p2vcCH4sZDfPxh8JqvjQBR8EcpsjDIVPsAlaNFNUsJYNJGGKyKJ9K-qQ"; e_fb_vipport="AcLNj-V0FpuzZ6PSfvrb94qXRYugxGCHImxg3WPmoW2AkZq1MkRKXfIGE203"; e_upip="AcKX83PnuSOQn68tFFfgX1tEJOyZ5BmWwTVkro3t4o05IIJ_L89g6OTszaHLRCkjxtVCAeQPHGDeCRtso7LqNvI8JC6T7McV8g"; e_fb_requestsequencenumber="AcKUEuBkmw3RRPcqVnwZmOzHQCxZHOLXhMJDGZNYT7g6bXbZ8Q4kkP5Ocg"; e_fb_hostheader="AcLaK8ZTe8VP08FLM-HN2GSBzLdZ4EPNThjNlaBNg-BgBHtGzNUksWtUOEBJZD-jc1tT8sYTO9Owsb5I"; e_fb_vipaddr="AcIRLTww24J2jFWEa2wCz1APzeRBpcprA7tkkjhv50zHGQGvH9leCzufnpszn2WyF2O6bkLc"; e_fb_requesthandler="AcJO_EdYdqyIXUOUzLL4w0wziYTeacgsd2Skjs5kTKDwmIscB73eorLVuIafgLwLeEfaji36NQo"; e_fb_requesttime="AcLYx3mYFjTH8QbMg1YyUeMOo40z5n2P5mI5FmfyxWsaTJHfrLJC-i3_a68Vn3W_yYF1H6QNtw"; e_fb_builduser="AcJRNceUC_EtjQ4t-DA1FjQU2uH-vhEcvL6ipNXt1ysjq1l3AKlgbcI-BT500ZQBIMY"; e_fb_httpversion="AcLILUWSUx5dBkStE7AixPfy7nzy0L5KmoDLZPVOiNKij9sibESIQFWfWzg6"; e_fb_binaryversion="AcJ2M1XZOhe-wyv5UxoUkMTkujtJMudVWLpoJ6C35NguAfpk5cyRIvpA6LrybFXJEUbDqX5qx1npIff5Rfw1FNyogTTy8gCygsc"; e_proxy="AcKAdnOwSxqDpYV6inDBJIQqodhZ78vI8uNn1HNgLu4UIUL0v7dfAfWYTnvhF7qsY9EWLR1xF8-kzAw"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=44, rtx=0, c=10, mss=1392, tbw=27177, tp=-1, tpl=-1, uplat=203, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Mon, 05 Aug 2024 08:03:31 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "Unsupported post request. Object with ID '459272451275906_933969542081422' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api"
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+
+2024-08-05 15:03:31,770 [1] DEBUG traodoisub.Facebook.frmFacebook - Like that bai
+
+2024-08-05 15:03:36,771 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100095167639359_343415432174042
+
+2024-08-05 15:03:37,403 [1] DEBUG traodoisub.ApiRequest.Facebook.ApiRequest - Like Response :StatusCode: 400, ReasonPhrase: 'Bad Request', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Vary: Origin
+  Access-Control-Allow-Origin: *
+  facebook-api-version: v1.0
+  Strict-Transport-Security: max-age=15552000; preload
+  Pragma: no-cache
+  x-fb-request-id: ACbBi9hdfcK9t3Vap3FmopO
+  x-fb-trace-id: Hc+BGPut6NB
+  x-fb-rev: 1015402125
+  X-FB-Debug: i1LThCpPjDjeqA+VgiNt6OzDImOz4FFsWbi7xJC6GHkMPZ8zv9RhpkrStSouF1u7cKAEeU0iphbOGOeCNEI3Nw==
+  x-fb-server-load: 42
+  Proxy-Status: http_request_error; e_proxy="AcLocyiFBSfTq4aNzg_I5Skkz7-EvMq-uWWdoe1RpPZ38f7uXSKhjRQrhdDJcbIzAZ3fbMb0reOu8pX-K6o"; e_fb_binaryversion="AcKObArqIe4mnx3FLPhwAMSmMIWKgQpvn5fpWW34gfJkNEopGtpmqkCuzqKsltXkSshTTCAJpt0SlOcKOQ824_iztmcVsxIDJJA"; e_fb_httpversion="AcIpBRWntEiYm9yF43WcjxtAE8UicUB2udDkENwcrVMpa04nXqg95zOq2H-M"; e_fb_responsebytes="AcLNlPdb1P2xcJ_oWnKkVOIjS550UOl0jpgUAoIn9rkCJGg9k4PANB9As0Uf"; e_fb_requesttime="AcIrfk53-KtdrovBHA-m1bJIHPcR4MuCw_uwpZbPIJwNH4XSWuaOm-xZD3ArSGPs537aNypX4Q"; e_fb_requesthandler="AcL9CwZIZUD6Prm06lsJecMyySnxcVfOHg2mS4gK2V9mh_8h-mFy7Uj2tiaeDRPjbz8xpWMfMZA"; e_fb_hostheader="AcK87fxFWzNJmwgaebXSZatCWJXKZc7WOjEBUnOFdHFCIT54AK-wonmqEicvnJEv9EZm2_Rv2EqttCfz"; e_fb_requestsequencenumber="AcKQb8Rraa4SyCAyhGDwvSDNTNifdsoaPGdbBY-2a9y0lE7bcaZgp0FbCgVh"; e_upip="AcJBDKVlZD3UCdG1Ktr2h4nLPIhmKZ_4ooEnHBEbVUVHw2rqcK-J-n0CCgQwoDGbxmI1GesCJgGnDHGWvRh2S9gIQil3DKrzf22CfFA"; e_fb_builduser="AcK493A42z0h2_EkJlnh_f-x-GZDfNLwm6HKJd4ZFpYdS5IUjNvEUbHgWSrEiZYbqHw"; e_fb_vipport="AcI56P-Iihc3AoeV5UrG28FMkRj4UYZXIa3yfTe1jUiQ1aWUvIe7z6yucxg_"; e_clientaddr="AcKTG_G6bDcArFqW0LWivZDCTCA14lO2_8o1EsXM1pwPVon5wy5Us9H1LhtFkV2BMYw7Y89rXS4lGChxZVAZF5wwtrM36eWCX3EKW9bjmGtCYwvnEA"; e_fb_vipaddr="AcKe7qM5zhi7oSiXDqPhpNPAALtQUdDlMTKFB8ME3ny81169LiuSfzFkCLNxWJXfVa3-TjeXotQCJSe_WRS6n3KhizA26BZlUA"; e_fb_configversion="AcJg-hqStqYyFSCGClw8pZxVcZ2pxmzTvS75qYUyXl6BKoYBQ8HS_mBJER7amQ", http_request_error; e_proxy="AcJ7hBchuFAPJuYuYKwbDD6PiHWQmX6l-owefx5x5f1ACMSCEAVd144cRafT1j2oPgWUesSYdjl0iB8"; e_fb_binaryversion="AcLWhZjEX4ChezNqZhRIyV8kMvqQdak3jXPGlFUJphq6ykDynscy09i6E4Fe-cKq6AruHqvj3SWnUKbHg6UkjTw1CtYPOP7g3OQ"; e_fb_httpversion="AcIqb-ryGiT89uDfd0T7JRoTijQBtu7w-q8-6H7Em0aiScKNN4dr_bq_2IWQ"; e_fb_responsebytes="AcI9KX9D7jkWiphj4IQbYKWhfTHaH3yZoXB3oBSc7R9fe-AqYUaYf83cGrg5"; e_fb_requesttime="AcJG-GZ7k4_oEvcxSetchnvTR4reK93bs5DlstE6ZvgtzU03td-bUF5gJgj7EIUakcfdBUK2kg"; e_fb_requesthandler="AcIA_87BdRY-peCIEsqgK8T3jy_xRQFwPPpV6uBtHv8VLCmBEc2cZ3rhiEI4IVWJlECZY1Pps5A"; e_fb_hostheader="AcIZ3pIOrB4OgRgmqWsy2OUhbpukUcQuU7Kckz24CcnPVjoSAgXBKPoC9n2RKWXMJR0fmgaeZ0Fz6yjB"; e_fb_requestsequencenumber="AcLJ7cVRUv-2U8pgknZNZKwPb2sBINcrrL0mO7T1gj7KteWMKY6YQyI95w"; e_upip="AcKcn0XjXD0xqU9qmf4-Lf40EXpOwBQcSvatW-0edxdPmyMEs8TzhuNM8sst5lbp_CPHe6N1ut6lW9O5tdVqWWZ1KoML2DRnlw"; e_fb_builduser="AcJFxv92gxDaSEVvDWLkh137n6wjYBNgFpuO3G2--ysXTLddsOpZCDD4GqYi6dpVE5w"; e_fb_vipport="AcKHbfkGIJz98JdS--PXoluZZ2YeGdrVgg1mOv6EnBHdG0-YdXZIdRyzS816"; e_clientaddr="AcIA6NSwKo8naa1cs7K0tqlaA2CtV6dwlUAk1ylM5egooUWpSClPgg2vjXeSi7RV_jqknRbkz6PiREpbLg"; e_fb_vipaddr="AcJ-9jlHkA35LwGmLr-Z0S1f9W9jBbk6QPCVV7kCH8bjWKUYyvSa6q7srhgtg7AESQOywISg"; e_fb_configversion="AcIEVyzh4mE2dNBtJQ-2pf1ivXvTrLjGJ-5XRbKG2SntgBO3lZy9ucLELX9l3Q"
+  X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=38, rtx=0, c=10, mss=1392, tbw=31407, tp=-1, tpl=-1, uplat=606, ullat=0
+  Alt-Svc: h3=":443"; ma=86400
+  Connection: keep-alive
+  Cache-Control: no-store
+  Date: Mon, 05 Aug 2024 08:03:37 GMT
+  WWW-Authenticate: OAuth "Facebook Platform" "invalid_request" "(#100) Story does not exist or user does not have permission to interact with it"
+  Content-Length: 178
+  Content-Type: text/javascript; charset=UTF-8
+  Expires: Sat, 01 Jan 2000 00:00:00 GMT
+}
+
+2024-08-05 15:03:37,404 [1] DEBUG traodoisub.Facebook.frmFacebook - Like that bai
+
+2024-08-05 15:03:42,412 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 104958335550405_473635902189565
+
+2024-08-05 15:03:46,316 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+
+2024-08-05 15:03:56,830 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 90000,
+        "id": "104958335550405_473635902189565",
+        "msg": "+300 Xu"
+    }
+}
+
+2024-08-05 15:03:56,830 [1] DEBUG traodoisub.Facebook.frmFacebook - Nhận coin thành công
+
+2024-08-05 15:04:01,850 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 2387594094900095_3327434670886513
+
+2024-08-05 15:04:06,203 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+
+2024-08-05 15:04:16,895 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+    "success": 200,
+    "data": {
+        "xu": 90300,
+        "id": "2387594094900095_3327434670886513",
+        "msg": "+300 Xu"
+    }
+}
+
+2024-08-05 15:04:16,895 [1] DEBUG traodoisub.Facebook.frmFacebook - Nhận coin thành công
 

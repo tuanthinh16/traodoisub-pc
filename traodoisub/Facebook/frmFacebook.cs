@@ -84,6 +84,7 @@ namespace traodoisub.Facebook
         }
 
         int countError = 0;
+        int countErrorToken = 0;
         private async void btnStart_ClickAsync(object sender, EventArgs e)
         {
             try
@@ -152,7 +153,7 @@ namespace traodoisub.Facebook
                     }
                     else if(Convert.ToInt64(success) == 401)
                     {
-                        countError += 1;
+                        countErrorToken += 1;
                         log.Debug("Loi token.lay lai di");
                     }
                     else
@@ -162,7 +163,7 @@ namespace traodoisub.Facebook
                     }
                     await Task.Delay(5000);
                 }
-                if (countError >= 2)
+                if (countErrorToken >= 2 || countError >= 10)
                 {
 
                     log.Debug("Lỗi token. Đang tiến hành lấy lại");
@@ -172,6 +173,7 @@ namespace traodoisub.Facebook
                         this._tokenFB = responseString;
                         facebook = new ApiRequest.Facebook.ApiRequest(this._tokenFB);
                         countError = 0;
+                        countErrorToken = 0;
                     }
                 }
                 stopwatch.Stop();
