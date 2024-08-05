@@ -3,7 +3,9 @@ using log4net;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -23,9 +25,13 @@ namespace traodoisub
         ApiRequest.Facebook.ApiRequest facebook ;
         private static readonly HttpClient client = new HttpClient();
         ConfigADO config = new ConfigADO();
+        List<ConfigADO> listConfig = new List<ConfigADO>();
         ConfigManager configManger = new ConfigManager();
+        List<UserInfo> listUser = new List<UserInfo>();
+        List<UserInfo> listSelectedUser = new List<UserInfo>();
 
-         public frmMain()
+
+        public frmMain()
         {
             InitializeComponent();
             loadDefaultAsync();
@@ -44,7 +50,7 @@ namespace traodoisub
                 log.Debug(" ");
                 log.Debug("bat dau chay ung dung");
 
-                btnCheck.Enabled = false;
+                //btnCheck.Enabled = false;
                 btnConfig.Enabled = false;
                 btnLikePost.Enabled = false;
                 this.Enabled = false;
@@ -86,23 +92,15 @@ namespace traodoisub
         {
             try
             {
-                this.config = configManger.LoadConfig();
-                if(this.config != null && this.config.access_token != null)
+                var _cf = configManger.LoadConfig();
+                if(_cf != null)
                 {
-                    _accessToken = this.config.access_token;
-                    facebook = new ApiRequest.Facebook.ApiRequest(_accessToken);
-                    UpdateConfig(this.config);
+                    this.listConfig.Clear();
+                    this.listConfig.AddRange(_cf);
+                    DisplayUserInfoAsync();
                 }
-                else
-                {
-                    DialogResult rs = MessageBox.Show(this, "Chưa có cấu hình hoặc token hết hạn. Bạn có muốn cấu hình?", "", MessageBoxButtons.YesNo);
-                    if(rs == DialogResult.Yes)
-                    {
-                        btnConfig_Click(null, null);
-                    }
-                }
-                
-                
+
+
             }
             catch (Exception ex)
             {
@@ -120,7 +118,7 @@ namespace traodoisub
             try
             {
                 this.Enabled = true;
-                btnCheck.Enabled = true;
+                //btnCheck.Enabled = true;
                 btnConfig.Enabled = true;
                 btnLikePost.Enabled = true;
             }
@@ -130,37 +128,25 @@ namespace traodoisub
                 log.Error(ex);
             }
         }
-
-        private async void DisplayUserInfoAsync(UserInfo userInfo)
+        
+        private async void DisplayUserInfoAsync()
         {
-            pInfo.Controls.Clear();
-            LabelControl tdsName = new LabelControl { Text = "Traodoisub user", Location = new Point(10, 10) };
-            LabelControl lblUser = new LabelControl { Text = string.Format("Người dùng: {0}", userInfo.User), Location = new Point(10, 30) };
-            LabelControl lblXu = new LabelControl { Text = string.Format("Xu: {0}", userInfo.Xu), Location = new Point(10, 50) };
-            LabelControl lblXuDie = new LabelControl { Text = string.Format("Xu die: {0}", userInfo.XuDie), Location = new Point(10, 70) };
-            pInfo.Controls.Add(tdsName);
-            pInfo.Controls.Add(lblUser);
-            pInfo.Controls.Add(lblXu);
-            pInfo.Controls.Add(lblXuDie);
-            facebook = new ApiRequest.Facebook.ApiRequest(this.config.access_token);
-            LabelControl fb = new LabelControl { Text = "Facebook user", Location = new Point(10, 90) };
-            pInfo.Controls.Add(fb);
-            var userProfile = await facebook.GetFacebookDataAsync("me?fields=id,name,email");
-            if (userProfile != null)
+            gridControl.BeginUpdate();
+            foreach(var _cf in this.listConfig)
             {
-                //pInfo.Controls.Clear();
-                LabelControl name = new LabelControl { Text = string.Format("Người dùng: {0}", userProfile["name"]), Location = new Point(10, 110) };
-                LabelControl email = new LabelControl { Text = string.Format("Email : {0}", userProfile["email"]), Location = new Point(10, 130) };
-
-                pInfo.Controls.Add(name);
-                pInfo.Controls.Add(email);
-            }
-            else
-            {
-                LabelControl name = new LabelControl { Text = "Lỗi token "+ userProfile, Location = new Point(10, 110) };
-                pInfo.Controls.Add(name);
+                facebook = new ApiRequest.Facebook.ApiRequest(_cf.access_token);
+                var userProfile = await facebook.GetFacebookDataAsync("me?fields=id,name,email");
+                if (userProfile != null)
+                {
+                    if (userProfile.ContainsKey("name")) _cf.user.NameFB = userProfile["name"].ToString();
+                    if (userProfile.ContainsKey("email")) _cf.user.email = userProfile["email"].ToString();
+                }
+                if (!listUser.Any(u => u.User == _cf.user.User))
+                    listUser.Add(_cf.user);
             }
             
+            gridControl.DataSource = listUser;
+            gridControl.EndUpdate();
         }
         
 
@@ -169,8 +155,19 @@ namespace traodoisub
             try
             {
 
-                frmFacebook frm = new frmFacebook(this.config,UpdateConfig,this.config.access_token);
-                frm.Show();
+                if(listSelectedUser != null && listSelectedUser.Count > 0)
+                {
+                    foreach(var item in listSelectedUser)
+                    {
+                        ConfigADO _config = listConfig.Where(s => s.user.User == item.User).FirstOrDefault() ;
+                        frmFacebook frm = new frmFacebook(_config, UpdateConfig, _config.access_token);
+                        frm.Show();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show(this, "Chưa chọn tài khoản để chạy !!!", "Thông báo", MessageBoxButtons.OK);
+                }
             }
             catch (Exception ex)
             {
@@ -205,9 +202,11 @@ namespace traodoisub
         {
             // Xử lý dữ liệu khi cấu hình được cập nhật từ frmConfig
             //MessageBox.Show($"Token TDS đã được cập nhật: {config.TokenTDS}");
+            listConfig.Add(config);
             this.config = config;
-            txtToken.Text = config.TokenTDS;
-            DisplayUserInfoAsync(config.user);
+            configManger.SaveConfig(listConfig);
+            //txtToken.Text = config.TokenTDS;
+            DisplayUserInfoAsync();
         }
 
         #endregion
@@ -223,6 +222,95 @@ namespace traodoisub
                 log.Error(ex);
             }
         }
+
+        private void gridView_CustomUnboundColumnData(object sender, DevExpress.XtraGrid.Views.Base.CustomColumnDataEventArgs e)
+        {
+            try
+            {
+                // Lấy dữ liệu từ nguồn dữ liệu của GridView
+                var dataSource = gridView.DataSource as List<UserInfo>;
+
+                // Lấy chỉ số của hàng hiện tại
+                int rowIndex = e.ListSourceRowIndex;
+
+                if (dataSource != null && rowIndex >= 0 && rowIndex < dataSource.Count)
+                {
+                    var row = dataSource[rowIndex];
+
+                    if (e.Column.FieldName == "STT")
+                    {
+                        // Gán giá trị STT dựa trên chỉ số hàng hiện tại (bắt đầu từ 1)
+                        e.Value = (rowIndex + 1).ToString();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                log.Error(ex);
+            }
+        }
+
+        private void gridView_RowCellClick(object sender, DevExpress.XtraGrid.Views.Grid.RowCellClickEventArgs e)
+        {
+            try
+            {
+                var gridView = sender as DevExpress.XtraGrid.Views.Grid.GridView;
+                if (gridView == null) return;
+
+                // Lấy dữ liệu hàng hiện tại
+                var data = (UserInfo)gridView.GetRow(e.RowHandle);
+
+                if (data != null)
+                {
+                    // Kiểm tra nếu hàng đã tồn tại trong danh sách
+                    if (listSelectedUser.Contains(data))
+                    {
+                        // Nếu hàng đã tồn tại, xóa khỏi danh sách (bỏ chọn)
+                        listSelectedUser.Remove(data);
+                    }
+                    else
+                    {
+                        // Nếu hàng chưa tồn tại, thêm vào danh sách (chọn)
+                        listSelectedUser.Add(data);
+                    }
+                }
+                gridView.RefreshRow(e.RowHandle);
+                
+            }
+            catch (Exception ex)
+            {
+                log.Error(ex);
+            }
+        }
+
+        private void btnDel_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        {
+            try
+            {
+                if(MessageBox.Show(this,"Bạn có muốn xóa bỏ dữ liệu ?","",MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    gridControl.BeginUpdate();
+                    var data = (UserInfo)gridView.GetFocusedRow();
+                    if (data != null)
+                    {
+                        var rs = listUser.Where(s => s.User == data.User).FirstOrDefault();
+                        listUser.Remove(rs);
+                        var conf = listConfig.Where(s => s.user.User == data.User).FirstOrDefault();
+                        listConfig.Remove(conf);
+                    }
+                    gridControl.EndUpdate();
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                log.Error(ex);
+            }
+        }
+
+        
     }
 
     

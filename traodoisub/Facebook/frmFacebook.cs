@@ -26,6 +26,7 @@ namespace traodoisub.Facebook
         ConfigADO config;
         string _token = "";
         string _tokenFB = "";
+        
         List<string> listTask;
         
         public frmFacebook(ConfigADO config, UpdateConfigDelegate UpdateConfig,string _tokenFB)
@@ -38,6 +39,7 @@ namespace traodoisub.Facebook
             facebook = new ApiRequest.Facebook.ApiRequest(this._tokenFB);
             updateConfig = UpdateConfig;
             this.panel.AutoScroll = true;
+            this.txtTotal.Text = "User: " + config.user.User + " Xu: " + config.user.Xu;
             this.cboType.EditValue = "like";
         }
 
@@ -122,7 +124,7 @@ namespace traodoisub.Facebook
                         if(rs != null)
                         {
                             log.Debug("Nhận coin thành công");
-                            txtTotal.Text = "Tổng : " + rs.xu + " xu";
+                            txtTotal.Text = "User: " + config.user.User + " Xu: " + rs.xu + " xu";
                             string msg = "ID: " + rs.ID + " msg: " + rs.msg;
                             Label lblTask = new Label
                             {

@@ -53,27 +53,8 @@ namespace traodoisub
         {
             try
             {
-                configAdo = this.config.LoadConfig();
-                if(configAdo != null && configAdo.access_token != null)
-                {
-                    txtToken.Text = configAdo.TokenTDS;
-                    txtCookie.Text = configAdo.cookieFB;
-
-                    txtToken.Enabled = false;
-                    txtCookie.Enabled = false;
-                    DialogResult rs = MessageBox.Show(this,"Đã có config. Bạn có muốn quay lại?","",MessageBoxButtons.YesNo);
-                    if(rs == DialogResult.Yes)
-                    {
-                        
-                        await CheckUser(this.configAdo.TokenTDS);
-                        await loadDefaultAsync();
-                        this.Close();
-                    }
-                }
-                else
-                {
-                    configAdo = new ConfigADO();
-                }
+                
+                configAdo = new ConfigADO();
             }
             catch (Exception ex)
             {
@@ -102,7 +83,6 @@ namespace traodoisub
                     {
                         // Nếu người dùng hợp lệ, lưu cấu hình
                         configAdo.TokenTDS = token;
-                        config.SaveConfig(configAdo);
 
                         // Gọi delegate để cập nhật dữ liệu
                         updateConfig.Invoke(configAdo);

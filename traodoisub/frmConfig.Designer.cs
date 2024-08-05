@@ -42,12 +42,15 @@ namespace traodoisub
             this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.emptySpaceItem5 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem4 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.dxErrorProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(this.components);
-            this.btnReset = new System.Windows.Forms.Button();
-            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnReset = new DevExpress.XtraEditors.SimpleButton();
+            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.btnEdit = new DevExpress.XtraEditors.SimpleButton();
+            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.emptySpaceItem6 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.emptySpaceItem7 = new DevExpress.XtraLayout.EmptySpaceItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtCookie.Properties)).BeginInit();
@@ -59,64 +62,71 @@ namespace traodoisub
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dxErrorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem7)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
             // 
+            this.layoutControl1.Controls.Add(this.btnEdit);
+            this.layoutControl1.Controls.Add(this.btnReset);
             this.layoutControl1.Controls.Add(this.txtCookie);
             this.layoutControl1.Controls.Add(this.labelControl1);
             this.layoutControl1.Controls.Add(this.btnSave);
             this.layoutControl1.Controls.Add(this.txtToken);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
-            this.layoutControl1.Margin = new System.Windows.Forms.Padding(2);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(517, 302);
+            this.layoutControl1.Size = new System.Drawing.Size(625, 279);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
             // txtCookie
             // 
-            this.txtCookie.Location = new System.Drawing.Point(75, 106);
+            this.txtCookie.Location = new System.Drawing.Point(115, 127);
+            this.txtCookie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCookie.Name = "txtCookie";
-            this.txtCookie.Size = new System.Drawing.Size(430, 20);
+            this.txtCookie.Size = new System.Drawing.Size(492, 26);
             this.txtCookie.StyleController = this.layoutControl1;
             this.txtCookie.TabIndex = 7;
             // 
             // labelControl1
             // 
+            this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(12, 12);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(2);
+            this.labelControl1.Appearance.Options.UseTextOptions = true;
+            this.labelControl1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.labelControl1.Location = new System.Drawing.Point(18, 18);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(206, 27);
+            this.labelControl1.Size = new System.Drawing.Size(297, 39);
             this.labelControl1.StyleController = this.layoutControl1;
             this.labelControl1.TabIndex = 6;
             this.labelControl1.Text = "Cấu hình tài khoản";
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(193, 196);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSave.Location = new System.Drawing.Point(320, 229);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(132, 22);
+            this.btnSave.Size = new System.Drawing.Size(91, 32);
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.TabIndex = 5;
-            this.btnSave.Text = "Lưu (Ctrl S)";
+            this.btnSave.Text = "Save";
             this.btnSave.Click += new System.EventHandler(this.btnSave_ClickAsync);
             // 
             // txtToken
             // 
-            this.txtToken.Location = new System.Drawing.Point(75, 82);
-            this.txtToken.Margin = new System.Windows.Forms.Padding(2);
+            this.txtToken.Location = new System.Drawing.Point(115, 95);
             this.txtToken.Name = "txtToken";
-            this.txtToken.Size = new System.Drawing.Size(430, 20);
+            this.txtToken.Size = new System.Drawing.Size(492, 26);
             this.txtToken.StyleController = this.layoutControl1;
             this.txtToken.TabIndex = 4;
             // 
@@ -131,11 +141,14 @@ namespace traodoisub
             this.emptySpaceItem2,
             this.emptySpaceItem3,
             this.emptySpaceItem1,
-            this.emptySpaceItem5,
             this.emptySpaceItem4,
-            this.layoutControlItem4});
+            this.layoutControlItem4,
+            this.layoutControlItem5,
+            this.layoutControlItem6,
+            this.emptySpaceItem6,
+            this.emptySpaceItem7});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(517, 302);
+            this.Root.Size = new System.Drawing.Size(625, 279);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem1
@@ -143,18 +156,18 @@ namespace traodoisub
             this.layoutControlItem1.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
             this.layoutControlItem1.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem1.Control = this.txtToken;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 70);
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 77);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(497, 24);
+            this.layoutControlItem1.Size = new System.Drawing.Size(595, 32);
             this.layoutControlItem1.Text = "Token TDS";
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(51, 13);
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(79, 19);
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.btnSave;
-            this.layoutControlItem2.Location = new System.Drawing.Point(181, 184);
+            this.layoutControlItem2.Location = new System.Drawing.Point(302, 211);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(136, 26);
+            this.layoutControlItem2.Size = new System.Drawing.Size(97, 38);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
             // 
@@ -163,48 +176,40 @@ namespace traodoisub
             this.layoutControlItem3.Control = this.labelControl1;
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(497, 31);
+            this.layoutControlItem3.Size = new System.Drawing.Size(595, 45);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 184);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(226, 211);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(181, 26);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(76, 38);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(317, 184);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(399, 211);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(180, 26);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(67, 38);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 31);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 45);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(497, 39);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(595, 32);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
-            // 
-            // emptySpaceItem5
-            // 
-            this.emptySpaceItem5.AllowHotTrack = false;
-            this.emptySpaceItem5.Location = new System.Drawing.Point(0, 210);
-            this.emptySpaceItem5.Name = "emptySpaceItem5";
-            this.emptySpaceItem5.Size = new System.Drawing.Size(497, 72);
-            this.emptySpaceItem5.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem4
             // 
             this.emptySpaceItem4.AllowHotTrack = false;
-            this.emptySpaceItem4.Location = new System.Drawing.Point(0, 118);
+            this.emptySpaceItem4.Location = new System.Drawing.Point(0, 141);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(497, 66);
+            this.emptySpaceItem4.Size = new System.Drawing.Size(595, 70);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem4
@@ -212,11 +217,11 @@ namespace traodoisub
             this.layoutControlItem4.AppearanceItemCaption.ForeColor = System.Drawing.Color.Maroon;
             this.layoutControlItem4.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem4.Control = this.txtCookie;
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 94);
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 109);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(497, 24);
+            this.layoutControlItem4.Size = new System.Drawing.Size(595, 32);
             this.layoutControlItem4.Text = "Cookie FB:";
-            this.layoutControlItem4.TextSize = new System.Drawing.Size(51, 13);
+            this.layoutControlItem4.TextSize = new System.Drawing.Size(79, 19);
             // 
             // dxErrorProvider1
             // 
@@ -224,33 +229,64 @@ namespace traodoisub
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(414, 195);
+            this.btnReset.Location = new System.Drawing.Point(484, 229);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(75, 23);
-            this.btnReset.TabIndex = 1;
+            this.btnReset.Size = new System.Drawing.Size(78, 32);
+            this.btnReset.StyleController = this.layoutControl1;
+            this.btnReset.TabIndex = 8;
             this.btnReset.Text = "Reset";
-            this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
+            // layoutControlItem5
+            // 
+            this.layoutControlItem5.Control = this.btnReset;
+            this.layoutControlItem5.Location = new System.Drawing.Point(466, 211);
+            this.layoutControlItem5.Name = "layoutControlItem5";
+            this.layoutControlItem5.Size = new System.Drawing.Size(84, 38);
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem5.TextVisible = false;
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(32, 195);
+            this.btnEdit.Location = new System.Drawing.Point(138, 229);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 23);
-            this.btnEdit.TabIndex = 2;
-            this.btnEdit.Text = "Sửa";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Size = new System.Drawing.Size(100, 32);
+            this.btnEdit.StyleController = this.layoutControl1;
+            this.btnEdit.TabIndex = 9;
+            this.btnEdit.Text = "Edit";
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // layoutControlItem6
+            // 
+            this.layoutControlItem6.Control = this.btnEdit;
+            this.layoutControlItem6.Location = new System.Drawing.Point(120, 211);
+            this.layoutControlItem6.Name = "layoutControlItem6";
+            this.layoutControlItem6.Size = new System.Drawing.Size(106, 38);
+            this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem6.TextVisible = false;
+            // 
+            // emptySpaceItem6
+            // 
+            this.emptySpaceItem6.AllowHotTrack = false;
+            this.emptySpaceItem6.Location = new System.Drawing.Point(550, 211);
+            this.emptySpaceItem6.Name = "emptySpaceItem6";
+            this.emptySpaceItem6.Size = new System.Drawing.Size(45, 38);
+            this.emptySpaceItem6.TextSize = new System.Drawing.Size(0, 0);
+            // 
+            // emptySpaceItem7
+            // 
+            this.emptySpaceItem7.AllowHotTrack = false;
+            this.emptySpaceItem7.Location = new System.Drawing.Point(0, 211);
+            this.emptySpaceItem7.Name = "emptySpaceItem7";
+            this.emptySpaceItem7.Size = new System.Drawing.Size(120, 38);
+            this.emptySpaceItem7.TextSize = new System.Drawing.Size(0, 0);
             // 
             // frmConfig
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(517, 302);
-            this.Controls.Add(this.btnEdit);
-            this.Controls.Add(this.btnReset);
+            this.ClientSize = new System.Drawing.Size(625, 279);
             this.Controls.Add(this.layoutControl1);
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmConfig";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmConfig";
@@ -266,10 +302,13 @@ namespace traodoisub
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dxErrorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -287,12 +326,15 @@ namespace traodoisub
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem2;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem3;
-        private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem5;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem4;
         private DevExpress.XtraEditors.TextEdit txtCookie;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;
         private DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider dxErrorProvider1;
-        private System.Windows.Forms.Button btnReset;
-        private System.Windows.Forms.Button btnEdit;
+        private DevExpress.XtraEditors.SimpleButton btnEdit;
+        private DevExpress.XtraEditors.SimpleButton btnReset;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem6;
+        private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem6;
+        private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem7;
     }
 }
