@@ -1,110 +1,49 @@
-2024-08-01 19:13:10,806 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:13:10,822 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:13:10,822 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:13:10,822 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:13:10,822 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:13:10,822 [1] DEBUG traodoisub.frmMain -  
-2024-08-01 19:13:10,822 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
-2024-08-01 19:13:20,363 [1] DEBUG traodoisub.frmConfig - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO8WZA5zicexigzCCOxHINQv0eUnQbvZCxGaRQp657Kpf1AZC785hNfZC7K7fDtfn9HZCUYoTnTNtEOq9tn3DpMBFm1BYGwahZBHTVC7itl3VKawdm2hdZCb01xjZAfkh5VfC7FhEPsTsyqVyPoxLZCRaRbqj9pnBZCLoGuz40YjmboCkMPX9dGo064lFsRZBP2rEwZDZD"}
-2024-08-01 19:15:57,373 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:15:57,389 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:15:57,389 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:15:57,389 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:15:57,389 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:15:57,389 [1] DEBUG traodoisub.frmMain -  
-2024-08-01 19:15:57,389 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
-2024-08-01 19:18:12,148 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:18:12,148 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:18:12,148 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:18:12,148 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:18:12,148 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:18:12,148 [1] DEBUG traodoisub.frmMain -  
-2024-08-01 19:18:12,148 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
-2024-08-01 19:18:43,461 [1] DEBUG traodoisub.frmConfig - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO4JSjQ6R0kCQM0zfCTgftHjvj8aeOWsqSc74CTwHNQsAoLeYaTXvgL8J9qXTQdJIHhkkKVvr5soE8WTrf0co2n1lHcGDaBd0KDZAtQ7at9dgXPhHWWp2pJJPBfQ7YoezhPlvrPtw00C0GGE3RECZAvhwbB5H7MhUhTVD52zbLM5GRiLkbbzJSgDUVgHQZDZD"}
-2024-08-01 19:19:52,924 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:19:52,936 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:19:52,936 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:19:52,936 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:19:52,936 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:19:52,936 [1] DEBUG traodoisub.frmMain -  
-2024-08-01 19:19:52,936 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
-2024-08-01 19:20:51,973 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:20:51,988 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:20:51,988 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:20:51,988 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:20:51,988 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:20:51,988 [1] DEBUG traodoisub.frmMain -  
-2024-08-01 19:20:51,988 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
-2024-08-01 19:21:06,739 [1] DEBUG traodoisub.frmConfig - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO3BMXmKuHJGiRDdotiSH6B3mmJw2hZBhV9MfOvv7LeSg0RpMFDVGX7ZC7YfEOdbZABZCi8DRJZAPJNzwN4J3w4pDeZBI0EYZBH3JXiJ2aSzFg0uTDvyDKK9ZCgFggqOkeP5gJ0oT2eFSi8KlVYXJHypupzkVvrCfTGW8bppGH7DmQ7IjZCmgYsQ1islq02Xy9AQZDZD"}
-2024-08-01 19:21:13,141 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
-2024-08-01 19:21:13,409 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
-2024-08-01 19:21:13,424 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
-2024-08-01 19:21:13,424 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100003599209714_3217949695001639
-2024-08-01 19:21:18,787 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 1543622313173790_1543635169839171
-2024-08-01 19:21:24,011 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100075824996182_248486081022223
-2024-08-01 19:21:29,240 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100011468373545_2253059368419654
-2024-08-01 19:21:34,457 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100042910393469_1232769454830056
-2024-08-01 19:21:39,681 [1] DEBUG traodoisub.Facebook.frmFacebook - da like het list
-2024-08-01 19:21:39,681 [1] DEBUG traodoisub.Facebook.frmFacebook - lay danh sach moi
-2024-08-01 19:21:49,697 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
-2024-08-01 19:21:49,851 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
-2024-08-01 19:21:49,851 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
-2024-08-01 19:21:49,867 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61551402202739_122159552954046740
-2024-08-01 19:21:55,254 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100058315943329_906965131257343
-2024-08-01 19:22:00,484 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 61556238127897_122122760306207937
-2024-08-01 19:23:48,963 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:23:48,963 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:23:48,963 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:23:48,963 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:23:48,963 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:23:48,963 [1] DEBUG traodoisub.frmMain -  
-2024-08-01 19:23:48,963 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
-2024-08-01 19:24:12,233 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
-2024-08-01 19:24:12,586 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
-2024-08-01 19:24:12,602 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
-2024-08-01 19:24:12,602 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100064712375236_943535614480176
-2024-08-01 19:24:13,586 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
-2024-08-01 19:24:24,097 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+2024-08-02 14:25:28,982 [1] ERROR traodoisub.frmMain - System.NullReferenceException: Object reference not set to an instance of an object.
+   at traodoisub.frmMain.<btnLikePost_ClickAsync>d__14.MoveNext() in D:\Thinh\traodoisub-pc\traodoisub\frmMain.cs:line 188
+2024-08-05 10:56:23,589 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:56:23,594 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:56:23,594 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:56:23,594 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:56:23,595 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:56:23,595 [1] DEBUG traodoisub.frmMain -  
+2024-08-05 10:56:23,595 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-05 10:56:42,265 [1] DEBUG traodoisub.frmConfig - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO4eI64jbTdtTZASNERZCZAItWjzZAcSHC5GpO5t51H6oHjJCFO3g3jBJaDi5TCYYpJxJABqokOL7f6RVkx57ZB8g7pELZAVjX6jffKh0AOM3HDn9CsvuW665fwGzTGuitoHtPBUcKMtY0f71ZCn4YmMGDmFgSytstArZCQRUpE2HnAHtuQZDZD"}
+2024-08-05 10:57:46,213 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:57:46,222 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:57:46,222 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:57:46,222 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:57:46,222 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:57:46,222 [1] DEBUG traodoisub.frmMain -  
+2024-08-05 10:57:46,222 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-05 10:58:38,498 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:58:38,505 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:58:38,505 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:58:38,505 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:58:38,505 [1] DEBUG traodoisub.frmMain - ==========================================================
+2024-08-05 10:58:38,505 [1] DEBUG traodoisub.frmMain -  
+2024-08-05 10:58:38,505 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
+2024-08-05 10:58:47,900 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
+2024-08-05 10:58:48,264 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
+2024-08-05 10:58:48,273 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
+2024-08-05 10:58:48,276 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100023338878350_1638993963555217
+2024-08-05 10:58:49,988 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-05 10:59:00,854 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
     "success": 200,
     "data": {
-        "xu": 45300,
-        "id": "100064712375236_943535614480176",
+        "xu": 53700,
+        "id": "100023338878350_1638993963555217",
         "msg": "+300 Xu"
     }
 }
-2024-08-01 19:24:24,097 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
-2024-08-01 19:27:19,295 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:27:19,295 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:27:19,295 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:27:19,295 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:27:19,295 [1] DEBUG traodoisub.frmMain - ==========================================================
-2024-08-01 19:27:19,295 [1] DEBUG traodoisub.frmMain -  
-2024-08-01 19:27:19,295 [1] DEBUG traodoisub.frmMain - bat dau chay ung dung
-2024-08-01 19:27:30,403 [1] DEBUG traodoisub.frmConfig - GetToken Response :{"status":"success","token":"EAAAAUaZA8jlABO3CHqwhSA3meFcqptHDy1bT6Qo7VFlYB0X8fRqAwIOoEFVCNoVUzMmQYh1FFfpPRWIloa4IvpmihLQMNcL5ltQkj3Gvw8MBejiYTZAI9RRsVw16nBQWuwDsGtfxVEKPOePiM8rFWAn0rhfd6AssxqFJxsysMh6cQbljsSQpx7GMnobWiU0nGpbMvXzAZDZD"}
-2024-08-01 19:27:36,403 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____Start
-2024-08-01 19:27:36,622 [1] DEBUG traodoisub.Facebook.frmFacebook - Lay danh sach nv.____End
-2024-08-01 19:27:36,622 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau chay
-2024-08-01 19:27:36,622 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 185509428306205_407850128946922
-2024-08-01 19:27:37,653 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
-2024-08-01 19:27:48,230 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
+2024-08-05 10:59:00,854 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
+2024-08-05 10:59:05,874 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100003470679230_7671124593013154
+2024-08-05 10:59:06,598 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-05 10:59:17,027 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
     "success": 200,
     "data": {
-        "xu": 45600,
-        "id": "185509428306205_407850128946922",
+        "xu": 54000,
+        "id": "100003470679230_7671124593013154",
         "msg": "+300 Xu"
     }
 }
-2024-08-01 19:27:48,230 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
-2024-08-01 19:27:53,245 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100077557540081_530071679588079
-2024-08-01 19:27:54,027 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
-2024-08-01 19:28:04,698 [1] DEBUG traodoisub.ApiRequest.Traodoisub.ApiRequest - Du lieu tra ve nhan coin: {
-    "success": 200,
-    "data": {
-        "xu": 45900,
-        "id": "100077557540081_530071679588079",
-        "msg": "+300 Xu"
-    }
-}
-2024-08-01 19:28:04,698 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
-2024-08-01 19:28:09,713 [1] DEBUG traodoisub.Facebook.frmFacebook - bat dau like ID: 100044282836837_1049717283181023
-2024-08-01 19:28:10,510 [1] DEBUG traodoisub.Facebook.frmFacebook - Like thanh cong
+2024-08-05 10:59:17,028 [1] DEBUG traodoisub.Facebook.frmFacebook - nhan coin thanh cong
