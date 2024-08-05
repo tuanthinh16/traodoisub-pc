@@ -118,7 +118,6 @@ namespace traodoisub
             this.btnCheck.StyleController = this.layoutControl2;
             this.btnCheck.TabIndex = 5;
             this.btnCheck.Text = "Login Facebook";
-            this.btnCheck.Click += new System.EventHandler(this.btnCheck_ClickAsync);
             // 
             // pInfo
             // 
@@ -237,6 +236,7 @@ namespace traodoisub
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMain";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
             this.Load += new System.EventHandler(this.FrmMain_LoadAsync);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);

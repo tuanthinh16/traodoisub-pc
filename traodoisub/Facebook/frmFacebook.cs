@@ -92,6 +92,8 @@ namespace traodoisub.Facebook
                 
                 await GetNVAsync();
                 this.btnStart.Enabled = false;
+                this.cboType.Enabled = false;
+                this.btnStart.Text = "Running.....";
                 log.Debug("bat dau chay");
                 log.Debug("========== Loai nhiem vu: "+cboType.Text);
                 Label lblTask2 = new Label
@@ -121,7 +123,7 @@ namespace traodoisub.Facebook
                         {
                             log.Debug("Nhận coin thành công");
                             txtTotal.Text = "Tổng : " + rs.xu + " xu";
-                            string msg = "---------- ID: " + rs.ID + " msg: " + rs.msg;
+                            string msg = "ID: " + rs.ID + " msg: " + rs.msg;
                             Label lblTask = new Label
                             {
                                 Text = msg,
@@ -154,6 +156,7 @@ namespace traodoisub.Facebook
                     else if(Convert.ToInt64(success) == 401)
                     {
                         countErrorToken += 1;
+                        countError += 1;
                         log.Debug("Loi token.lay lai di");
                     }
                     else
@@ -161,22 +164,41 @@ namespace traodoisub.Facebook
                         countError += 1;
                         log.Debug("Like that bai");
                     }
+                    log.Debug("Số lần lỗi: " + countError + ", Số lần lỗi token: " + countErrorToken);
+                    if (countErrorToken >= 2 || countError >= 2)
+                    {
+
+                        log.Debug("Lỗi token. Đang tiến hành lấy lại");
+                        Label lblTask = new Label
+                        {
+                            Text = item + " ========== Lỗi token. Đang tiến hành lấy lại",
+                            AutoSize = true,
+                            ForeColor = Color.Green,
+                            Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
+                        };
+
+                        panel.Controls.Add(lblTask);
+                        yOffset += lblTask.Height + 10;
+                        var responseString = await GetToken(this.config.cookieFB);
+                        if (responseString != null)
+                        {
+                            this._tokenFB = responseString;
+                            facebook = new ApiRequest.Facebook.ApiRequest(this._tokenFB);
+                            countError = 0;
+                            countErrorToken = 0;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Lỗi khi lấy token. thử lại ở config");
+                            this.Close();
+                            return;
+                        }
+                    }
                     await Task.Delay(5000);
                 }
-                if (countErrorToken >= 2 || countError >= 10)
-                {
-
-                    log.Debug("Lỗi token. Đang tiến hành lấy lại");
-                    var responseString = await GetToken(this.config.cookieFB);
-                    if (responseString != null)
-                    {
-                        this._tokenFB = responseString;
-                        facebook = new ApiRequest.Facebook.ApiRequest(this._tokenFB);
-                        countError = 0;
-                        countErrorToken = 0;
-                    }
-                }
+                
                 stopwatch.Stop();
+
                 if (stopwatch.Elapsed < TimeSpan.FromMinutes(1))
                 {
                     var delay = TimeSpan.FromMinutes(1) - stopwatch.Elapsed;
@@ -215,13 +237,13 @@ namespace traodoisub.Facebook
                 var response = await client.GetStringAsync(string.Format("https://alotoi.com/fb/?cookie={0}&type=EAAA", cookie));
                 log.Debug("GetToken Response :" + response);
                 var jsonResponse = JObject.Parse(response);
-                if (jsonResponse["status"]?.ToString() == "success")
+                if (jsonResponse["status"].ToString() == "success")
                 {
-                    return jsonResponse["token"]?.ToString();
+                    return jsonResponse["token"].ToString();
                 }
                 else
                 {
-                    log.Warn("Failed to retrieve token: " + jsonResponse["message"]?.ToString());
+                    log.Warn("Failed to retrieve token: " + jsonResponse["message"].ToString());
                     return null;
                 }
             }

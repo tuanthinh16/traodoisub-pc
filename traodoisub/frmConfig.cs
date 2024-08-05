@@ -45,7 +45,7 @@ namespace traodoisub
             catch (Exception ex)
             {
 
-                throw;
+                log.Error(ex);
             }
         }
 
@@ -54,7 +54,7 @@ namespace traodoisub
             try
             {
                 configAdo = this.config.LoadConfig();
-                if(configAdo != null)
+                if(configAdo != null && configAdo.access_token != null)
                 {
                     txtToken.Text = configAdo.TokenTDS;
                     txtCookie.Text = configAdo.cookieFB;
@@ -78,7 +78,7 @@ namespace traodoisub
             catch (Exception ex)
             {
 
-                throw;
+                log.Error(ex);
             }
         }
 
@@ -96,26 +96,29 @@ namespace traodoisub
                 configAdo.access_token = responseString;
                 configAdo.cookieFB = cookie;
                 bool isValid = await CheckUser(token);
-                if (isValid)
+                if(!string.IsNullOrEmpty(responseString))
                 {
-                    // Nếu người dùng hợp lệ, lưu cấu hình
-                    configAdo.TokenTDS = token;
-                    config.SaveConfig(configAdo);
+                    if (isValid)
+                    {
+                        // Nếu người dùng hợp lệ, lưu cấu hình
+                        configAdo.TokenTDS = token;
+                        config.SaveConfig(configAdo);
 
-                    // Gọi delegate để cập nhật dữ liệu
-                    updateConfig.Invoke(configAdo);
+                        // Gọi delegate để cập nhật dữ liệu
+                        updateConfig.Invoke(configAdo);
 
-                    MessageBox.Show("Cấu hình đã được lưu thành công!");
-                    this.Close(); // Đóng form sau khi lưu
-                }
-                else
-                {
-                    MessageBox.Show("Token không hợp lệ. Vui lòng kiểm tra lại.");
+                        MessageBox.Show("Cấu hình đã được lưu thành công!");
+                        this.Close(); // Đóng form sau khi lưu
+                    }
+                    else
+                    {
+                        MessageBox.Show("Token không hợp lệ. Vui lòng kiểm tra lại.");
+                    }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}");
+                log.Error(ex);
             }
         }
         public async Task<string> GetToken(string cookie)
@@ -126,13 +129,13 @@ namespace traodoisub
                 var response = await client.GetStringAsync(string.Format("https://alotoi.com/fb/?cookie={0}&type=EAAA",cookie));
                 log.Debug("GetToken Response :" + response);
                 var jsonResponse = JObject.Parse(response);
-                if (jsonResponse["status"]?.ToString() == "success")
+                if (jsonResponse["status"].ToString() == "success")
                 {
-                    return jsonResponse["token"]?.ToString();
+                    return jsonResponse["token"].ToString();
                 }
                 else
                 {
-                    log.Warn("Failed to retrieve token: " + jsonResponse["message"]?.ToString());
+                    log.Warn("Failed to retrieve token: " + jsonResponse["message"].ToString());
                     return null;
                 }
             }
@@ -159,7 +162,7 @@ namespace traodoisub
             catch (Exception ex)
             {
 
-               
+                log.Error(ex);
             }
         }
         private async Task<bool> CheckUser(string TDS_token)
@@ -211,7 +214,7 @@ namespace traodoisub
             catch (Exception ex)
             {
 
-                MessageBox.Show("Đã xảy ra lỗi: "+ ex.Message);
+                log.Error(ex);
             }
         }
 
@@ -226,7 +229,7 @@ namespace traodoisub
             catch (Exception ex)
             {
 
-                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
+                log.Error(ex);
             }
         }
     }

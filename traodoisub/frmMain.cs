@@ -18,7 +18,6 @@ namespace traodoisub
 {
     public partial class frmMain : DevExpress.XtraEditors.XtraForm
     {
-        ///private string TDS_token = "TDSQfiATMyVmdlNnI6IiclZXZzJCLiczMo5WaoRnbhVHdiojIyV2c1Jye"; // Replace with your actual token
         private static readonly ILog log = LogManager.GetLogger(typeof(frmMain));
         private string _accessToken;
         ApiRequest.Facebook.ApiRequest facebook ;
@@ -26,8 +25,7 @@ namespace traodoisub
         ConfigADO config = new ConfigADO();
         ConfigManager configManger = new ConfigManager();
 
-        // EAAaKr7mzAZC8BOzPGAo32HmfzlltdxQiLGQyeZCieP4xwX7Ui2gmgHwBMPJnI4P2e0w3AXmh0dorJNr3tGOEgJSUMKAtlCvv1W42KMZBFZCUzw3Ok8ZBJPoW3MWNXjtDWOEuTPspZAYvZBQIJX8FmcgHbnZBujh3siKgZAhA7hksuGBJFf36RhvgIQ7ICaKoandSG0rIPub621a96lhuyxrd089ZBxtF3yZCbf5uceOCWdA5m6lVK8mWs89dS4EjLFWfeI2qHCLNZCK1PhgZD
-        public frmMain()
+         public frmMain()
         {
             InitializeComponent();
             loadDefaultAsync();
@@ -38,7 +36,6 @@ namespace traodoisub
         {
             try
             {
-                ///EAAAAUaZA8jlABO6OKqyLgD550T4Tbc6ZBUFX11NL82C0VFPf2Oy3jcfDZClSKF1ntFnejR5dGHZA4ZAcnSYFNOzx4vyArfUQB0ocoNnD9NcZBTV8bw1Oz9UIv6xmzuxEsOnE8oZCvyl7eEkThaQXTB9vvwPaLjiOAj0tS81UbiuXLMxZCSyxBclMUouXdlDanif9dSTtE7ZC1DQZDZD
                 log.Debug("==========================================================");
                 log.Debug("==========================================================");
                 log.Debug("==========================================================");
@@ -52,13 +49,12 @@ namespace traodoisub
                 btnLikePost.Enabled = false;
                 this.Enabled = false;
 
-                //"EAAAAUaZA8jlABO6OKqyLgD550T4Tbc6ZBUFX11NL82C0VFPf2Oy3jcfDZClSKF1ntFnejR5dGHZA4ZAcnSYFNOzx4vyArfUQB0ocoNnD9NcZBTV8bw1Oz9UIv6xmzuxEsOnE8oZCvyl7eEkThaQXTB9vvwPaLjiOAj0tS81UbiuXLMxZCSyxBclMUouXdlDanif9dSTtE7ZC1DQZDZD";
-
+                
             }
             catch (Exception ex)
             {
 
-                throw;
+                log.Error(ex);
             }
         }
         public async Task<string> GetToken(string cookie)
@@ -69,13 +65,13 @@ namespace traodoisub
                 var response = await client.GetStringAsync(string.Format("https://alotoi.com/fb/?cookie={0}&type=EAAA",cookie));
                 log.Debug("GetToken Response :" + response);
                 var jsonResponse =  JObject.Parse(response);
-                if (jsonResponse["status"]?.ToString() == "success")
+                if (jsonResponse["status"].ToString() == "success")
                 {
-                    return jsonResponse["token"]?.ToString();
+                    return jsonResponse["token"].ToString();
                 }
                 else
                 {
-                    log.Warn("Failed to retrieve token: " + jsonResponse["message"]?.ToString());
+                    log.Warn("Failed to retrieve token: " + jsonResponse["message"].ToString());
                     return null; 
                 }
             }
@@ -91,7 +87,7 @@ namespace traodoisub
             try
             {
                 this.config = configManger.LoadConfig();
-                if(this.config != null)
+                if(this.config != null && this.config.access_token != null)
                 {
                     _accessToken = this.config.access_token;
                     facebook = new ApiRequest.Facebook.ApiRequest(_accessToken);
@@ -99,7 +95,7 @@ namespace traodoisub
                 }
                 else
                 {
-                    DialogResult rs = MessageBox.Show(this, "Chưa có cấu hình. Bạn có muốn cấu hình?", "", MessageBoxButtons.YesNo);
+                    DialogResult rs = MessageBox.Show(this, "Chưa có cấu hình hoặc token hết hạn. Bạn có muốn cấu hình?", "", MessageBoxButtons.YesNo);
                     if(rs == DialogResult.Yes)
                     {
                         btnConfig_Click(null, null);
@@ -166,21 +162,6 @@ namespace traodoisub
             }
             
         }
-
-        private async void btnCheck_ClickAsync(object sender, EventArgs e)
-        {
-            try
-            {
-
-
-
-            }
-            catch (Exception ex)
-            {
-
-                log.Error(ex);
-            }
-        }
         
 
         private async void btnLikePost_ClickAsync(object sender, EventArgs e)
@@ -189,7 +170,7 @@ namespace traodoisub
             {
 
                 frmFacebook frm = new frmFacebook(this.config,UpdateConfig,this.config.access_token);
-                frm.ShowDialog();
+                frm.Show();
             }
             catch (Exception ex)
             {
@@ -207,7 +188,7 @@ namespace traodoisub
             catch (Exception ex)
             {
 
-                throw;
+                log.Error(ex);
             }
         }
         private void OpenConfigForm()
@@ -228,9 +209,20 @@ namespace traodoisub
             txtToken.Text = config.TokenTDS;
             DisplayUserInfoAsync(config.user);
         }
+
         #endregion
 
-        
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            try
+            {
+                Application.Exit();
+            }
+            catch (Exception ex)
+            {
+                log.Error(ex);
+            }
+        }
     }
 
     

@@ -9,7 +9,7 @@ namespace traodoisub.Config
 
         public void SaveConfig(ConfigADO config)
         {
-            string json = JsonConvert.SerializeObject(config);
+            string json = JsonConvert.SerializeObject(config, Formatting.None);
             File.WriteAllText(configFilePath, json);
         }
 

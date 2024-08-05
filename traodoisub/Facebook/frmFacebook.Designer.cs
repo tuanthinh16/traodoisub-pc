@@ -66,7 +66,7 @@ namespace traodoisub.Facebook
             this.layoutControl1.Margin = new System.Windows.Forms.Padding(2);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(509, 276);
+            this.layoutControl1.Size = new System.Drawing.Size(509, 337);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -113,7 +113,7 @@ namespace traodoisub.Facebook
             this.panel.Appearance.Options.UseBackColor = true;
             this.panel.Location = new System.Drawing.Point(12, 69);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(485, 195);
+            this.panel.Size = new System.Drawing.Size(485, 256);
             this.panel.TabIndex = 4;
             // 
             // Root
@@ -128,7 +128,7 @@ namespace traodoisub.Facebook
             this.emptySpaceItem3,
             this.layoutControlItem4});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(509, 276);
+            this.Root.Size = new System.Drawing.Size(509, 337);
             this.Root.TextVisible = false;
             // 
             // layoutControlItem1
@@ -136,7 +136,7 @@ namespace traodoisub.Facebook
             this.layoutControlItem1.Control = this.panel;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 57);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(489, 199);
+            this.layoutControlItem1.Size = new System.Drawing.Size(489, 260);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -188,7 +188,7 @@ namespace traodoisub.Facebook
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(509, 276);
+            this.ClientSize = new System.Drawing.Size(509, 337);
             this.Controls.Add(this.layoutControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmFacebook";
