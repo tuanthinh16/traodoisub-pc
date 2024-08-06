@@ -31,6 +31,7 @@ namespace traodoisub
         {
             InitializeComponent();
             this.updateConfig = UpdateConfig;
+            configAdo = new ConfigADO();
         }
         public frmConfig(UpdateConfigDelegate UpdateConfig,ConfigADO ado)
         {
@@ -238,6 +239,8 @@ namespace traodoisub
         {
             try
             {
+                btnGet.Enabled = false;
+                btnGet.Text = "Running...";
                 string cookie = txtCookie.Text;
                 var response = await GetToken(cookie);
                 if (!string.IsNullOrEmpty(response))
