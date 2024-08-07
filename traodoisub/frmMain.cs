@@ -255,6 +255,14 @@ namespace traodoisub
                         e.Value = (rowIndex + 1).ToString();
                     }
                 }
+                if (e.Column.FieldName == "SELECT")
+                {
+                    UserInfo row = (UserInfo)gridView.GetRow(e.ListSourceRowIndex);
+                    if (e.IsGetData)
+                    {
+                        e.Value = listSelectedUser.Contains(row);
+                    }
+                }
             }
             catch (Exception ex)
             {
@@ -287,15 +295,29 @@ namespace traodoisub
                         listSelectedUser.Add(data);
                     }
                 }
+                if (e.Column.FieldName == "SELECT")
+                {
+                    UserInfo row = (UserInfo)gridView.GetRow(e.RowHandle);
+                    if (listSelectedUser.Contains(row))
+                    {
+                        listSelectedUser.Remove(row);
+                    }
+                    else
+                    {
+                        listSelectedUser.Add(row);
+                    }
+
+                    // Refresh lại ô checkbox để hiển thị trạng thái mới
+                    gridView.RefreshRowCell(e.RowHandle, e.Column);
+                }
                 gridView.RefreshRow(e.RowHandle);
-                
+
             }
             catch (Exception ex)
             {
                 log.Error(ex);
             }
         }
-
         private void btnDel_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
         {
             try

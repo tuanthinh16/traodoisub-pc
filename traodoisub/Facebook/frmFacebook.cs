@@ -182,6 +182,34 @@ namespace traodoisub.Facebook
                         log.Debug("Like that bai");
                     }
                     log.Debug("Số lần lỗi: " + countError + ", Số lần lỗi token: " + countErrorToken);
+                    if (countError >= 2 || countErrorToken >= 2)
+                    {
+                        log.Debug("Lỗi token đang lấy lại");
+                        Label lblTask = new Label
+                        {
+                            Text = item + " ========== Lỗi token. Đang tiến hành lấy lại",
+                            AutoSize = true,
+                            ForeColor = Color.Green,
+                            Location = new System.Drawing.Point(10, yOffset) // Đặt vị trí của điều khiển trên panel
+                        };
+
+                        panel.Controls.Add(lblTask);
+                        yOffset += lblTask.Height + 10;
+                        var responseString = await GetToken(this.config.cookieFB);
+                        if (responseString != null)
+                        {
+                            this._tokenFB = responseString;
+                            facebook = new ApiRequest.Facebook.ApiRequest(this._tokenFB);
+                            countError = 0;
+                            countErrorToken = 0;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Lỗi khi lấy token. thử lại ở config");
+                            this.Close();
+                            return;
+                        }
+                    }
                     await Task.Delay(5000);
                 }
                 

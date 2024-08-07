@@ -1,0 +1,6 @@
+# Bỏ qua các thư mục bin và obj trong Visual Studio
+bin/
+obj/
+.vs/
+*.licx
+*.suo
